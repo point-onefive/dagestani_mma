@@ -1,0 +1,4808 @@
+{
+  "denzel freeman": {
+    "name": "Denzel Freeman",
+    "country": "United States",
+    "state": "Georgia",
+    "isDagestani": false
+  },
+  "marek bujlo": {
+    "name": "Marek Bujlo",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "shem rock": {
+    "name": "Shem Rock",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nurullo aliev": {
+    "name": "Nurullo Aliev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ismail naurdiev": {
+    "name": "Ismail Naurdiev",
+    "country": "Austria",
+    "state": null,
+    "isDagestani": false
+  },
+  "ryan loder": {
+    "name": "Ryan Loder",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "aleksandre topuria": {
+    "name": "Aleksandre Topuria",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "bekzat almakhan": {
+    "name": "Bekzat Almakhan",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "rafael cerqueira": {
+    "name": "Rafael Cerqueira",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "abdul-rakhman yakhyaev": {
+    "name": "Abdul-Rakhman Yakhyaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "nicolas dalby": {
+    "name": "Nicolas Dalby",
+    "country": "Denmark",
+    "state": null,
+    "isDagestani": false
+  },
+  "saygid izagakhmaev": {
+    "name": "Saygid Izagakhmaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "bogdan grad": {
+    "name": "Bogdan Grad",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "luke riley": {
+    "name": "Luke Riley",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kyoji horiguchi": {
+    "name": "Kyoji Horiguchi",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "tagir ulanbekov": {
+    "name": "Tagir Ulanbekov",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "alex perez": {
+    "name": "Alex Perez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "asu almabayev": {
+    "name": "Asu Almabayev",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "serghei spivac": {
+    "name": "Serghei Spivac",
+    "country": "Moldova",
+    "state": null,
+    "isDagestani": false
+  },
+  "shamil gaziev": {
+    "name": "Shamil Gaziev",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "jack hermansson": {
+    "name": "Jack Hermansson",
+    "country": "Sweden",
+    "state": null,
+    "isDagestani": false
+  },
+  "myktybek orolbai": {
+    "name": "Myktybek Orolbai",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "volkan oezdemir": {
+    "name": "Volkan Oezdemir",
+    "country": "Switzerland",
+    "state": null,
+    "isDagestani": false
+  },
+  "alonzo menifield": {
+    "name": "Alonzo Menifield",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "belal muhammad": {
+    "name": "Belal Muhammad",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "ian machado garry": {
+    "name": "Ian Machado Garry",
+    "country": "Ireland",
+    "state": null,
+    "isDagestani": false
+  },
+  "dan hooker": {
+    "name": "Dan Hooker",
+    "country": "New Zealand",
+    "state": null,
+    "isDagestani": false
+  },
+  "arman tsarukyan": {
+    "name": "Arman Tsarukyan",
+    "country": "Armenia",
+    "state": null,
+    "isDagestani": false
+  },
+  "islam makhachev": {
+    "name": "islam makhachev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jack della maddalena": {
+    "name": "jack della maddalena",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "valentina shevchenko": {
+    "name": "valentina shevchenko",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "zhang weili": {
+    "name": "zhang weili",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michael morales": {
+    "name": "michael morales",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sean brady": {
+    "name": "sean brady",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "carlos prates": {
+    "name": "carlos prates",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "leon edwards": {
+    "name": "leon edwards",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "benoit saint denis": {
+    "name": "benoit saint denis",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "beneil dariush": {
+    "name": "beneil dariush",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "bo nickal": {
+    "name": "bo nickal",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rodolfo vieira": {
+    "name": "rodolfo vieira",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "gregory rodrigues": {
+    "name": "gregory rodrigues",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "roman kopylov": {
+    "name": "roman kopylov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "erin blanchfield": {
+    "name": "erin blanchfield",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "tracy cortez": {
+    "name": "tracy cortez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ethyn ewing": {
+    "name": "ethyn ewing",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "malcolm wellmaker": {
+    "name": "malcolm wellmaker",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kyle daukaus": {
+    "name": "kyle daukaus",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "gerald meerschaert": {
+    "name": "gerald meerschaert",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "pat sabatini": {
+    "name": "pat sabatini",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "chepe mariscal": {
+    "name": "chepe mariscal",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "fatima kline": {
+    "name": "fatima kline",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "angela hill": {
+    "name": "angela hill",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "baisangur susurkaev": {
+    "name": "baisangur susurkaev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "eric mcconico": {
+    "name": "eric mcconico",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "matheus camilo": {
+    "name": "matheus camilo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "viacheslav borshchev": {
+    "name": "viacheslav borshchev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "gabriel bonfim": {
+    "name": "gabriel bonfim",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "randy brown": {
+    "name": "randy brown",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "joseph morales": {
+    "name": "joseph morales",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "matt schnell": {
+    "name": "matt schnell",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "uros medic": {
+    "name": "uros medic",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "muslim salikhov": {
+    "name": "muslim salikhov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "chris padilla": {
+    "name": "chris padilla",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ismael bonfim": {
+    "name": "ismael bonfim",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "christian leroy duncan": {
+    "name": "christian leroy duncan",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "marco tulio": {
+    "name": "marco tulio",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jamall emmers": {
+    "name": "jamall emmers",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "hyder amil": {
+    "name": "hyder amil",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "raoni barcelos": {
+    "name": "raoni barcelos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ricky simon": {
+    "name": "ricky simon",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jacqueline cavalcanti": {
+    "name": "jacqueline cavalcanti",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mayra bueno silva": {
+    "name": "mayra bueno silva",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "josh hokit": {
+    "name": "josh hokit",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "max gimenis": {
+    "name": "max gimenis",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "denise gomes": {
+    "name": "denise gomes",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "tecia pennington": {
+    "name": "tecia pennington",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "daniel marcos": {
+    "name": "daniel marcos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "miles johns": {
+    "name": "miles johns",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "zach reese": {
+    "name": "zach reese",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jackson mcvey": {
+    "name": "jackson mcvey",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "steve garcia": {
+    "name": "steve garcia",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "david onama": {
+    "name": "david onama",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "waldo cortes acosta": {
+    "name": "waldo cortes acosta",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ante delija": {
+    "name": "ante delija",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jeremiah wells": {
+    "name": "jeremiah wells",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "themba gorimbo": {
+    "name": "themba gorimbo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "yadier del valle": {
+    "name": "yadier del valle",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "isaac dulgarian": {
+    "name": "isaac dulgarian",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "charles radtke": {
+    "name": "charles radtke",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "daniel frunza": {
+    "name": "daniel frunza",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "allan nascimento": {
+    "name": "allan nascimento",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "cody durden": {
+    "name": "cody durden",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "billy elekana": {
+    "name": "billy elekana",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kevin christian": {
+    "name": "kevin christian",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "timmy cuamba": {
+    "name": "timmy cuamba",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "changho lee": {
+    "name": "changho lee",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "donte johnson": {
+    "name": "donte johnson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sedriques dumas": {
+    "name": "sedriques dumas",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "norma dumont": {
+    "name": "norma dumont",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ketlen vieira": {
+    "name": "ketlen vieira",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alice ardelean": {
+    "name": "alice ardelean",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "montserrat conejo ruiz": {
+    "name": "montserrat conejo ruiz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "seokhyeon ko": {
+    "name": "seokhyeon ko",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "phil rowe": {
+    "name": "phil rowe",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "talita alencar": {
+    "name": "talita alencar",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ariane carnelossi": {
+    "name": "ariane carnelossi",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nc": {
+    "name": "nc",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "tom aspinall": {
+    "name": "tom aspinall",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mackenzie dern": {
+    "name": "mackenzie dern",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "virna jandiroba": {
+    "name": "virna jandiroba",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "umar nurmagomedov": {
+    "name": "umar nurmagomedov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mario bautista": {
+    "name": "mario bautista",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alexander volkov": {
+    "name": "alexander volkov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jailton almeida": {
+    "name": "jailton almeida",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "azamat murzakanov": {
+    "name": "azamat murzakanov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "aleksandar rakic": {
+    "name": "aleksandar rakic",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "quillan salkilld": {
+    "name": "quillan salkilld",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nasrat haqparast": {
+    "name": "nasrat haqparast",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ikram aliskerov": {
+    "name": "ikram aliskerov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "junyong park": {
+    "name": "junyong park",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ludovit klein": {
+    "name": "ludovit klein",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mateusz rebecki": {
+    "name": "mateusz rebecki",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "valter walker": {
+    "name": "valter walker",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "louie sutherland": {
+    "name": "louie sutherland",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nathaniel wood": {
+    "name": "nathaniel wood",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jose delgado": {
+    "name": "jose delgado",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "hamdy abdelwahab": {
+    "name": "hamdy abdelwahab",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "chris barnett": {
+    "name": "chris barnett",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mitch raposo": {
+    "name": "mitch raposo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "azat maksum": {
+    "name": "azat maksum",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mizuki": {
+    "name": "mizuki",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jaqueline amorim": {
+    "name": "jaqueline amorim",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "brendan allen": {
+    "name": "brendan allen",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "reinier de ridder": {
+    "name": "reinier de ridder",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mike malott": {
+    "name": "mike malott",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kevin holland": {
+    "name": "kevin holland",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "aiemann zahabi": {
+    "name": "aiemann zahabi",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "marlon vera": {
+    "name": "marlon vera",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "manon fiorot": {
+    "name": "manon fiorot",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jasmine jasudavicius": {
+    "name": "jasmine jasudavicius",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "charles jourdain": {
+    "name": "charles jourdain",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "davey grant": {
+    "name": "davey grant",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kyle nelson": {
+    "name": "kyle nelson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "matt frevola": {
+    "name": "matt frevola",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "drew dober": {
+    "name": "drew dober",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kyle prepolec": {
+    "name": "kyle prepolec",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "aoriqileng": {
+    "name": "aoriqileng",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "cody gibson": {
+    "name": "cody gibson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "bruno silva": {
+    "name": "bruno silva",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "hyunsung park": {
+    "name": "hyunsung park",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "djorden santos": {
+    "name": "djorden santos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "danny barlow": {
+    "name": "danny barlow",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "stephanie luciano": {
+    "name": "stephanie luciano",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ravena oliveira": {
+    "name": "ravena oliveira",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "yousri belgaroui": {
+    "name": "yousri belgaroui",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "azamat bekoev": {
+    "name": "azamat bekoev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "melissa croden": {
+    "name": "melissa croden",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "tainara lisboa": {
+    "name": "tainara lisboa",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "charles oliveira": {
+    "name": "charles oliveira",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mateusz gamrot": {
+    "name": "mateusz gamrot",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "deiveson figueiredo": {
+    "name": "deiveson figueiredo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "montel jackson": {
+    "name": "montel jackson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "joel alvarez": {
+    "name": "joel alvarez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "vicente luque": {
+    "name": "vicente luque",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mario pinto": {
+    "name": "mario pinto",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jhonata diniz": {
+    "name": "jhonata diniz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kaan ofli": {
+    "name": "kaan ofli",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ricardo ramos": {
+    "name": "ricardo ramos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michael aswell jr.": {
+    "name": "michael aswell jr.",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "lucas almeida": {
+    "name": "lucas almeida",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "jafel filho": {
+    "name": "jafel filho",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "clayton carpenter": {
+    "name": "clayton carpenter",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "vitor petrino": {
+    "name": "vitor petrino",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "thomas petersen": {
+    "name": "thomas petersen",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "bia mesquita": {
+    "name": "bia mesquita",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "irina alekseeva": {
+    "name": "irina alekseeva",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "lucas rocha": {
+    "name": "lucas rocha",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "stewart nicoll": {
+    "name": "stewart nicoll",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "julia polastri": {
+    "name": "julia polastri",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "karolina kowalkiewicz": {
+    "name": "karolina kowalkiewicz",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "luan lacerda": {
+    "name": "luan lacerda",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "saimon oliveira": {
+    "name": "saimon oliveira",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "alex pereira": {
+    "name": "alex pereira",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "magomed ankalaev": {
+    "name": "magomed ankalaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "merab dvalishvili": {
+    "name": "merab dvalishvili",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "cory sandhagen": {
+    "name": "cory sandhagen",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "jiri prochazka": {
+    "name": "jiri prochazka",
+    "country": "Czech Republic",
+    "state": null,
+    "isDagestani": false
+  },
+  "khalil rountree jr.": {
+    "name": "khalil rountree jr.",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "youssef zalal": {
+    "name": "youssef zalal",
+    "country": "Morocco",
+    "state": null,
+    "isDagestani": false
+  },
+  "josh emmett": {
+    "name": "josh emmett",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "joe pyfer": {
+    "name": "joe pyfer",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "abus magomedov": {
+    "name": "abus magomedov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "ateba gautier": {
+    "name": "ateba gautier",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "tre'ston vines": {
+    "name": "tre'ston vines",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "daniel santos": {
+    "name": "daniel santos",
+    "country": "Brazil",
+    "state": "Rio de Janeiro",
+    "isDagestani": false
+  },
+  "joosang yoo": {
+    "name": "joosang yoo",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "jakub wiklacz": {
+    "name": "jakub wiklacz",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "patchy mix": {
+    "name": "patchy mix",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "edmen shahbazyan": {
+    "name": "edmen shahbazyan",
+    "country": "Armenia",
+    "state": null,
+    "isDagestani": false
+  },
+  "andre muniz": {
+    "name": "andre muniz",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "punahele soriano": {
+    "name": "punahele soriano",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "nikolay veretennikov": {
+    "name": "nikolay veretennikov",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "yana santos": {
+    "name": "yana santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "macy chiasson": {
+    "name": "macy chiasson",
+    "country": "United States",
+    "state": "Louisiana",
+    "isDagestani": false
+  },
+  "farid basharat": {
+    "name": "farid basharat",
+    "country": "Afghanistan",
+    "state": null,
+    "isDagestani": false
+  },
+  "chris gutierrez": {
+    "name": "chris gutierrez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "ramiz brahimaj": {
+    "name": "ramiz brahimaj",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "austin vanderford": {
+    "name": "austin vanderford",
+    "country": "United States",
+    "state": "Oregon",
+    "isDagestani": false
+  },
+  "veronica hardy": {
+    "name": "veronica hardy",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "brogan walker": {
+    "name": "brogan walker",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "carlos ulberg": {
+    "name": "carlos ulberg",
+    "country": "New Zealand",
+    "state": null,
+    "isDagestani": false
+  },
+  "dominick reyes": {
+    "name": "dominick reyes",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "jimmy crute": {
+    "name": "jimmy crute",
+    "country": "Australia",
+    "state": "Victoria",
+    "isDagestani": false
+  },
+  "ivan erslan": {
+    "name": "ivan erslan",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jack jenkins": {
+    "name": "jack jenkins",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "ramon taveras": {
+    "name": "ramon taveras",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "neil magny": {
+    "name": "neil magny",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "jake matthews": {
+    "name": "jake matthews",
+    "country": "Australia",
+    "state": "Victoria",
+    "isDagestani": false
+  },
+  "tom nolan": {
+    "name": "tom nolan",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "charlie campbell": {
+    "name": "charlie campbell",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "navajo stirling": {
+    "name": "navajo stirling",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rodolfo bellato": {
+    "name": "rodolfo bellato",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "cam rowston": {
+    "name": "cam rowston",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "andre petroski": {
+    "name": "andre petroski",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "jamie mullarkey": {
+    "name": "jamie mullarkey",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "rolando bedoya": {
+    "name": "rolando bedoya",
+    "country": "Colombia",
+    "state": null,
+    "isDagestani": false
+  },
+  "colby thicknesse": {
+    "name": "colby thicknesse",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "josias musasa": {
+    "name": "josias musasa",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michelle montague": {
+    "name": "michelle montague",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "luana carolina": {
+    "name": "luana carolina",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "brando pericic": {
+    "name": "brando pericic",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "elisha ellison": {
+    "name": "elisha ellison",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alexia thainara": {
+    "name": "alexia thainara",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "loma lookboonmee": {
+    "name": "loma lookboonmee",
+    "country": "Thailand",
+    "state": null,
+    "isDagestani": false
+  },
+  "diego lopes": {
+    "name": "diego lopes",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "jean silva": {
+    "name": "jean silva",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "david martinez": {
+    "name": "david martinez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rob font": {
+    "name": "rob font",
+    "country": "United States",
+    "state": "Massachusetts",
+    "isDagestani": false
+  },
+  "rafa garcia": {
+    "name": "rafa garcia",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "jared gordon": {
+    "name": "jared gordon",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "kelvin gastelum": {
+    "name": "kelvin gastelum",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "dustin stoltzfus": {
+    "name": "dustin stoltzfus",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "isDagestani": false
+  },
+  "alexander hernandez": {
+    "name": "alexander hernandez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "diego ferreira": {
+    "name": "diego ferreira",
+    "country": "Brazil",
+    "state": "Rio Grande do Sul",
+    "isDagestani": false
+  },
+  "santiago luna": {
+    "name": "santiago luna",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "quang le": {
+    "name": "quang le",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "dusko todorovic": {
+    "name": "dusko todorovic",
+    "country": "Serbia",
+    "state": null,
+    "isDagestani": false
+  },
+  "jose daniel medina": {
+    "name": "jose daniel medina",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "joaquim silva": {
+    "name": "joaquim silva",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "claudio puelles": {
+    "name": "claudio puelles",
+    "country": "Peru",
+    "state": null,
+    "isDagestani": false
+  },
+  "tatiana suarez": {
+    "name": "tatiana suarez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "amanda lemos": {
+    "name": "amanda lemos",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "jesus aguilar": {
+    "name": "jesus aguilar",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "luis gurule": {
+    "name": "luis gurule",
+    "country": "USA",
+    "state": "New Mexico",
+    "isDagestani": false
+  },
+  "alden coria": {
+    "name": "alden coria",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alessandro costa": {
+    "name": "alessandro costa",
+    "country": "Brazil",
+    "state": "Sao Paulo",
+    "isDagestani": false
+  },
+  "montse rendon": {
+    "name": "montse rendon",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alice pereira": {
+    "name": "alice pereira",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "daniil donchenko": {
+    "name": "daniil donchenko",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "rodrigo sezinando": {
+    "name": "rodrigo sezinando",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "nassourdine imavov": {
+    "name": "nassourdine imavov",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "caio borralho": {
+    "name": "caio borralho",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "mauricio ruffy": {
+    "name": "mauricio ruffy",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "modestas bukauskas": {
+    "name": "modestas bukauskas",
+    "country": "Lithuania",
+    "state": null,
+    "isDagestani": false
+  },
+  "paul craig": {
+    "name": "paul craig",
+    "country": "United Kingdom",
+    "state": "Scotland",
+    "isDagestani": false
+  },
+  "mason jones": {
+    "name": "mason jones",
+    "country": "United Kingdom",
+    "state": "Wales",
+    "isDagestani": false
+  },
+  "bolaji oki": {
+    "name": "bolaji oki",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "axel sola": {
+    "name": "axel sola",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rhys mckee": {
+    "name": "rhys mckee",
+    "country": "United Kingdom",
+    "state": "Northern Ireland",
+    "isDagestani": false
+  },
+  "william gomis": {
+    "name": "william gomis",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "robert ruchala": {
+    "name": "robert ruchala",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "oumar sy": {
+    "name": "oumar sy",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "brendson ribeiro": {
+    "name": "brendson ribeiro",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "marcin tybura": {
+    "name": "marcin tybura",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "kaue fernandes": {
+    "name": "kaue fernandes",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "harry hardwick": {
+    "name": "harry hardwick",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sam patterson": {
+    "name": "sam patterson",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "trey waters": {
+    "name": "trey waters",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "robert bryczek": {
+    "name": "robert bryczek",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "brad tavares": {
+    "name": "brad tavares",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "rinat fakhretdinov": {
+    "name": "rinat fakhretdinov",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "andreas gustafsson": {
+    "name": "andreas gustafsson",
+    "country": "Sweden",
+    "state": null,
+    "isDagestani": false
+  },
+  "sam hughes": {
+    "name": "sam hughes",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "shauna bannon": {
+    "name": "shauna bannon",
+    "country": "Ireland",
+    "state": null,
+    "isDagestani": false
+  },
+  "johnny walker": {
+    "name": "johnny walker",
+    "country": "Brazil",
+    "state": "Rio de Janeiro",
+    "isDagestani": false
+  },
+  "zhang mingyang": {
+    "name": "zhang mingyang",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "aljamain sterling": {
+    "name": "aljamain sterling",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "brian ortega": {
+    "name": "brian ortega",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "sergei pavlovich": {
+    "name": "sergei pavlovich",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "sumudaerji": {
+    "name": "sumudaerji",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "kevin borjas": {
+    "name": "kevin borjas",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "taiyilake nueraji": {
+    "name": "taiyilake nueraji",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kiefer crosbie": {
+    "name": "kiefer crosbie",
+    "country": "Canada",
+    "state": "Alberta",
+    "isDagestani": false
+  },
+  "gauge young": {
+    "name": "gauge young",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "maheshate": {
+    "name": "maheshate",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "charles johnson": {
+    "name": "charles johnson",
+    "country": "United States",
+    "state": "North Carolina",
+    "isDagestani": false
+  },
+  "lone'er kavanagh": {
+    "name": "lone'er kavanagh",
+    "country": "Ireland",
+    "state": null,
+    "isDagestani": false
+  },
+  "rongzhu": {
+    "name": "rongzhu",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "austin hubbard": {
+    "name": "austin hubbard",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "michel pereira": {
+    "name": "michel pereira",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "yizha": {
+    "name": "yizha",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "westin wilson": {
+    "name": "westin wilson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "suyoung you": {
+    "name": "suyoung you",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "xiao long": {
+    "name": "xiao long",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "uran satybaldiev": {
+    "name": "uran satybaldiev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "diyar nurgozhay": {
+    "name": "diyar nurgozhay",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "khamzat chimaev": {
+    "name": "khamzat chimaev",
+    "country": "Russia",
+    "state": "Chechnya",
+    "isDagestani": false
+  },
+  "dricus du plessis": {
+    "name": "dricus du plessis",
+    "country": "South Africa",
+    "state": null,
+    "isDagestani": false
+  },
+  "lerone murphy": {
+    "name": "lerone murphy",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "aaron pico": {
+    "name": "aaron pico",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "geoff neal": {
+    "name": "geoff neal",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "michael page": {
+    "name": "michael page",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "jared cannonier": {
+    "name": "jared cannonier",
+    "country": "United States",
+    "state": "Alaska",
+    "isDagestani": false
+  },
+  "tim elliott": {
+    "name": "tim elliott",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "kai asakura": {
+    "name": "kai asakura",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "eric nolan": {
+    "name": "eric nolan",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michal oleksiejczuk": {
+    "name": "michal oleksiejczuk",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "loopy godinez": {
+    "name": "loopy godinez",
+    "country": "Mexico",
+    "state": "Sonora",
+    "isDagestani": false
+  },
+  "jessica andrade": {
+    "name": "jessica andrade",
+    "country": "Brazil",
+    "state": "Paraná",
+    "isDagestani": false
+  },
+  "chase hooper": {
+    "name": "chase hooper",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "drakkar klose": {
+    "name": "drakkar klose",
+    "country": "United States",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "edson barboza": {
+    "name": "edson barboza",
+    "country": "Brazil",
+    "state": "Paraíba",
+    "isDagestani": false
+  },
+  "karine silva": {
+    "name": "karine silva",
+    "country": "Brazil",
+    "state": "Santa Catarina",
+    "isDagestani": false
+  },
+  "dione barbosa": {
+    "name": "dione barbosa",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "alibi idiris": {
+    "name": "alibi idiris",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "anthony hernandez": {
+    "name": "anthony hernandez",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "roman dolidze": {
+    "name": "roman dolidze",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "steve erceg": {
+    "name": "steve erceg",
+    "country": "Australia",
+    "state": "Western Australia",
+    "isDagestani": false
+  },
+  "ode osbourne": {
+    "name": "ode osbourne",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "iasmin lucindo": {
+    "name": "iasmin lucindo",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "andre fili": {
+    "name": "andre fili",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "christian rodriguez": {
+    "name": "christian rodriguez",
+    "country": "USA",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "jean matsumoto": {
+    "name": "jean matsumoto",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "eryk anders": {
+    "name": "eryk anders",
+    "country": "United States",
+    "state": "Alabama",
+    "isDagestani": false
+  },
+  "julius walker": {
+    "name": "julius walker",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rafael cerquiera": {
+    "name": "rafael cerquiera",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "elijah smith": {
+    "name": "elijah smith",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "toshiomi kazama": {
+    "name": "toshiomi kazama",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "joselyne edwards": {
+    "name": "joselyne edwards",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "priscila cachoeira": {
+    "name": "priscila cachoeira",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "gilbert urbina": {
+    "name": "gilbert urbina",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "gabriella fernandes": {
+    "name": "gabriella fernandes",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "julija stoliarenko": {
+    "name": "julija stoliarenko",
+    "country": "Lithuania",
+    "state": null,
+    "isDagestani": false
+  },
+  "cody brundage": {
+    "name": "cody brundage",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "tatsuro taira": {
+    "name": "tatsuro taira",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "chris duncan": {
+    "name": "chris duncan",
+    "country": "United States",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "esteban ribovics": {
+    "name": "esteban ribovics",
+    "country": "Argentina",
+    "state": "Buenos Aires",
+    "isDagestani": false
+  },
+  "elves brener": {
+    "name": "elves brener",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "karol rosa": {
+    "name": "karol rosa",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "nora cornolle": {
+    "name": "nora cornolle",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "elizeu zaleski dos santos": {
+    "name": "elizeu zaleski dos santos",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "kevin vallejos": {
+    "name": "kevin vallejos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "danny silva": {
+    "name": "danny silva",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rinya nakamura": {
+    "name": "rinya nakamura",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "nathan fletcher": {
+    "name": "nathan fletcher",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "tresean gore": {
+    "name": "tresean gore",
+    "country": "United States",
+    "state": "North Carolina",
+    "isDagestani": false
+  },
+  "andrey pulyaev": {
+    "name": "andrey pulyaev",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "nick klein": {
+    "name": "nick klein",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "austin bashi": {
+    "name": "austin bashi",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "john yannis": {
+    "name": "john yannis",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "rafael estevam": {
+    "name": "rafael estevam",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "felipe bunes": {
+    "name": "felipe bunes",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "piera rodriguez": {
+    "name": "piera rodriguez",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "ketlen souza": {
+    "name": "ketlen souza",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "robert whittaker": {
+    "name": "robert whittaker",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "petr yan": {
+    "name": "petr yan",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "marcus mcghee": {
+    "name": "marcus mcghee",
+    "country": "United States",
+    "state": "Georgia",
+    "isDagestani": false
+  },
+  "shara magomedov": {
+    "name": "shara magomedov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "marc-andre barriault": {
+    "name": "marc-andre barriault",
+    "country": "Canada",
+    "state": "Quebec",
+    "isDagestani": false
+  },
+  "jose ochoa": {
+    "name": "jose ochoa",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "bogdan guskov": {
+    "name": "bogdan guskov",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "nikita krylov": {
+    "name": "nikita krylov",
+    "country": "Ukraine",
+    "state": null,
+    "isDagestani": false
+  },
+  "bryce mitchell": {
+    "name": "bryce mitchell",
+    "country": "United States",
+    "state": "Arkansas",
+    "isDagestani": false
+  },
+  "said nurmagomedov": {
+    "name": "said nurmagomedov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "carlos leal": {
+    "name": "carlos leal",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "da'mon blackshear": {
+    "name": "da'mon blackshear",
+    "country": "USA",
+    "state": "Virginia",
+    "isDagestani": false
+  },
+  "tabatha ricci": {
+    "name": "tabatha ricci",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "amanda ribas": {
+    "name": "amanda ribas",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "ibo aslan": {
+    "name": "ibo aslan",
+    "country": "Turkey",
+    "state": null,
+    "isDagestani": false
+  },
+  "steven nguyen": {
+    "name": "steven nguyen",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mohammad yahya": {
+    "name": "mohammad yahya",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "martin buday": {
+    "name": "martin buday",
+    "country": "Slovakia",
+    "state": null,
+    "isDagestani": false
+  },
+  "marcus buchecha": {
+    "name": "marcus buchecha",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "max holloway": {
+    "name": "max holloway",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "dustin poirier": {
+    "name": "dustin poirier",
+    "country": "United States",
+    "state": "Louisiana",
+    "isDagestani": false
+  },
+  "paulo costa": {
+    "name": "paulo costa",
+    "country": "Brazil",
+    "state": "Espírito Santo",
+    "isDagestani": false
+  },
+  "daniel rodriguez": {
+    "name": "daniel rodriguez",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "patricio freire": {
+    "name": "patricio freire",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "dan ige": {
+    "name": "dan ige",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "michael johnson": {
+    "name": "michael johnson",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "daniel zellhuber": {
+    "name": "daniel zellhuber",
+    "country": "Mexico",
+    "state": null,
+    "isDagestani": false
+  },
+  "vinicius oliveira": {
+    "name": "vinicius oliveira",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "kyler phillips": {
+    "name": "kyler phillips",
+    "country": "United States",
+    "state": "Arizona",
+    "isDagestani": false
+  },
+  "marvin vettori": {
+    "name": "marvin vettori",
+    "country": "Italy",
+    "state": null,
+    "isDagestani": false
+  },
+  "francisco prado": {
+    "name": "francisco prado",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "robert valentin": {
+    "name": "robert valentin",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "islam dulatov": {
+    "name": "islam dulatov",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "adam fugitt": {
+    "name": "adam fugitt",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "marcin prachnio": {
+    "name": "marcin prachnio",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "ryan spann": {
+    "name": "ryan spann",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "lukasz brzeski": {
+    "name": "lukasz brzeski",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "brunno ferreira": {
+    "name": "brunno ferreira",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "carli judice": {
+    "name": "carli judice",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nicolle caliari": {
+    "name": "nicolle caliari",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "derrick lewis": {
+    "name": "derrick lewis",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "tallison teixeira": {
+    "name": "tallison teixeira",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "stephen thompson": {
+    "name": "stephen thompson",
+    "country": "United States",
+    "state": "South Carolina",
+    "isDagestani": false
+  },
+  "calvin kattar": {
+    "name": "calvin kattar",
+    "country": "United States",
+    "state": "Massachusetts",
+    "isDagestani": false
+  },
+  "morgan charriere": {
+    "name": "morgan charriere",
+    "country": "France",
+    "state": "Île-de-France",
+    "isDagestani": false
+  },
+  "nate landwehr": {
+    "name": "nate landwehr",
+    "country": "United States",
+    "state": "Tennessee",
+    "isDagestani": false
+  },
+  "austen lane": {
+    "name": "austen lane",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "tuco tokkos": {
+    "name": "tuco tokkos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "junior tafa": {
+    "name": "junior tafa",
+    "country": "Australia",
+    "state": "Queensland",
+    "isDagestani": false
+  },
+  "chris curtis": {
+    "name": "chris curtis",
+    "country": "United States",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "max griffin": {
+    "name": "max griffin",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "chidi njokuani": {
+    "name": "chidi njokuani",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "eduarda moura": {
+    "name": "eduarda moura",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "lauren murphy": {
+    "name": "lauren murphy",
+    "country": "United States",
+    "state": "Alaska",
+    "isDagestani": false
+  },
+  "kennedy nzechukwu": {
+    "name": "kennedy nzechukwu",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "mike davis": {
+    "name": "mike davis",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "mitch ramirez": {
+    "name": "mitch ramirez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "melissa martinez": {
+    "name": "melissa martinez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "ilia topuria": {
+    "name": "ilia topuria",
+    "country": "Spain",
+    "state": "Catalonia",
+    "isDagestani": false
+  },
+  "alexandre pantoja": {
+    "name": "alexandre pantoja",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "kai kara-france": {
+    "name": "kai kara-france",
+    "country": "New Zealand",
+    "state": null,
+    "isDagestani": false
+  },
+  "joshua van": {
+    "name": "joshua van",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "brandon royval": {
+    "name": "brandon royval",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "renato moicano": {
+    "name": "renato moicano",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "payton talbott": {
+    "name": "payton talbott",
+    "country": "USA",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "felipe lima": {
+    "name": "felipe lima",
+    "country": "Brazil",
+    "state": "Sao Paulo",
+    "isDagestani": false
+  },
+  "viviane araujo": {
+    "name": "viviane araujo",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "terrance mckinney": {
+    "name": "terrance mckinney",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "jacobe smith": {
+    "name": "jacobe smith",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "niko price": {
+    "name": "niko price",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "alvin hines": {
+    "name": "alvin hines",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jamahal hill": {
+    "name": "jamahal hill",
+    "country": "USA",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "rafael fiziev": {
+    "name": "rafael fiziev",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "ignacio bahamondes": {
+    "name": "ignacio bahamondes",
+    "country": "Chile",
+    "state": null,
+    "isDagestani": false
+  },
+  "curtis blaydes": {
+    "name": "curtis blaydes",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "rizvan kuniev": {
+    "name": "rizvan kuniev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "tofiq musayev": {
+    "name": "tofiq musayev",
+    "country": "Azerbaijan",
+    "state": null,
+    "isDagestani": false
+  },
+  "nazim sadykhov": {
+    "name": "nazim sadykhov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "nikolas motta": {
+    "name": "nikolas motta",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "muhammad naimov": {
+    "name": "muhammad naimov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "oban elliott": {
+    "name": "oban elliott",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "daria zhelezniakova": {
+    "name": "daria zhelezniakova",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "melissa mullins": {
+    "name": "melissa mullins",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "klaudia sygula": {
+    "name": "klaudia sygula",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mohammed usman": {
+    "name": "mohammed usman",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "kamaru usman": {
+    "name": "kamaru usman",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "joaquin buckley": {
+    "name": "joaquin buckley",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "rose namajunas": {
+    "name": "rose namajunas",
+    "country": "United States",
+    "state": "Wisconsin",
+    "isDagestani": false
+  },
+  "miranda maverick": {
+    "name": "miranda maverick",
+    "country": "USA",
+    "state": "Virginia",
+    "isDagestani": false
+  },
+  "cody garbrandt": {
+    "name": "cody garbrandt",
+    "country": "United States",
+    "state": "Ohio",
+    "isDagestani": false
+  },
+  "draw": {
+    "name": "draw",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mansur abdul-malik": {
+    "name": "mansur abdul-malik",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michael chiesa": {
+    "name": "michael chiesa",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "court mcgee": {
+    "name": "court mcgee",
+    "country": "United States",
+    "state": "Utah",
+    "isDagestani": false
+  },
+  "kris moutinho": {
+    "name": "kris moutinho",
+    "country": "United States",
+    "state": "Massachusetts",
+    "isDagestani": false
+  },
+  "cameron smotherman": {
+    "name": "cameron smotherman",
+    "country": "United States",
+    "state": "Georgia",
+    "isDagestani": false
+  },
+  "ange loosa": {
+    "name": "ange loosa",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "jamey-lyn horth": {
+    "name": "jamey-lyn horth",
+    "country": "Canada",
+    "state": "British Columbia",
+    "isDagestani": false
+  },
+  "vanessa demopoulos": {
+    "name": "vanessa demopoulos",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "sean o'malley": {
+    "name": "sean o'malley",
+    "country": "United States",
+    "state": "Montana",
+    "isDagestani": false
+  },
+  "kayla harrison": {
+    "name": "kayla harrison",
+    "country": "United States",
+    "state": "Ohio",
+    "isDagestani": false
+  },
+  "julianna pena": {
+    "name": "julianna pena",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "khaos williams": {
+    "name": "khaos williams",
+    "country": "United States",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "wang cong": {
+    "name": "wang cong",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "ariane da silva": {
+    "name": "ariane da silva",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "jeka saragih": {
+    "name": "jeka saragih",
+    "country": "Indonesia",
+    "state": null,
+    "isDagestani": false
+  },
+  "yanal ashmouz": {
+    "name": "yanal ashmouz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "marquel mederos": {
+    "name": "marquel mederos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mark choinski": {
+    "name": "mark choinski",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "billy ray goff": {
+    "name": "billy ray goff",
+    "country": "USA",
+    "state": "Virginia",
+    "isDagestani": false
+  },
+  "dustin jacoby": {
+    "name": "dustin jacoby",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "bruno lopes": {
+    "name": "bruno lopes",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "jordan leavitt": {
+    "name": "jordan leavitt",
+    "country": "United States",
+    "state": "Nevada",
+    "isDagestani": false
+  },
+  "kurt holobaugh": {
+    "name": "kurt holobaugh",
+    "country": "United States",
+    "state": "Louisiana",
+    "isDagestani": false
+  },
+  "rayanne dos santos": {
+    "name": "rayanne dos santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "gilbert burns": {
+    "name": "gilbert burns",
+    "country": "Brazil",
+    "state": "Rio de Janeiro",
+    "isDagestani": false
+  },
+  "mairon santos": {
+    "name": "mairon santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "sodiq yusuff": {
+    "name": "sodiq yusuff",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "nursulton ruziboev": {
+    "name": "nursulton ruziboev",
+    "country": "Uzbekistan",
+    "state": null,
+    "isDagestani": false
+  },
+  "melquizael costa": {
+    "name": "melquizael costa",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "julian erosa": {
+    "name": "julian erosa",
+    "country": "USA",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "gabe green": {
+    "name": "gabe green",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "thiago moises": {
+    "name": "thiago moises",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "connor matthews": {
+    "name": "connor matthews",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "luana santos": {
+    "name": "luana santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "elise reed": {
+    "name": "elise reed",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "carlos hernandez": {
+    "name": "carlos hernandez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "luana pinheiro": {
+    "name": "luana pinheiro",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "jose aldo": {
+    "name": "jose aldo",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "natalia silva": {
+    "name": "natalia silva",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "alexa grasso": {
+    "name": "alexa grasso",
+    "country": "Mexico",
+    "state": "Durango",
+    "isDagestani": false
+  },
+  "ion cutelaba": {
+    "name": "ion cutelaba",
+    "country": "Moldova",
+    "state": null,
+    "isDagestani": false
+  },
+  "jeongyeong lee": {
+    "name": "jeongyeong lee",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "brad katona": {
+    "name": "brad katona",
+    "country": "Canada",
+    "state": "Alberta",
+    "isDagestani": false
+  },
+  "santiago ponzinibbio": {
+    "name": "santiago ponzinibbio",
+    "country": "Argentina",
+    "state": null,
+    "isDagestani": false
+  },
+  "serhiy sidey": {
+    "name": "serhiy sidey",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jeremy stephens": {
+    "name": "jeremy stephens",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "miesha tate": {
+    "name": "miesha tate",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "gillian robertson": {
+    "name": "gillian robertson",
+    "country": "Canada",
+    "state": "Nova Scotia",
+    "isDagestani": false
+  },
+  "marina rodriguez": {
+    "name": "marina rodriguez",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "gaston bolanos": {
+    "name": "gaston bolanos",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "don'tale mayes": {
+    "name": "don'tale mayes",
+    "country": "United States",
+    "state": "Georgia",
+    "isDagestani": false
+  },
+  "juliana miller": {
+    "name": "juliana miller",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "ivana petrovic": {
+    "name": "ivana petrovic",
+    "country": "Serbia",
+    "state": null,
+    "isDagestani": false
+  },
+  "anthony smith": {
+    "name": "anthony smith",
+    "country": "United States",
+    "state": "Nebraska",
+    "isDagestani": false
+  },
+  "giga chikadze": {
+    "name": "giga chikadze",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "jimmy flick": {
+    "name": "jimmy flick",
+    "country": "United States",
+    "state": "Oklahoma",
+    "isDagestani": false
+  },
+  "evan elder": {
+    "name": "evan elder",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "john castaneda": {
+    "name": "john castaneda",
+    "country": "United States",
+    "state": "Minnesota",
+    "isDagestani": false
+  },
+  "alatengheili": {
+    "name": "alatengheili",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "cameron saaiman": {
+    "name": "cameron saaiman",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "polyana viana": {
+    "name": "polyana viana",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "roberto romero": {
+    "name": "roberto romero",
+    "country": "Cuba",
+    "state": null,
+    "isDagestani": false
+  },
+  "chelsea chandler": {
+    "name": "chelsea chandler",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "alexander volkanovski": {
+    "name": "alexander volkanovski",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "paddy pimblett": {
+    "name": "paddy pimblett",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "michael chandler": {
+    "name": "michael chandler",
+    "country": "USA",
+    "state": "Indiana",
+    "isDagestani": false
+  },
+  "yair rodriguez": {
+    "name": "yair rodriguez",
+    "country": "Mexico",
+    "state": "Chihuahua",
+    "isDagestani": false
+  },
+  "sean woodson": {
+    "name": "sean woodson",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "yan xiaonan": {
+    "name": "yan xiaonan",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "jim miller": {
+    "name": "jim miller",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "darren elkins": {
+    "name": "darren elkins",
+    "country": "United States",
+    "state": "Indiana",
+    "isDagestani": false
+  },
+  "hailey cowan": {
+    "name": "hailey cowan",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "joanderson brito": {
+    "name": "joanderson brito",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "cortavious romious": {
+    "name": "cortavious romious",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "torrez finney": {
+    "name": "torrez finney",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "diana belbita": {
+    "name": "diana belbita",
+    "country": "Romania",
+    "state": null,
+    "isDagestani": false
+  },
+  "istela nunes": {
+    "name": "istela nunes",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "victor henry": {
+    "name": "victor henry",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "pedro falcao": {
+    "name": "pedro falcao",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "brandon moreno": {
+    "name": "brandon moreno",
+    "country": "Mexico",
+    "state": "Jalisco",
+    "isDagestani": false
+  },
+  "manuel torres": {
+    "name": "manuel torres",
+    "country": "Mexico",
+    "state": null,
+    "isDagestani": false
+  },
+  "edgar chairez": {
+    "name": "edgar chairez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "cj vergara": {
+    "name": "cj vergara",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "raul rosas jr.": {
+    "name": "raul rosas jr.",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "vince morales": {
+    "name": "vince morales",
+    "country": "United States",
+    "state": "Arizona",
+    "isDagestani": false
+  },
+  "ronaldo rodriguez": {
+    "name": "ronaldo rodriguez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "vinc pichel": {
+    "name": "vinc pichel",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "gabriel miranda": {
+    "name": "gabriel miranda",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "jan blachowicz": {
+    "name": "jan blachowicz",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "gunnar nelson": {
+    "name": "gunnar nelson",
+    "country": "Iceland",
+    "state": null,
+    "isDagestani": false
+  },
+  "molly mccann": {
+    "name": "molly mccann",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "jordan vucenic": {
+    "name": "jordan vucenic",
+    "country": "United Kingdom",
+    "state": "Wales",
+    "isDagestani": false
+  },
+  "jai herbert": {
+    "name": "jai herbert",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "felipe dos santos": {
+    "name": "felipe dos santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "mick parkin": {
+    "name": "mick parkin",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "puja tomar": {
+    "name": "puja tomar",
+    "country": "India",
+    "state": null,
+    "isDagestani": false
+  },
+  "caolan loughran": {
+    "name": "caolan loughran",
+    "country": "Ireland",
+    "state": null,
+    "isDagestani": false
+  },
+  "guram kutateladze": {
+    "name": "guram kutateladze",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "seungwoo choi": {
+    "name": "seungwoo choi",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "aj cunningham": {
+    "name": "aj cunningham",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "carlos vera": {
+    "name": "carlos vera",
+    "country": "Ecuador",
+    "state": null,
+    "isDagestani": false
+  },
+  "andre lima": {
+    "name": "andre lima",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "daniel barez": {
+    "name": "daniel barez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "josiane nunes": {
+    "name": "josiane nunes",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "yuneisy duben": {
+    "name": "yuneisy duben",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "justin gaethje": {
+    "name": "justin gaethje",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "jalin turner": {
+    "name": "jalin turner",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "king green": {
+    "name": "king green",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "rei tsuruya": {
+    "name": "rei tsuruya",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "armen petrosyan": {
+    "name": "armen petrosyan",
+    "country": "Armenia",
+    "state": null,
+    "isDagestani": false
+  },
+  "alex morono": {
+    "name": "alex morono",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "francis marshall": {
+    "name": "francis marshall",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "ozzy diaz": {
+    "name": "ozzy diaz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "manel kape": {
+    "name": "manel kape",
+    "country": "Portugal",
+    "state": null,
+    "isDagestani": false
+  },
+  "julian marquez": {
+    "name": "julian marquez",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "jj aldrich": {
+    "name": "jj aldrich",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "andrea lee": {
+    "name": "andrea lee",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "ramazan temirov": {
+    "name": "ramazan temirov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "song yadong": {
+    "name": "song yadong",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "henry cejudo": {
+    "name": "henry cejudo",
+    "country": "United States",
+    "state": "Arizona",
+    "isDagestani": false
+  },
+  "melsik baghdasaryan": {
+    "name": "melsik baghdasaryan",
+    "country": "Armenia",
+    "state": null,
+    "isDagestani": false
+  },
+  "javid basharat": {
+    "name": "javid basharat",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "dylan budka": {
+    "name": "dylan budka",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "julia avila": {
+    "name": "julia avila",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "sean strickland": {
+    "name": "sean strickland",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "justin tafa": {
+    "name": "justin tafa",
+    "country": "Australia",
+    "state": null,
+    "isDagestani": false
+  },
+  "gabriel santos": {
+    "name": "gabriel santos",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "bruna brasil": {
+    "name": "bruna brasil",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "kody steele": {
+    "name": "kody steele",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jonathan micallef": {
+    "name": "jonathan micallef",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kevin jousset": {
+    "name": "kevin jousset",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "anshul jubli": {
+    "name": "anshul jubli",
+    "country": "India",
+    "state": null,
+    "isDagestani": false
+  },
+  "israel adesanya": {
+    "name": "israel adesanya",
+    "country": "Nigeria",
+    "state": null,
+    "isDagestani": false
+  },
+  "jairzinho rozenstruik": {
+    "name": "jairzinho rozenstruik",
+    "country": "Suriname",
+    "state": null,
+    "isDagestani": false
+  },
+  "fares ziam": {
+    "name": "fares ziam",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "damir hadzovic": {
+    "name": "damir hadzovic",
+    "country": "Bosnia and Herzegovina",
+    "state": null,
+    "isDagestani": false
+  },
+  "lucas alexander": {
+    "name": "lucas alexander",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jamal pogues": {
+    "name": "jamal pogues",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "grant dawson": {
+    "name": "grant dawson",
+    "country": "USA",
+    "state": "Nebraska",
+    "isDagestani": false
+  },
+  "ailin perez": {
+    "name": "ailin perez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "muin gafurov": {
+    "name": "muin gafurov",
+    "country": "Tajikistan",
+    "state": null,
+    "isDagestani": false
+  },
+  "benardo sopaj": {
+    "name": "benardo sopaj",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ricky turcios": {
+    "name": "ricky turcios",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "carlston harris": {
+    "name": "carlston harris",
+    "country": "Guyana",
+    "state": null,
+    "isDagestani": false
+  },
+  "cesar almeida": {
+    "name": "cesar almeida",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "abdul razak alhassan": {
+    "name": "abdul razak alhassan",
+    "country": "Ghana",
+    "state": null,
+    "isDagestani": false
+  },
+  "jose johnson": {
+    "name": "jose johnson",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "ihor potieria": {
+    "name": "ihor potieria",
+    "country": "Ukraine",
+    "state": null,
+    "isDagestani": false
+  },
+  "trey ogden": {
+    "name": "trey ogden",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "preston parsons": {
+    "name": "preston parsons",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "ernesta kareckaite": {
+    "name": "ernesta kareckaite",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "magomed gadzhiyasulov": {
+    "name": "magomed gadzhiyasulov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "viktoriia dudakova": {
+    "name": "viktoriia dudakova",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "joe solecki": {
+    "name": "joe solecki",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "colby covington": {
+    "name": "colby covington",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "cub swanson": {
+    "name": "cub swanson",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "billy quarantillo": {
+    "name": "billy quarantillo",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "adrian yanez": {
+    "name": "adrian yanez",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "ottman azaitar": {
+    "name": "ottman azaitar",
+    "country": "Morocco",
+    "state": null,
+    "isDagestani": false
+  },
+  "fernando padilla": {
+    "name": "fernando padilla",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "josefine knutsson": {
+    "name": "josefine knutsson",
+    "country": "Sweden",
+    "state": null,
+    "isDagestani": false
+  },
+  "shavkat rakhmonov": {
+    "name": "shavkat rakhmonov",
+    "country": "Kazakhstan",
+    "state": null,
+    "isDagestani": false
+  },
+  "ciryl gane": {
+    "name": "ciryl gane",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "kron gracie": {
+    "name": "kron gracie",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "dooho choi": {
+    "name": "dooho choi",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "movsar evloev": {
+    "name": "movsar evloev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "bryan battle": {
+    "name": "bryan battle",
+    "country": "United States",
+    "state": "North Carolina",
+    "isDagestani": false
+  },
+  "chris weidman": {
+    "name": "chris weidman",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "clay guida": {
+    "name": "clay guida",
+    "country": "USA",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "song kenan": {
+    "name": "song kenan",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "baergeng jieleyisi": {
+    "name": "baergeng jieleyisi",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "donghun choi": {
+    "name": "donghun choi",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "kiru sahota": {
+    "name": "kiru sahota",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "shi ming": {
+    "name": "shi ming",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "feng xiaocan": {
+    "name": "feng xiaocan",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "nyamjargal tumendemberel": {
+    "name": "nyamjargal tumendemberel",
+    "country": "Mongolia",
+    "state": null,
+    "isDagestani": false
+  },
+  "jon jones": {
+    "name": "jon jones",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "stipe miocic": {
+    "name": "stipe miocic",
+    "country": "United States",
+    "state": "Ohio",
+    "isDagestani": false
+  },
+  "james llontop": {
+    "name": "james llontop",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jonathan martinez": {
+    "name": "jonathan martinez",
+    "country": "USA",
+    "state": "New Mexico",
+    "isDagestani": false
+  },
+  "damon jackson": {
+    "name": "damon jackson",
+    "country": "USA",
+    "state": "Kansas",
+    "isDagestani": false
+  },
+  "mickey gall": {
+    "name": "mickey gall",
+    "country": "United States",
+    "state": "New Jersey",
+    "isDagestani": false
+  },
+  "bassil hafez": {
+    "name": "bassil hafez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "zachary scroggin": {
+    "name": "zachary scroggin",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "matthew semelsberger": {
+    "name": "matthew semelsberger",
+    "country": "United States",
+    "state": "Virginia",
+    "isDagestani": false
+  },
+  "cody stamann": {
+    "name": "cody stamann",
+    "country": "USA",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "antonio trocoli": {
+    "name": "antonio trocoli",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "amir albazi": {
+    "name": "amir albazi",
+    "country": "Iraq",
+    "state": null,
+    "isDagestani": false
+  },
+  "caio machado": {
+    "name": "caio machado",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "trevin giles": {
+    "name": "trevin giles",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "pedro munhoz": {
+    "name": "pedro munhoz",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "jack shore": {
+    "name": "jack shore",
+    "country": "United Kingdom",
+    "state": "Wales",
+    "isDagestani": false
+  },
+  "alexandr romanov": {
+    "name": "alexandr romanov",
+    "country": "Moldova",
+    "state": null,
+    "isDagestani": false
+  },
+  "rodrigo nascimento": {
+    "name": "rodrigo nascimento",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "garrett armfield": {
+    "name": "garrett armfield",
+    "country": "USA",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "chad anheliger": {
+    "name": "chad anheliger",
+    "country": "Canada",
+    "state": "Alberta",
+    "isDagestani": false
+  },
+  "rafael dos anjos": {
+    "name": "rafael dos anjos",
+    "country": "Brazil",
+    "state": "Rio de Janeiro",
+    "isDagestani": false
+  },
+  "victor hugo": {
+    "name": "victor hugo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "jake hadley": {
+    "name": "jake hadley",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "daniel pineda": {
+    "name": "daniel pineda",
+    "country": "USA",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "matheus nicolau": {
+    "name": "matheus nicolau",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "tamires vidal": {
+    "name": "tamires vidal",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "jessica penne": {
+    "name": "jessica penne",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "robelis despaigne": {
+    "name": "robelis despaigne",
+    "country": "Cuba",
+    "state": null,
+    "isDagestani": false
+  },
+  "jared gooden": {
+    "name": "jared gooden",
+    "country": "United States",
+    "state": "Georgia",
+    "isDagestani": false
+  },
+  "jonathan pearce": {
+    "name": "jonathan pearce",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "sean sharaf": {
+    "name": "sean sharaf",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "cory mckenna": {
+    "name": "cory mckenna",
+    "country": "United Kingdom",
+    "state": "Wales",
+    "isDagestani": false
+  },
+  "cody haddon": {
+    "name": "cody haddon",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "dan argueta": {
+    "name": "dan argueta",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "raquel pennington": {
+    "name": "raquel pennington",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "ovince saint preux": {
+    "name": "ovince saint preux",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "carla esparza": {
+    "name": "carla esparza",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "tim means": {
+    "name": "tim means",
+    "country": "United States",
+    "state": "New Mexico",
+    "isDagestani": false
+  },
+  "da woon jung": {
+    "name": "da woon jung",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "roosevelt roberts": {
+    "name": "roosevelt roberts",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "taylor lapilus": {
+    "name": "taylor lapilus",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "victor altamirano": {
+    "name": "victor altamirano",
+    "country": "Mexico",
+    "state": null,
+    "isDagestani": false
+  },
+  "irene aldana": {
+    "name": "irene aldana",
+    "country": "Mexico",
+    "state": "Sinaloa",
+    "isDagestani": false
+  },
+  "yazmin jauregui": {
+    "name": "yazmin jauregui",
+    "country": "Mexico",
+    "state": "Coahuila",
+    "isDagestani": false
+  },
+  "trevor peek": {
+    "name": "trevor peek",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "brendon marotte": {
+    "name": "brendon marotte",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "zygimantas ramaska": {
+    "name": "zygimantas ramaska",
+    "country": "Lithuania",
+    "state": null,
+    "isDagestani": false
+  },
+  "dennis buzukja": {
+    "name": "dennis buzukja",
+    "country": "Albania",
+    "state": null,
+    "isDagestani": false
+  },
+  "victoria leonardo": {
+    "name": "victoria leonardo",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "tai tuivasa": {
+    "name": "tai tuivasa",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "li jingliang": {
+    "name": "li jingliang",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "josh culibao": {
+    "name": "josh culibao",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "casey o'neill": {
+    "name": "casey o'neill",
+    "country": "Australia",
+    "state": "Queensland",
+    "isDagestani": false
+  },
+  "herbert burns": {
+    "name": "herbert burns",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "alex reyes": {
+    "name": "alex reyes",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "ricky glenn": {
+    "name": "ricky glenn",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "charalampos grigoriou": {
+    "name": "charalampos grigoriou",
+    "country": "Greece",
+    "state": null,
+    "isDagestani": false
+  },
+  "pannie kianzad": {
+    "name": "pannie kianzad",
+    "country": "Sweden",
+    "state": null,
+    "isDagestani": false
+  },
+  "karl williams": {
+    "name": "karl williams",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "jarno errens": {
+    "name": "jarno errens",
+    "country": "Netherlands",
+    "state": null,
+    "isDagestani": false
+  },
+  "tony ferguson": {
+    "name": "tony ferguson",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "denis tiuliulin": {
+    "name": "denis tiuliulin",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "arnold allen": {
+    "name": "arnold allen",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "muhammad mokaev": {
+    "name": "muhammad mokaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "kaynan kruschewsky": {
+    "name": "kaynan kruschewsky",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "bill algeo": {
+    "name": "bill algeo",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "isDagestani": false
+  },
+  "brian kelleher": {
+    "name": "brian kelleher",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "loik radzhabov": {
+    "name": "loik radzhabov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "lucie pudilova": {
+    "name": "lucie pudilova",
+    "country": "Czech Republic",
+    "state": null,
+    "isDagestani": false
+  },
+  "mariya agapova": {
+    "name": "mariya agapova",
+    "country": "Russia",
+    "state": null,
+    "isDagestani": false
+  },
+  "josh fremd": {
+    "name": "josh fremd",
+    "country": "United States",
+    "state": "Illinois",
+    "isDagestani": false
+  },
+  "darrius flowers": {
+    "name": "darrius flowers",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "yanis ghemmouri": {
+    "name": "yanis ghemmouri",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michelle waterson-gomez": {
+    "name": "michelle waterson-gomez",
+    "country": "United States",
+    "state": "New Mexico",
+    "isDagestani": false
+  },
+  "andrei arlovski": {
+    "name": "andrei arlovski",
+    "country": "Belarus",
+    "state": null,
+    "isDagestani": false
+  },
+  "kyung ho kang": {
+    "name": "kyung ho kang",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "douglas silva de andrade": {
+    "name": "douglas silva de andrade",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "brady hiestand": {
+    "name": "brady hiestand",
+    "country": "United States",
+    "state": "Washington",
+    "isDagestani": false
+  },
+  "josh quinlan": {
+    "name": "josh quinlan",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "nate maness": {
+    "name": "nate maness",
+    "country": "United States",
+    "state": "North Carolina",
+    "isDagestani": false
+  },
+  "shayilan nuerdanbieke": {
+    "name": "shayilan nuerdanbieke",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "miguel baeza": {
+    "name": "miguel baeza",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "jesse butler": {
+    "name": "jesse butler",
+    "country": "United States",
+    "state": "Iowa",
+    "isDagestani": false
+  },
+  "montana de la rosa": {
+    "name": "montana de la rosa",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "vinicius salvador": {
+    "name": "vinicius salvador",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "victor martinez": {
+    "name": "victor martinez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "melissa gatto": {
+    "name": "melissa gatto",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "warlley alves": {
+    "name": "warlley alves",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "kleydson rodrigues": {
+    "name": "kleydson rodrigues",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "emily ducote": {
+    "name": "emily ducote",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "alex caceres": {
+    "name": "alex caceres",
+    "country": "United States",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "rani yahya": {
+    "name": "rani yahya",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "michal figlak": {
+    "name": "michal figlak",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "marnic mann": {
+    "name": "marnic mann",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "liang na": {
+    "name": "liang na",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "gabriel benitez": {
+    "name": "gabriel benitez",
+    "country": "Mexico",
+    "state": null,
+    "isDagestani": false
+  },
+  "holly holm": {
+    "name": "holly holm",
+    "country": "United States",
+    "state": "New Mexico",
+    "isDagestani": false
+  },
+  "christos giagos": {
+    "name": "christos giagos",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "germaine de randamie": {
+    "name": "germaine de randamie",
+    "country": "Netherlands",
+    "state": null,
+    "isDagestani": false
+  },
+  "julio arce": {
+    "name": "julio arce",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  },
+  "anton turkalj": {
+    "name": "anton turkalj",
+    "country": "Sweden",
+    "state": null,
+    "isDagestani": false
+  },
+  "jacob malkoun": {
+    "name": "jacob malkoun",
+    "country": "Australia",
+    "state": "New South Wales",
+    "isDagestani": false
+  },
+  "angel pacheco": {
+    "name": "angel pacheco",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "aj dobson": {
+    "name": "aj dobson",
+    "country": "United States",
+    "state": "Ohio",
+    "isDagestani": false
+  },
+  "luis pajuelo": {
+    "name": "luis pajuelo",
+    "country": "Peru",
+    "state": null,
+    "isDagestani": false
+  },
+  "igor severino": {
+    "name": "igor severino",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "bryan barberena": {
+    "name": "bryan barberena",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "natan levy": {
+    "name": "natan levy",
+    "country": "Israel",
+    "state": null,
+    "isDagestani": false
+  },
+  "maycee barber": {
+    "name": "maycee barber",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "katlyn cerminara": {
+    "name": "katlyn cerminara",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "philipe lins": {
+    "name": "philipe lins",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "josh parisian": {
+    "name": "josh parisian",
+    "country": "United States",
+    "state": "Michigan",
+    "isDagestani": false
+  },
+  "joanne wood": {
+    "name": "joanne wood",
+    "country": "United Kingdom",
+    "state": "Scotland",
+    "isDagestani": false
+  },
+  "maryna moroz": {
+    "name": "maryna moroz",
+    "country": "Ukraine",
+    "state": null,
+    "isDagestani": false
+  },
+  "tyson pedro": {
+    "name": "tyson pedro",
+    "country": "Australia",
+    "state": null,
+    "isDagestani": false
+  },
+  "jamie pickett": {
+    "name": "jamie pickett",
+    "country": "United States",
+    "state": "North Carolina",
+    "isDagestani": false
+  },
+  "claudio ribeiro": {
+    "name": "claudio ribeiro",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "abdul-kareem al-selwady": {
+    "name": "abdul-kareem al-selwady",
+    "country": "Jordan",
+    "state": null,
+    "isDagestani": false
+  },
+  "cristian quinonez": {
+    "name": "cristian quinonez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "mateus mendonca": {
+    "name": "mateus mendonca",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "daniel lacerda": {
+    "name": "daniel lacerda",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "denys bondar": {
+    "name": "denys bondar",
+    "country": "Ukraine",
+    "state": null,
+    "isDagestani": false
+  },
+  "erik silva": {
+    "name": "erik silva",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "marcos rogerio de lima": {
+    "name": "marcos rogerio de lima",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "val woodburn": {
+    "name": "val woodburn",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "devin clark": {
+    "name": "devin clark",
+    "country": "United States",
+    "state": "South Dakota",
+    "isDagestani": false
+  },
+  "zac pauga": {
+    "name": "zac pauga",
+    "country": "United States",
+    "state": "Colorado",
+    "isDagestani": false
+  },
+  "fernie garcia": {
+    "name": "fernie garcia",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "aliaskhab khizriev": {
+    "name": "aliaskhab khizriev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "pete rodriguez": {
+    "name": "pete rodriguez",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "blake bilder": {
+    "name": "blake bilder",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "landon quinones": {
+    "name": "landon quinones",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "yohan lainesse": {
+    "name": "yohan lainesse",
+    "country": "Canada",
+    "state": "Quebec",
+    "isDagestani": false
+  },
+  "malcolm gordon": {
+    "name": "malcolm gordon",
+    "country": "Canada",
+    "state": "Ontario",
+    "isDagestani": false
+  },
+  "phil hawes": {
+    "name": "phil hawes",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "shannon ross": {
+    "name": "shannon ross",
+    "country": "Australia",
+    "state": "Queensland",
+    "isDagestani": false
+  },
+  "stephanie egger": {
+    "name": "stephanie egger",
+    "country": "Switzerland",
+    "state": null,
+    "isDagestani": false
+  },
+  "wellington turman": {
+    "name": "wellington turman",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "nick aguirre": {
+    "name": "nick aguirre",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mark madsen": {
+    "name": "mark madsen",
+    "country": "Denmark",
+    "state": null,
+    "isDagestani": false
+  },
+  "marc diakiese": {
+    "name": "marc diakiese",
+    "country": "United Kingdom",
+    "state": "England",
+    "isDagestani": false
+  },
+  "abu azaitar": {
+    "name": "abu azaitar",
+    "country": "Morocco",
+    "state": null,
+    "isDagestani": false
+  },
+  "mike breeden": {
+    "name": "mike breeden",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "jinh yu frey": {
+    "name": "jinh yu frey",
+    "country": "United States",
+    "state": "Texas",
+    "isDagestani": false
+  },
+  "jennifer maia": {
+    "name": "jennifer maia",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "tj brown": {
+    "name": "tj brown",
+    "country": "USA",
+    "state": "Arkansas",
+    "isDagestani": false
+  },
+  "ashley yoder": {
+    "name": "ashley yoder",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "kanako murata": {
+    "name": "kanako murata",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "johnny munoz": {
+    "name": "johnny munoz",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "aj fletcher": {
+    "name": "aj fletcher",
+    "country": "United States",
+    "state": "Louisiana",
+    "isDagestani": false
+  },
+  "andre fialho": {
+    "name": "andre fialho",
+    "country": "Portugal",
+    "state": null,
+    "isDagestani": false
+  },
+  "jake collier": {
+    "name": "jake collier",
+    "country": "United States",
+    "state": "Missouri",
+    "isDagestani": false
+  },
+  "hannah goldy": {
+    "name": "hannah goldy",
+    "country": "USA",
+    "state": "Florida",
+    "isDagestani": false
+  },
+  "terrence mitchell": {
+    "name": "terrence mitchell",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
+  },
+  "john makdessi": {
+    "name": "john makdessi",
+    "country": "Canada",
+    "state": "Quebec",
+    "isDagestani": false
+  },
+  "blood diamond": {
+    "name": "blood diamond",
+    "country": "New Zealand",
+    "state": null,
+    "isDagestani": false
+  },
+  "shane young": {
+    "name": "shane young",
+    "country": "New Zealand",
+    "state": "Auckland",
+    "isDagestani": false
+  },
+  "manolo zecchini": {
+    "name": "manolo zecchini",
+    "country": "Italy",
+    "state": null,
+    "isDagestani": false
+  },
+  "zarah fairn": {
+    "name": "zarah fairn",
+    "country": "Australia",
+    "state": null,
+    "isDagestani": false
+  },
+  "chan sung jung": {
+    "name": "chan sung jung",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "taila santos": {
+    "name": "taila santos",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "parker porter": {
+    "name": "parker porter",
+    "country": "United States",
+    "state": "Connecticut",
+    "isDagestani": false
+  },
+  "yusaku kinoshita": {
+    "name": "yusaku kinoshita",
+    "country": "Japan",
+    "state": null,
+    "isDagestani": false
+  },
+  "hakeem dawodu": {
+    "name": "hakeem dawodu",
+    "country": "Canada",
+    "state": null,
+    "isDagestani": false
+  },
+  "chris daukaus": {
+    "name": "chris daukaus",
+    "country": "United States",
+    "state": "Pennsylvania",
+    "isDagestani": false
+  },
+  "tafon nchukwi": {
+    "name": "tafon nchukwi",
+    "country": "Cameroon",
+    "state": null,
+    "isDagestani": false
+  },
+  "jp buys": {
+    "name": "jp buys",
+    "country": "United States",
+    "state": "Nevada",
+    "isDagestani": false
+  },
+  "gavin tucker": {
+    "name": "gavin tucker",
+    "country": "Canada",
+    "state": "Nova Scotia",
+    "isDagestani": false
+  },
+  "tanner boser": {
+    "name": "tanner boser",
+    "country": "Canada",
+    "state": "Alberta",
+    "isDagestani": false
+  },
+  "aleksa camur": {
+    "name": "aleksa camur",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
+  }
+}
