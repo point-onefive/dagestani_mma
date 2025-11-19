@@ -1,8 +1,9 @@
 import UpcomingClient from './UpcomingClient';
-import { loadUpcoming } from '@/lib/dagestan';
+import { loadUpcoming, getUpcomingLastRefresh } from '@/lib/dagestan';
 
 export default function UpcomingPage() {
   const upcoming = loadUpcoming();
+  const lastRefresh = getUpcomingLastRefresh();
 
-  return <UpcomingClient upcoming={upcoming} />;
+  return <UpcomingClient upcoming={upcoming} lastRefresh={lastRefresh} />;
 }

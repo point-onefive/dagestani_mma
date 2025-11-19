@@ -4,7 +4,11 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
-export default function MinimalNav() {
+interface MinimalNavProps {
+  currentPage?: 'upcoming' | 'historical';
+}
+
+export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -58,6 +62,55 @@ export default function MinimalNav() {
             <span className="text-sm font-medium">Home</span>
           </motion.div>
         </Link>
+
+        {/* Desktop/Tablet - Right side navigation arrow */}
+        {currentPage === 'upcoming' && (
+          <Link href="/historical" className="hidden sm:block">
+            <motion.div
+              whileHover={{ x: 2 }}
+              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group"
+            >
+              <span className="text-sm font-medium">Historical</span>
+              <svg 
+                className="w-5 h-5" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M14 5l7 7m0 0l-7 7m7-7H3" 
+                />
+              </svg>
+            </motion.div>
+          </Link>
+        )}
+
+        {currentPage === 'historical' && (
+          <Link href="/upcoming" className="hidden sm:block">
+            <motion.div
+              whileHover={{ x: 2 }}
+              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group"
+            >
+              <span className="text-sm font-medium">Upcoming</span>
+              <svg 
+                className="w-5 h-5" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M14 5l7 7m0 0l-7 7m7-7H3" 
+                />
+              </svg>
+            </motion.div>
+          </Link>
+        )}
 
         {/* Mobile - Left side empty for symmetry */}
         <div className="sm:hidden w-10" />

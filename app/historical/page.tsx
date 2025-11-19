@@ -2,11 +2,12 @@ import PageHeader from '@/components/PageHeader';
 import HistoricalRow from '@/components/HistoricalRow';
 import StatBox from '@/components/StatBox';
 import MinimalNav from '@/components/MinimalNav';
-import { loadHistorical, loadStats } from '@/lib/dagestan';
+import { loadHistorical, loadStats, getHistoricalLastRefresh } from '@/lib/dagestan';
 
 export default function HistoricalPage() {
   const historical = loadHistorical();
   const stats = loadStats();
+  const lastRefresh = getHistoricalLastRefresh();
 
   // Sort by date descending (most recent first)
   const sortedHistorical = [...historical].sort((a, b) => 
@@ -24,14 +25,32 @@ export default function HistoricalPage() {
       )
     : undefined;
 
+  const formatRefreshTime = (isoString: string | null) => {
+    if (!isoString) return null;
+    const date = new Date(isoString);
+    return date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric', 
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    });
+  };
+
   return (
     <>
-      <MinimalNav />
+      <MinimalNav currentPage="historical" />
       <main className="flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
         <PageHeader
           lines={['Historical Dagestani Matches']}
           subtext="Results with running win rate."
         />
+        {lastRefresh && (
+          <div className="text-center text-xs text-slate-500 mt-4">
+            Last updated: {formatRefreshTime(lastRefresh)}
+          </div>
+        )}
         <StatBox stats={stats} earliestDate={earliestDate} matchCount={distinctMatchCount} />
 
       {historical.length === 0 ? (
@@ -43,7 +62,7 @@ export default function HistoricalPage() {
           {/* Scroll indicator gradient */}
           <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-black/60 to-transparent pointer-events-none z-10 md:hidden" />
           
-          <div className="overflow-x-auto rounded-xl border border-purple-500/30 bg-black/40 scrollbar-thin scrollbar-thumb-purple-500/50 scrollbar-track-transparent">
+          <div className="overflow-x-auto rounded-xl border border-purple-500/30 scrollbar-thin scrollbar-thumb-purple-500/50 scrollbar-track-transparent">
             <table className="min-w-full text-left">
               <thead className="bg-purple-900/40 text-[11px] sm:text-xs uppercase text-purple-200 border-b border-purple-500/30">
               <tr>

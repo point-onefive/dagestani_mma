@@ -30,3 +30,14 @@ export function writeJson<T>(fileName: string, data: T) {
   const filePath = getDataPath(fileName);
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
 }
+
+export function getLastModified(fileName: string): string | null {
+  try {
+    const filePath = getDataPath(fileName);
+    if (!fs.existsSync(filePath)) return null;
+    const stats = fs.statSync(filePath);
+    return stats.mtime.toISOString();
+  } catch {
+    return null;
+  }
+}

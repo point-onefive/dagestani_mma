@@ -8,9 +8,10 @@ import type { UpcomingMatch } from '@/lib/dagestan';
 
 interface UpcomingClientProps {
   upcoming: UpcomingMatch[];
+  lastRefresh: string | null;
 }
 
-export default function UpcomingClient({ upcoming }: UpcomingClientProps) {
+export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClientProps) {
   // Container animation for stagger effect
   const container = {
     hidden: { opacity: 0 },
@@ -37,14 +38,32 @@ export default function UpcomingClient({ upcoming }: UpcomingClientProps) {
     }
   };
 
+  const formatRefreshTime = (isoString: string | null) => {
+    if (!isoString) return null;
+    const date = new Date(isoString);
+    return date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric', 
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true
+    });
+  };
+
   return (
     <>
-      <MinimalNav />
+      <MinimalNav currentPage="upcoming" />
       <main className="flex-1 w-full max-w-5xl mx-auto px-4 pb-12">
         <PageHeader
           lines={['Upcoming Dagestani Matches']}
           subtext="At least one fighter is from Dagestan."
         />
+        {lastRefresh && (
+          <div className="text-center text-xs text-slate-500 mt-4">
+            Last updated: {formatRefreshTime(lastRefresh)}
+          </div>
+        )}
         {upcoming.length === 0 ? (
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
