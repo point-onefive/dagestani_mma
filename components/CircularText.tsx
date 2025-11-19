@@ -110,6 +110,7 @@ const CircularText = ({
       animate={controls}
       onMouseEnter={handleHoverStart}
       onMouseLeave={handleHoverEnd}
+      suppressHydrationWarning
     >
       {letters.map((letter, i) => {
         const rotationDeg = (360 / letters.length) * i;

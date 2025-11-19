@@ -70,7 +70,7 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="relative w-14 h-14 flex items-center justify-center"
+            className="relative w-[60px] h-[60px] flex items-center justify-center"
           >
             {/* Circular text border */}
             <div className="absolute inset-0">
@@ -78,7 +78,7 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
                 text="DAGESTAN•MMA•TRACKER•" 
                 spinDuration={15}
                 onHover="speedUp"
-                size={56}
+                size={60}
                 fontSize={7}
               />
             </div>
