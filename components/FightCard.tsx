@@ -11,6 +11,11 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
   const labelA = match.isDagestaniA ? 'DAG' : getCountryCode(match.countryA);
   const labelB = match.isDagestaniB ? 'DAG' : getCountryCode(match.countryB);
 
+  // Split event name into bold and regular parts
+  const eventParts = match.eventName.split(':');
+  const eventTitle = eventParts[0];
+  const eventSubtitle = eventParts.length > 1 ? eventParts.slice(1).join(':') : null;
+
   return (
     <ElectricBorder
       color="#a855f7"
@@ -39,8 +44,9 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
             </span>
           </div>
         </div>
-        <div className="text-xs font-medium text-slate-300 uppercase tracking-wide">
-          {match.eventName}
+        <div className="text-xs uppercase tracking-wide">
+          <span className="font-bold text-white">{eventTitle}</span>
+          {eventSubtitle && <span className="font-medium text-slate-300">:{eventSubtitle}</span>}
         </div>
       </div>
       <div className="flex flex-col gap-2">
