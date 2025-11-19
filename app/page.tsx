@@ -2,10 +2,27 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import PixelBlast from '@/components/PixelBlast';
 import TextType from '@/components/TextType';
 
 export default function HomePage() {
+  const [winRate, setWinRate] = useState('74.3');
+
+  useEffect(() => {
+    // Fetch the actual win rate from stats API
+    fetch('/api/stats')
+      .then(res => res.json())
+      .then(data => {
+        if (data.winRate) {
+          setWinRate(data.winRate.toFixed(1));
+        }
+      })
+      .catch(err => {
+        console.error('Failed to load stats:', err);
+      });
+  }, []);
+
   return (
     <main className="flex-1 flex flex-col items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-80">
@@ -31,21 +48,29 @@ export default function HomePage() {
       </div>
 
       <div className="relative z-10 w-full max-w-3xl px-4 py-10 flex flex-col items-center text-center">
-        <TextType
-          text={['Dagestan UFC Tracker', 'Dagestani Dominance, Quantified.']}
-          typingSpeed={70}
-          pauseDuration={1400}
-          showCursor={true}
-          className="text-3xl sm:text-4xl md:text-5xl font-semibold"
-        />
-        <p className="mt-4 text-sm sm:text-base text-slate-300 max-w-xl">
-          Automatically tracks upcoming and historical UFC fights involving
-          Dagestani fighters, and calculates their running win rate over time.
+        <div className="flex items-center justify-center">
+          <TextType
+            text={[
+              'Dominance, Quantified.',
+              'Track Mountain Warriors.',
+              'Never Miss A Fight.',
+              `${winRate}% Win Rate. Proven.`,
+              'Data-Driven Intelligence.',
+            ]}
+            typingSpeed={60}
+            pauseDuration={2000}
+            showCursor={true}
+            className="text-3xl sm:text-4xl md:text-5xl font-semibold"
+          />
+        </div>
+        <p className="mt-3 text-sm sm:text-base text-slate-300 max-w-md leading-relaxed">
+          Track upcoming and historical Dagestani fights.<br />
+          Make better decisions in your sportsbooks.
         </p>
 
-        <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full max-w-md justify-center">
+        <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center">
           <NavButton href="/upcoming" label="Upcoming Matches" />
-          <NavButton href="/historical" label="Historical Matches" secondary />
+          <NavButton href="/historical" label="Historical Data" secondary />
         </div>
       </div>
     </main>
@@ -64,12 +89,12 @@ function NavButton({
   return (
     <Link href={href} className="w-full">
       <motion.button
-        whileHover={{ scale: 1.03, y: -1 }}
-        whileTap={{ scale: 0.97, y: 1 }}
-        className={`w-full py-3 rounded-xl border text-sm sm:text-base font-medium shadow-lg backdrop-blur ${
+        whileHover={{ scale: 1.02, y: -1 }}
+        whileTap={{ scale: 0.98, y: 1 }}
+        className={`w-full py-2.5 rounded-lg border text-xs sm:text-sm font-medium shadow-md backdrop-blur transition-all ${
           secondary
-            ? 'bg-black/40 border-slate-600 text-slate-100'
-            : 'bg-purple-500/80 border-purple-400 text-white'
+            ? 'bg-black/30 border-slate-700/50 text-slate-200 hover:border-slate-600'
+            : 'bg-purple-500/70 border-purple-400/60 text-white hover:bg-purple-500/80'
         }`}
       >
         {label}
