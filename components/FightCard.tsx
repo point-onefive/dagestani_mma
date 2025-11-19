@@ -6,6 +6,7 @@ import type { UpcomingMatch } from '@/lib/dagestan';
 import { getCountryCode } from '@/lib/countryUtils';
 import ElectricBorder from './ElectricBorder';
 import DecryptedText from './DecryptedText';
+import DramaticVS from './DramaticVS';
 
 export default function FightCard({ match }: { match: UpcomingMatch }) {
   const labelA = match.isDagestaniA ? 'DAG' : getCountryCode(match.countryA);
@@ -51,7 +52,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-2">
-          <p className={`font-semibold ${match.isDagestaniA ? 'text-slate-100' : 'text-purple-300'}`}>
+          <p className={`text-lg sm:text-2xl font-semibold ${match.isDagestaniA ? 'text-slate-100' : 'text-purple-300'}`}>
             <DecryptedText 
               text={match.fighterA} 
               animateOn="view"
@@ -59,17 +60,15 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
               maxIterations={35}
             />
           </p>
-          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] border font-bold ${match.isDagestaniA ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
+          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] sm:text-xs border font-bold ${match.isDagestaniA ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
             {labelA}
           </span>
         </div>
         
-        <div className="text-center text-xs text-purple-300 font-medium py-1">
-          vs
-        </div>
+        <DramaticVS />
         
         <div className="flex items-center justify-end gap-2">
-          <p className={`font-semibold ${match.isDagestaniB ? 'text-slate-100' : 'text-purple-300'}`}>
+          <p className={`text-lg sm:text-2xl font-semibold ${match.isDagestaniB ? 'text-slate-100' : 'text-purple-300'}`}>
             <DecryptedText 
               text={match.fighterB} 
               animateOn="view"
@@ -77,7 +76,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
               maxIterations={35}
             />
           </p>
-          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] border font-bold ${match.isDagestaniB ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
+          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] sm:text-xs border font-bold ${match.isDagestaniB ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
             {labelB}
           </span>
         </div>

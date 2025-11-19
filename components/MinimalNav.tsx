@@ -1,8 +1,10 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import CircularText from './CircularText';
 
 interface MinimalNavProps {
   currentPage?: 'upcoming' | 'historical';
@@ -63,6 +65,37 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           </motion.div>
         </Link>
 
+        {/* Desktop - Character logo in center */}
+        <Link href="/" className="hidden sm:block absolute left-1/2 transform -translate-x-1/2">
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="relative w-14 h-14 flex items-center justify-center"
+          >
+            {/* Circular text border */}
+            <div className="absolute inset-0">
+              <CircularText 
+                text="DAGESTAN•MMA•TRACKER•" 
+                spinDuration={15}
+                onHover="speedUp"
+                size={56}
+                fontSize={7}
+              />
+            </div>
+            
+            {/* Character image in center */}
+            <div className="relative z-10 w-9 h-9 rounded-lg overflow-hidden">
+              <Image
+                src="/regen_226.png"
+                alt="Home"
+                width={36}
+                height={36}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </motion.div>
+        </Link>
+
         {/* Desktop/Tablet - Right side navigation arrow */}
         {currentPage === 'upcoming' && (
           <Link href="/historical" className="hidden sm:block">
@@ -112,8 +145,22 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           </Link>
         )}
 
-        {/* Mobile - Left side empty for symmetry */}
-        <div className="sm:hidden w-10" />
+        {/* Mobile - Character logo/home button on top left */}
+        <Link href="/" className="sm:hidden">
+          <motion.div
+            whileHover={{ scale: 1.1, rotate: 5 }}
+            whileTap={{ scale: 0.95 }}
+            className="w-10 h-10 rounded-lg overflow-hidden"
+          >
+            <Image
+              src="/regen_226.png"
+              alt="Home"
+              width={40}
+              height={40}
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+        </Link>
 
         {/* Hamburger menu button */}
         <button
