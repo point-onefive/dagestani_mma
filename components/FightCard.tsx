@@ -11,11 +11,8 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
 
   return (
     <motion.article
-      initial={{ opacity: 0, y: 12 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.25 }}
       whileHover={{ scale: 1.01, y: -2 }}
+      transition={{ type: 'spring', stiffness: 300, damping: 20 }}
       className="bg-purple-500/10 border border-purple-400/30 rounded-xl p-4 sm:p-5 flex flex-col gap-3 hover:border-purple-400/50 hover:bg-purple-500/15 transition-all shadow-md shadow-purple-500/5"
     >
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-3 pb-2 border-b border-purple-400/20">

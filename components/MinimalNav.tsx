@@ -106,21 +106,21 @@ export default function MinimalNav() {
             onClick={() => setIsOpen(false)}
             className="block px-6 py-3 text-sm text-slate-300 hover:bg-purple-500/10 hover:text-purple-300 transition-colors border-b border-purple-500/10"
           >
-            🏠 Home
+            Home
           </Link>
           <Link
             href="/upcoming"
             onClick={() => setIsOpen(false)}
             className="block px-6 py-3 text-sm text-slate-300 hover:bg-purple-500/10 hover:text-purple-300 transition-colors border-b border-purple-500/10"
           >
-            📅 Upcoming Matches
+            Upcoming Matches
           </Link>
           <Link
             href="/historical"
             onClick={() => setIsOpen(false)}
             className="block px-6 py-3 text-sm text-slate-300 hover:bg-purple-500/10 hover:text-purple-300 transition-colors"
           >
-            📊 Historical Data
+            Historical Data
           </Link>
         </motion.div>
       )}

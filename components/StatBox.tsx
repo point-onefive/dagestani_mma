@@ -42,9 +42,6 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
         <span className="text-sm sm:text-base text-slate-300">
           {stats.wins} wins / {stats.losses} losses
         </span>
-        <span className="text-xs text-slate-500">
-          {stats.total} fights
-        </span>
       </div>
       <div className="mt-5 pt-4 border-t border-purple-500/20">
         <div className="text-[11px] sm:text-xs text-slate-400 text-center leading-relaxed space-y-1">
