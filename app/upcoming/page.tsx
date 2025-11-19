@@ -10,12 +10,10 @@ export default function UpcomingPage() {
     <>
       <MinimalNav />
       <main className="flex-1 w-full max-w-5xl mx-auto px-4 pb-12">
-        <PageHeader
-          lines={['Upcoming Dagestani Matches']}
-          subtext="Future UFC bouts where at least one fighter is from Dagestan."
-        />
-
-        {upcoming.length === 0 ? (
+      <PageHeader
+        lines={['Upcoming Dagestani Matches']}
+        subtext="At least one fighter is from Dagestan."
+      />        {upcoming.length === 0 ? (
           <p className="mt-10 text-center text-slate-400 text-sm">
             No upcoming Dagestani fights detected yet. Check back after the next refresh.
           </p>
