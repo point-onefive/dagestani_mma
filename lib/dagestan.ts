@@ -152,16 +152,34 @@ export async function buildUpcomingFromEvents(
       const isDagB = originB.isDagestani;
       if (!isDagA && !isDagB) continue;
 
+      // Always put Dagestani fighter first
+      let fighterA = c1.name;
+      let fighterB = c2.name;
+      let isDagestaniA = isDagA;
+      let isDagestaniB = isDagB;
+      let countryA = originA.country;
+      let countryB = originB.country;
+
+      if (isDagB && !isDagA) {
+        // Swap so Dagestani fighter is first
+        fighterA = c2.name;
+        fighterB = c1.name;
+        isDagestaniA = isDagB;
+        isDagestaniB = isDagA;
+        countryA = originB.country;
+        countryB = originA.country;
+      }
+
       results.push({
         eventId: ev.id,
         eventName: ev.name,
         eventDate: ev.date,
-        fighterA: c1.name,
-        fighterB: c2.name,
-        isDagestaniA: isDagA,
-        isDagestaniB: isDagB,
-        countryA: originA.country,
-        countryB: originB.country,
+        fighterA,
+        fighterB,
+        isDagestaniA,
+        isDagestaniB,
+        countryA,
+        countryB,
       });
     }
   }

@@ -2,6 +2,7 @@ import PageHeader from '@/components/PageHeader';
 import HistoricalRow from '@/components/HistoricalRow';
 import StatBox from '@/components/StatBox';
 import MinimalNav from '@/components/MinimalNav';
+import Footer from '@/components/Footer';
 import { loadHistorical, loadStats, getHistoricalLastRefresh } from '@/lib/dagestan';
 
 export default function HistoricalPage() {
@@ -91,6 +92,7 @@ export default function HistoricalPage() {
         </div>
       )}
       </main>
+      <Footer />
     </>
   );
 }

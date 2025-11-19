@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import PageHeader from '@/components/PageHeader';
 import FightCard from '@/components/FightCard';
 import MinimalNav from '@/components/MinimalNav';
+import Footer from '@/components/Footer';
 import type { UpcomingMatch } from '@/lib/dagestan';
 
 interface UpcomingClientProps {
@@ -54,7 +55,7 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
   return (
     <>
       <MinimalNav currentPage="upcoming" />
-      <main className="flex-1 w-full max-w-5xl mx-auto px-4 pb-12">
+      <main className="flex-1 w-full max-w-3xl mx-auto px-4 pb-12">
         <PageHeader
           lines={['Upcoming Dagestani Matches']}
           subtext="At least one fighter is from Dagestan."
@@ -91,6 +92,7 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
           </motion.section>
         )}
       </main>
+      <Footer />
     </>
   );
 }
