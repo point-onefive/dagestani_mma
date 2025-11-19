@@ -81,10 +81,15 @@ export async function fetchEventFights(event: UFCStatsEvent): Promise<UFCStatsFi
     if ($links.length < 3) return;
 
     const winIndicator = $links.eq(0).text().trim().toLowerCase();
-    const fighter1 = $links.eq(1).text().trim();
-    const fighter2 = $links.eq(2).text().trim();
+    let fighter1 = $links.eq(1).text().trim();
+    let fighter2 = $links.eq(2).text().trim();
 
-    if (!fighter1 || !fighter2) return;
+    // Replace empty, "nc", or invalid fighter names with "N/A"
+    if (!fighter1 || fighter1.toLowerCase() === 'nc' || fighter1.length < 2) fighter1 = 'N/A';
+    if (!fighter2 || fighter2.toLowerCase() === 'nc' || fighter2.length < 2) fighter2 = 'N/A';
+
+    // Skip if both fighters are N/A
+    if (fighter1 === 'N/A' && fighter2 === 'N/A') return;
 
     // Determine winner based on which fighter is listed first
     // If first link says "win", fighter1 won; otherwise fighter2 won
@@ -101,6 +106,9 @@ export async function fetchEventFights(event: UFCStatsEvent): Promise<UFCStatsFi
         method = text;
       }
     });
+
+    // Replace "nc" method with "N/A"
+    if (method.toLowerCase() === 'nc') method = 'N/A';
 
     fights.push({
       eventId: event.id,

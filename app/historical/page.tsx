@@ -41,7 +41,7 @@ export default function HistoricalPage() {
       ) : (
         <div className="mt-8 overflow-x-auto rounded-xl border border-purple-500/30 bg-black/40">
           <table className="min-w-full text-left">
-            <thead className="bg-black/60 text-[11px] sm:text-xs uppercase text-slate-400 border-b border-purple-500/30">
+            <thead className="bg-purple-900/40 text-[11px] sm:text-xs uppercase text-purple-200 border-b border-purple-500/30">
               <tr>
                 <th className="py-2 px-2 sm:px-3">Result</th>
                 <th className="py-2 px-2 sm:px-3">Event</th>
@@ -55,10 +55,11 @@ export default function HistoricalPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-purple-500/10">
-              {sortedHistorical.map(m => (
+              {sortedHistorical.map((m, index) => (
                 <HistoricalRow
                   key={`${m.eventId}-${m.fighterA}-${m.fighterB}`}
                   match={m}
+                  index={index}
                 />
               ))}
             </tbody>

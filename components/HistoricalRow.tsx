@@ -1,11 +1,19 @@
 // components/HistoricalRow.tsx
 import type { HistoricalMatch } from '@/lib/dagestan';
 
-export default function HistoricalRow({ match }: { match: HistoricalMatch }) {
+interface HistoricalRowProps {
+  match: HistoricalMatch;
+  index: number;
+}
+
+export default function HistoricalRow({ match, index }: HistoricalRowProps) {
   const isWin = match.result === 'win';
+  const isEven = index % 2 === 0;
 
   return (
-    <tr className="border-b border-purple-500/20 text-xs sm:text-sm hover:bg-purple-500/5 transition-colors">
+    <tr className={`border-b border-purple-500/10 text-xs sm:text-sm hover:bg-purple-500/10 transition-colors ${
+      isEven ? 'bg-black/20' : 'bg-black/40'
+    }`}>
       <td className="py-2 px-2 sm:px-3">
         <span
           className={`inline-flex px-2 py-0.5 rounded-full text-[11px] font-medium ${
