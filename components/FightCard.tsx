@@ -14,7 +14,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.25 }}
-      className="bg-slate-900/60 border border-slate-700/80 rounded-xl p-4 sm:p-5 flex flex-col gap-3"
+      className="bg-black/40 border border-purple-500/30 rounded-xl p-4 sm:p-5 flex flex-col gap-3 hover:border-purple-400/50 transition-colors"
     >
       <div className="text-xs uppercase tracking-wide text-slate-400">
         {new Date(match.eventDate).toLocaleString()} • {match.eventName}
@@ -24,7 +24,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
           <p className="font-semibold text-slate-100">
             {match.fighterA}{' '}
             {dagLabelA && (
-              <span className="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-400/50">
+              <span className="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[10px] bg-purple-500/20 text-purple-300 border border-purple-400/50">
                 {dagLabelA}
               </span>
             )}
@@ -35,7 +35,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
           <p className="font-semibold text-slate-100">
             {match.fighterB}{' '}
             {dagLabelB && (
-              <span className="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-400/50">
+              <span className="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[10px] bg-purple-500/20 text-purple-300 border border-purple-400/50">
                 {dagLabelB}
               </span>
             )}

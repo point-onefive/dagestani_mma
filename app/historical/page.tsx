@@ -1,6 +1,7 @@
 import PageHeader from '@/components/PageHeader';
 import HistoricalRow from '@/components/HistoricalRow';
 import StatBox from '@/components/StatBox';
+import MinimalNav from '@/components/MinimalNav';
 import { loadHistorical, loadStats } from '@/lib/dagestan';
 
 export default function HistoricalPage() {
@@ -8,22 +9,24 @@ export default function HistoricalPage() {
   const stats = loadStats();
 
   return (
-    <main className="flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
-      <PageHeader
-        lines={['Historical Dagestani Matches']}
-        subtext="Completed UFC bouts involving Dagestani fighters, plus their running win rate."
-      />
+    <>
+      <MinimalNav />
+      <main className="flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
+        <PageHeader
+          lines={['Historical Dagestani Matches']}
+          subtext="Completed UFC bouts involving Dagestani fighters, plus their running win rate."
+        />
 
-      <StatBox stats={stats} />
+        <StatBox stats={stats} />
 
       {historical.length === 0 ? (
         <p className="mt-10 text-center text-slate-400 text-sm">
           No historical Dagestani fights recorded yet. Run the refresh script to bootstrap data.
         </p>
       ) : (
-        <div className="mt-8 overflow-x-auto rounded-xl border border-slate-800 bg-slate-950/70">
+        <div className="mt-8 overflow-x-auto rounded-xl border border-purple-500/30 bg-black/40">
           <table className="min-w-full text-left">
-            <thead className="bg-slate-950/90 text-[11px] sm:text-xs uppercase text-slate-400 border-b border-slate-800">
+            <thead className="bg-black/60 text-[11px] sm:text-xs uppercase text-slate-400 border-b border-purple-500/30">
               <tr>
                 <th className="py-2 px-2 sm:px-3">Date</th>
                 <th className="py-2 px-2 sm:px-3">Event</th>
@@ -36,7 +39,7 @@ export default function HistoricalPage() {
                 <th className="py-2 px-2 sm:px-3">Result</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-900">
+            <tbody className="divide-y divide-purple-500/10">
               {historical.map(m => (
                 <HistoricalRow
                   key={`${m.eventId}-${m.fighterA}-${m.fighterB}`}
@@ -48,5 +51,6 @@ export default function HistoricalPage() {
         </div>
       )}
     </main>
+    </>
   );
 }

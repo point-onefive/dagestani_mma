@@ -18,13 +18,13 @@ export default function StatBox({ stats }: { stats: DagestanStats }) {
     <motion.div
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="mt-6 w-full max-w-md mx-auto rounded-2xl border border-slate-700 bg-slate-950/70 p-5 sm:p-6 shadow-lg"
+      className="mt-6 w-full max-w-md mx-auto rounded-2xl border border-purple-500/30 bg-black/40 p-5 sm:p-6 shadow-lg shadow-purple-500/10"
     >
       <div className="text-xs uppercase tracking-wide text-slate-400">
         Historical Win Rate
       </div>
       <div className="mt-2 flex items-baseline gap-3">
-        <motion.span className="text-3xl sm:text-4xl font-semibold text-emerald-300">
+        <motion.span className="text-3xl sm:text-4xl font-semibold text-purple-300">
           {percentText}
         </motion.span>
         <span className="text-xs sm:text-sm text-slate-400">

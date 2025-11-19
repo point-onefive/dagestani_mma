@@ -21,23 +21,13 @@ export default function TextType({
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+  const [isComplete, setIsComplete] = useState(false);
 
   useEffect(() => {
     if (text.length === 0) return;
+    if (isComplete) return;
 
     const currentString = text[currentIndex];
-
-    if (isPaused) {
-      const pauseTimer = setTimeout(() => {
-        setIsPaused(false);
-        setCharIndex(0);
-        setCurrentIndex((prev) => (prev + 1) % text.length);
-        setDisplayText('');
-      }, pauseDuration);
-
-      return () => clearTimeout(pauseTimer);
-    }
 
     if (charIndex < currentString.length) {
       const typingTimer = setTimeout(() => {
@@ -47,14 +37,27 @@ export default function TextType({
 
       return () => clearTimeout(typingTimer);
     } else {
-      setIsPaused(true);
+      // Finished typing current line
+      if (currentIndex < text.length - 1) {
+        // Move to next line after pause
+        const pauseTimer = setTimeout(() => {
+          setCharIndex(0);
+          setCurrentIndex((prev) => prev + 1);
+          setDisplayText('');
+        }, pauseDuration);
+
+        return () => clearTimeout(pauseTimer);
+      } else {
+        // All lines complete
+        setIsComplete(true);
+      }
     }
-  }, [text, currentIndex, charIndex, isPaused, typingSpeed, pauseDuration]);
+  }, [text, currentIndex, charIndex, isComplete, typingSpeed, pauseDuration]);
 
   return (
     <div className={className}>
       {displayText}
-      {showCursor && (
+      {showCursor && !isComplete && (
         <span className="inline-block w-0.5 h-[0.9em] bg-purple-400 ml-1 animate-pulse" />
       )}
     </div>
