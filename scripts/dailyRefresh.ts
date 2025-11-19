@@ -28,6 +28,8 @@ interface UpcomingFight {
   fighterB: string;
   isDagestaniA: boolean;
   isDagestaniB: boolean;
+  countryA?: string;
+  countryB?: string;
 }
 
 interface HistoricalFight extends UpcomingFight {
@@ -123,6 +125,8 @@ async function checkNewCompletedFights() {
             fighterB: fight.fighter2,
             isDagestaniA: origin1.isDagestani,
             isDagestaniB: origin2.isDagestani,
+            countryA: origin1.country,
+            countryB: origin2.country,
             winner: fight.winner,
             method: fight.method,
             round: 'N/A', // Round data not available from UFCStats scraper
@@ -254,7 +258,9 @@ async function updateUpcomingFights() {
           fighterA: fighter1,
           fighterB: fighter2,
           isDagestaniA: origin1.isDagestani,
-          isDagestaniB: origin2.isDagestani
+          isDagestaniB: origin2.isDagestani,
+          countryA: origin1.country,
+          countryB: origin2.country
         });
 
         const dagName = origin1.isDagestani ? fighter1 : fighter2;

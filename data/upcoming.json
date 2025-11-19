@@ -6,7 +6,9 @@
     "fighterA": "Rafael Cerqueira",
     "fighterB": "Abdul-Rakhman Yakhyaev",
     "isDagestaniA": false,
-    "isDagestaniB": true
+    "isDagestaniB": true,
+    "countryA": "Brazil",
+    "countryB": "Russia"
   },
   {
     "eventId": "600055175",
@@ -15,6 +17,8 @@
     "fighterA": "Nicolas Dalby",
     "fighterB": "Saygid Izagakhmaev",
     "isDagestaniA": false,
-    "isDagestaniB": true
+    "isDagestaniB": true,
+    "countryA": "Denmark",
+    "countryB": "Russia"
   }
 ]

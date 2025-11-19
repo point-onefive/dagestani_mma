@@ -11,6 +11,8 @@ export type UpcomingMatch = {
   fighterB: string;
   isDagestaniA: boolean;
   isDagestaniB: boolean;
+  countryA?: string;
+  countryB?: string;
 };
 
 export type HistoricalMatch = {
@@ -26,6 +28,8 @@ export type HistoricalMatch = {
   isDagestaniB: boolean;
   dagestaniFighter: string;
   result: 'win' | 'loss';
+  countryA?: string;
+  countryB?: string;
 };
 
 export type DagestanStats = {
@@ -148,6 +152,8 @@ export async function buildUpcomingFromEvents(
         fighterB: c2.name,
         isDagestaniA: isDagA,
         isDagestaniB: isDagB,
+        countryA: originA.country,
+        countryB: originB.country,
       });
     }
   }
@@ -201,6 +207,8 @@ export async function appendHistoricalFromEvents(
         isDagestaniB: isDagB,
         dagestaniFighter,
         result,
+        countryA: originA.country,
+        countryB: originB.country,
       };
 
       const key = makeHistoricalKey(item);

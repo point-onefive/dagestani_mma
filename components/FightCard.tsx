@@ -3,10 +3,11 @@
 
 import { motion } from 'framer-motion';
 import type { UpcomingMatch } from '@/lib/dagestan';
+import { getCountryCode } from '@/lib/countryUtils';
 
 export default function FightCard({ match }: { match: UpcomingMatch }) {
-  const dagLabelA = match.isDagestaniA ? 'DAG' : '';
-  const dagLabelB = match.isDagestaniB ? 'DAG' : '';
+  const labelA = match.isDagestaniA ? 'DAG' : getCountryCode(match.countryA);
+  const labelB = match.isDagestaniB ? 'DAG' : getCountryCode(match.countryB);
 
   return (
     <motion.article
@@ -34,8 +35,8 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
           <p className="font-semibold text-slate-100 flex-1">
             {match.fighterA}
           </p>
-          <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] border font-bold flex-shrink-0 {match.isDagestaniA ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}">
-            {dagLabelA || 'INT'}
+          <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] border font-bold flex-shrink-0 ${match.isDagestaniA ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
+            {labelA}
           </span>
         </div>
         
@@ -48,7 +49,7 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
             {match.fighterB}
           </p>
           <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] border font-bold flex-shrink-0 ${match.isDagestaniB ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
-            {dagLabelB || 'INT'}
+            {labelB}
           </span>
         </div>
       </div>
