@@ -122,7 +122,9 @@ const CircularText = ({
         return (
           <span
             key={i}
-            className="absolute left-1/2 top-1/2 inline-block font-bold text-white transition-all duration-500"
+            className={`absolute left-1/2 top-1/2 inline-block font-bold transition-all duration-500 ${
+              letter === '•' ? 'text-purple-400' : 'text-white'
+            }`}
             style={{ 
               transform: `translate(-50%, -50%) translate(${x}px, ${y}px) rotate(${rotationDeg}deg)`,
               WebkitTransform: `translate(-50%, -50%) translate(${x}px, ${y}px) rotate(${rotationDeg}deg)`,

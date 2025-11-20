@@ -56,8 +56,8 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
             <DecryptedText 
               text={match.fighterA} 
               animateOn="view"
-              speed={80}
-              maxIterations={35}
+              speed={30}
+              maxIterations={93}
             />
           </p>
           <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] sm:text-xs border font-bold ${match.isDagestaniA ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>
@@ -72,8 +72,8 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
             <DecryptedText 
               text={match.fighterB} 
               animateOn="view"
-              speed={80}
-              maxIterations={35}
+              speed={30}
+              maxIterations={93}
             />
           </p>
           <span className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] sm:text-xs border font-bold ${match.isDagestaniB ? 'bg-purple-500/30 text-purple-200 border-purple-400/60' : 'bg-slate-500/20 text-slate-300 border-slate-400/40'}`}>

@@ -57,8 +57,9 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
       <MinimalNav currentPage="upcoming" />
       <main className="flex-1 w-full max-w-3xl mx-auto px-4 pb-12">
         <PageHeader
-          lines={['Upcoming Dagestani Matches']}
-          subtext="At least one fighter is from Dagestan."
+          lines={['Upcoming Dagestani Fights']}
+          subtext="Fighters born in the Republic of Dagestan, Russia."
+          noLoop={true}
         />
         {lastRefresh && (
           <div className="text-center text-xs text-slate-500 mt-4">

@@ -9,9 +9,11 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="mb-8 p-4 rounded-lg border border-purple-500/20 bg-purple-950/20">
           <p className="text-xs text-slate-400 text-center leading-relaxed">
-            <span className="text-purple-400 font-semibold">Disclaimer:</span> This website is for informational purposes only. 
-            The statistics and data presented are not financial, betting, or investment advice. 
-            Always conduct your own research and gamble responsibly. Past performance does not guarantee future results.
+            <span className="text-purple-400 font-semibold">Disclaimer:</span> This website tracks fighters born in the Republic of Dagestan, Russia. 
+            Statistics are based on birthplace, not current training location. 
+            Data is sourced from publicly available information and AI classification - while we strive for accuracy, errors may occur. 
+            This is for informational purposes only, not financial or betting advice. 
+            Always conduct your own research and gamble responsibly.
           </p>
         </div>
 
@@ -27,7 +29,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/upcoming" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Upcoming Matches
+                  Upcoming Fights
                 </Link>
               </li>
               <li>
@@ -66,7 +68,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-6 border-t border-purple-500/10">
           <p className="text-xs text-slate-500 text-center mb-4">
-            © {currentYear} Dagestani MMA Stats. All rights reserved.
+            © {currentYear} DagStats.com. All rights reserved.
           </p>
           
           {/* Powered by */}

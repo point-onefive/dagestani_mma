@@ -51,11 +51,13 @@ export default function HomePage() {
         <div className="flex items-center justify-center">
           <TextType
             text={[
-              'Dominance, Quantified.',
-              'Track Mountain Warriors.',
-              'Never Miss A Fight.',
-              `${winRate}% Win Rate. Proven.`,
-              'Data-Driven Intelligence.',
+              'Welcome to DagStats',
+              'Dagestan Born Fighters',
+              'Dominance Quantified',
+              'Track Mountain Warriors',
+              'Never Miss A Fight',
+              `${winRate}% Win Rate`,
+              'Data-Driven Intelligence',
             ]}
             typingSpeed={60}
             pauseDuration={2000}
@@ -64,12 +66,11 @@ export default function HomePage() {
           />
         </div>
         <p className="mt-3 text-sm sm:text-base text-slate-300 max-w-md leading-relaxed">
-          Track upcoming and historical Dagestani fights.<br />
-          Make better decisions in your sportsbooks.
+          Data-driven insights for sportsbooks.
         </p>
 
         <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center">
-          <NavButton href="/upcoming" label="Upcoming Matches" />
+          <NavButton href="/upcoming" label="Upcoming Fights" />
           <NavButton href="/historical" label="Historical Data" secondary />
         </div>
       </div>

@@ -26,6 +26,7 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
     : 'N/A';
 
   const displayMatchCount = matchCount ?? stats.total;
+  const displayLookbackDate = formattedDate;
 
   return (
     <ElectricBorder
@@ -52,10 +53,19 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
         </span>
       </div>
       <div className="mt-5 pt-4 border-t border-purple-500/20">
-        <div className="text-[11px] sm:text-xs text-slate-400 text-center leading-relaxed space-y-1">
-          <p>Dagestani matches analyzed: <span className="text-purple-400 font-medium">{displayMatchCount}</span></p>
-          <p>Max lookback date: <span className="text-purple-400 font-medium">{formattedDate}</span></p>
-          <p className="text-slate-500">New fights are appended automatically</p>
+        <div className="grid gap-2 text-xs sm:text-sm">
+          <div className="flex justify-between items-center px-2">
+            <span className="text-slate-400">Dagestani fights analyzed:</span>
+            <span className="text-purple-400 font-medium">{displayMatchCount}</span>
+          </div>
+          <div className="flex justify-between items-center px-2">
+            <span className="text-slate-400">Max lookback date:</span>
+            <span className="text-purple-400 font-medium">{displayLookbackDate}</span>
+          </div>
+          <div className="flex justify-between items-center px-2">
+            <span className="text-slate-400">Auto-refresh:</span>
+            <span className="text-purple-400 font-medium">Daily</span>
+          </div>
         </div>
       </div>
     </motion.div>

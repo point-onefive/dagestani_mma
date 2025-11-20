@@ -43,10 +43,16 @@ export default function HistoricalPage() {
     <>
       <MinimalNav currentPage="historical" />
       <main className="flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
-        <PageHeader
-          lines={['Historical Dagestani Matches']}
-          subtext="Results with running win rate."
-        />
+        <header className="w-full max-w-4xl mx-auto pt-20 sm:pt-24 px-4 text-center">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-semibold text-slate-100">
+            Historical Dagestani Fights
+          </h1>
+          <p className="mt-4 text-sm sm:text-base text-slate-400">
+            Results for fighters born in Dagestan.
+            <br />
+            Running win rate below.
+          </p>
+        </header>
         {lastRefresh && (
           <div className="text-center text-xs text-slate-500 mt-4">
             Last updated: {formatRefreshTime(lastRefresh)}
@@ -73,9 +79,6 @@ export default function HistoricalPage() {
                 <th className="py-2 px-2 sm:px-3">Fighter A</th>
                 <th className="py-2 px-2 sm:px-3">Fighter B</th>
                 <th className="py-2 px-2 sm:px-3">Winner</th>
-                <th className="py-2 px-2 sm:px-3">Method</th>
-                <th className="py-2 px-2 sm:px-3">Round</th>
-                <th className="py-2 px-2 sm:px-3">Dagestani</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-purple-500/10">

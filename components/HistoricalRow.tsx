@@ -32,9 +32,6 @@ export default function HistoricalRow({ match, index }: HistoricalRowProps) {
       <td className="py-2 px-2 sm:px-3 text-slate-100">{match.fighterA}</td>
       <td className="py-2 px-2 sm:px-3 text-slate-100">{match.fighterB}</td>
       <td className="py-2 px-2 sm:px-3 text-purple-300">{match.winner}</td>
-      <td className="py-2 px-2 sm:px-3 text-slate-300">{match.method}</td>
-      <td className="py-2 px-2 sm:px-3 text-slate-300">{match.round}</td>
-      <td className="py-2 px-2 sm:px-3 text-slate-200">{match.dagestaniFighter}</td>
     </tr>
   );
 }

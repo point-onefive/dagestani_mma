@@ -70,26 +70,26 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="relative w-[60px] h-[60px] flex items-center justify-center"
+            className="relative w-[48px] h-[48px] flex items-center justify-center"
           >
             {/* Circular text border */}
             <div className="absolute inset-0">
               <CircularText 
-                text="DAGESTAN•MMA•TRACKER•" 
+                text="DAGSTATS•UFC•TRACKER•" 
                 spinDuration={15}
                 onHover="speedUp"
-                size={60}
-                fontSize={7}
+                size={48}
+                fontSize={5.5}
               />
             </div>
             
             {/* Character image in center */}
-            <div className="relative z-10 w-9 h-9 rounded-lg overflow-hidden">
+            <div className="relative z-10 w-6 h-6 rounded-lg overflow-hidden">
               <Image
                 src="/regen_226.png"
                 alt="Home"
-                width={36}
-                height={36}
+                width={24}
+                height={24}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -148,17 +148,31 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
         {/* Mobile - Character logo/home button on top left */}
         <Link href="/" className="sm:hidden">
           <motion.div
-            whileHover={{ scale: 1.1, rotate: 5 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-10 h-10 rounded-lg overflow-hidden"
+            className="relative w-[40px] h-[40px] flex items-center justify-center"
           >
-            <Image
-              src="/regen_226.png"
-              alt="Home"
-              width={40}
-              height={40}
-              className="w-full h-full object-cover"
-            />
+            {/* Circular text border */}
+            <div className="absolute inset-0">
+              <CircularText 
+                text="DAGSTATS•UFC•TRACKER•" 
+                spinDuration={15}
+                onHover="speedUp"
+                size={40}
+                fontSize={4.5}
+              />
+            </div>
+            
+            {/* Character image in center */}
+            <div className="relative z-10 w-5 h-5 rounded-lg overflow-hidden">
+              <Image
+                src="/regen_226.png"
+                alt="Home"
+                width={20}
+                height={20}
+                className="w-full h-full object-cover"
+              />
+            </div>
           </motion.div>
         </Link>
 
@@ -213,7 +227,7 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
             onClick={() => setIsOpen(false)}
             className="block px-6 py-3 text-sm text-slate-300 hover:bg-purple-500/10 hover:text-purple-300 transition-colors border-b border-purple-500/10"
           >
-            Upcoming Matches
+            Upcoming Fights
           </Link>
           <Link
             href="/historical"

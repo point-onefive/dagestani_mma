@@ -1,0 +1,207 @@
+
+> dagestani-mma@0.1.0 refresh
+> tsx scripts/dailyRefresh.ts
+
+
+🔄 DAILY REFRESH - 2025-11-19T21:12:13.991Z
+============================================================
+
+🔍 Step 1: Checking UFCStats for newly completed fights...
+
+📥 Fetching completed events from UFCStats.com (offset: 0, limit: 3)...
+   Found 2 events
+   📋 New event found: UFC 322: Della Maddalena vs. Makhachev
+   📋 Fetching fights for: UFC 322: Della Maddalena vs. Makhachev
+      ✓ 14 fights extracted
+🔍 Calling OpenAI API for: Islam Makhachev
+✓ Cached Islam Makhachev: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: Jack Della Maddalena
+✓ Cached Jack Della Maddalena: Australia (Western Australia) (Dagestani: false)
+      ✅ Islam Makhachev WON vs Jack Della Maddalena
+🔍 Calling OpenAI API for: Valentina Shevchenko
+✓ Cached Valentina Shevchenko: Kyrgyzstan (Dagestani: false)
+🔍 Calling OpenAI API for: Zhang Weili
+✓ Cached Zhang Weili: China (Hebei) (Dagestani: false)
+🔍 Calling OpenAI API for: Michael Morales
+✓ Cached Michael Morales: USA (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: Sean Brady
+✓ Cached Sean Brady: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: Carlos Prates
+✓ Cached Carlos Prates: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Leon Edwards
+✓ Cached Leon Edwards: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: Benoit Saint Denis
+✓ Cached Benoit Saint Denis: France (Dagestani: false)
+🔍 Calling OpenAI API for: Beneil Dariush
+✓ Cached Beneil Dariush: Iran (Dagestani: false)
+🔍 Calling OpenAI API for: Bo Nickal
+✓ Cached Bo Nickal: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: Rodolfo Vieira
+✓ Cached Rodolfo Vieira: Brazil (Rio de Janeiro) (Dagestani: false)
+🔍 Calling OpenAI API for: Gregory Rodrigues
+✓ Cached Gregory Rodrigues: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Roman Kopylov
+✓ Cached Roman Kopylov: Russia (Moscow Oblast) (Dagestani: false)
+🔍 Calling OpenAI API for: Erin Blanchfield
+✓ Cached Erin Blanchfield: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: Tracy Cortez
+✓ Cached Tracy Cortez: United States (Arizona) (Dagestani: false)
+🔍 Calling OpenAI API for: Ethyn Ewing
+✓ Cached Ethyn Ewing: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Malcolm Wellmaker
+✓ Cached Malcolm Wellmaker: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Kyle Daukaus
+✓ Cached Kyle Daukaus: USA (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: Gerald Meerschaert
+✓ Cached Gerald Meerschaert: United States (Wisconsin) (Dagestani: false)
+🔍 Calling OpenAI API for: Pat Sabatini
+✓ Cached Pat Sabatini: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: Chepe Mariscal
+✓ Cached Chepe Mariscal: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: Fatima Kline
+✓ Cached Fatima Kline: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Angela Hill
+✓ Cached Angela Hill: United States (South Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: Baisangur Susurkaev
+✓ Cached Baisangur Susurkaev: Russia (Chechnya) (Dagestani: false)
+🔍 Calling OpenAI API for: Eric McConico
+✓ Cached Eric McConico: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Matheus Camilo
+✓ Cached Matheus Camilo: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Viacheslav Borshchev
+✓ Cached Viacheslav Borshchev: Russia (Vladimir Oblast) (Dagestani: false)
+   📋 New event found: UFC Fight Night: Bonfim vs. Brown
+   📋 Fetching fights for: UFC Fight Night: Bonfim vs. Brown
+      ✓ 12 fights extracted
+🔍 Calling OpenAI API for: Gabriel Bonfim
+✓ Cached Gabriel Bonfim: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Randy Brown
+✓ Cached Randy Brown: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: Joseph Morales
+✓ Cached Joseph Morales: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: Matt Schnell
+✓ Cached Matt Schnell: USA (Louisiana) (Dagestani: false)
+🔍 Calling OpenAI API for: Uros Medic
+✓ Cached Uros Medic: Serbia (Dagestani: false)
+🔍 Calling OpenAI API for: Muslim Salikhov
+✓ Cached Muslim Salikhov: Russia (Chechnya) (Dagestani: false)
+🔍 Calling OpenAI API for: Chris Padilla
+✓ Cached Chris Padilla: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Ismael Bonfim
+✓ Cached Ismael Bonfim: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Christian Leroy Duncan
+✓ Cached Christian Leroy Duncan: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: Marco Tulio
+✓ Cached Marco Tulio: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Jamall Emmers
+✓ Cached Jamall Emmers: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: Hyder Amil
+✓ Cached Hyder Amil: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Raoni Barcelos
+✓ Cached Raoni Barcelos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Ricky Simon
+✓ Cached Ricky Simon: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: Jacqueline Cavalcanti
+✓ Cached Jacqueline Cavalcanti: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Mayra Bueno Silva
+✓ Cached Mayra Bueno Silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Josh Hokit
+✓ Cached Josh Hokit: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Max Gimenis
+✓ Cached Max Gimenis: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Denise Gomes
+✓ Cached Denise Gomes: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: Tecia Pennington
+✓ Cached Tecia Pennington: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: Daniel Marcos
+✓ Cached Daniel Marcos: Argentina (Dagestani: false)
+🔍 Calling OpenAI API for: Miles Johns
+✓ Cached Miles Johns: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: Zach Reese
+✓ Cached Zach Reese: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Jackson McVey
+✓ Cached Jackson McVey: Unknown (Dagestani: false)
+
+   💾 Added 1 new Dagestani fight(s) to historical data
+
+📡 Step 2: Fetching upcoming UFC events from ESPN...
+
+📡 Fetching UFC events from ESPN...
+✓ Found 1 events
+   Found 1 upcoming UFC events
+
+   📋 Processing: UFC Fight Night: Tsarukyan vs. Hooker
+📡 Fetching event details for 600055175...
+✓ Found 14 fights for event 600055175
+      14 fights on card
+🔍 Calling OpenAI API for: Denzel Freeman
+✓ Cached Denzel Freeman: United States (Dagestani: false)
+🔍 Calling OpenAI API for: Marek Bujlo
+✓ Cached Marek Bujlo: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Shem Rock
+✓ Cached Shem Rock: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Nurullo Aliev
+✓ Cached Nurullo Aliev: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Ismail Naurdiev
+✓ Cached Ismail Naurdiev: Austria (Dagestani: false)
+🔍 Calling OpenAI API for: Ryan Loder
+✓ Cached Ryan Loder: Canada (British Columbia) (Dagestani: false)
+🔍 Calling OpenAI API for: Aleksandre Topuria
+✓ Cached Aleksandre Topuria: Georgia (Dagestani: false)
+🔍 Calling OpenAI API for: Bekzat Almakhan
+✓ Cached Bekzat Almakhan: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Rafael Cerqueira
+✓ Cached Rafael Cerqueira: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Abdul-Rakhman Yakhyaev
+✓ Cached Abdul-Rakhman Yakhyaev: Turkey (Dagestani: false)
+🔍 Calling OpenAI API for: Alex Perez
+✓ Cached Alex Perez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: Asu Almabayev
+✓ Cached Asu Almabayev: Kazakhstan (Dagestani: false)
+🔍 Calling OpenAI API for: Nicolas Dalby
+✓ Cached Nicolas Dalby: Denmark (Dagestani: false)
+🔍 Calling OpenAI API for: Saygid Izagakhmaev
+✓ Cached Saygid Izagakhmaev: Russia (Dagestan) (Dagestani: true)
+      ✅ Dagestani fight: Saygid Izagakhmaev
+🔍 Calling OpenAI API for: Bogdan Grad
+✓ Cached Bogdan Grad: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Luke Riley
+✓ Cached Luke Riley: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Kyoji Horiguchi
+✓ Cached Kyoji Horiguchi: Japan (Osaka) (Dagestani: false)
+🔍 Calling OpenAI API for: Tagir Ulanbekov
+✓ Cached Tagir Ulanbekov: Russia (Dagestan) (Dagestani: true)
+      ✅ Dagestani fight: Tagir Ulanbekov
+🔍 Calling OpenAI API for: Serghei Spivac
+✓ Cached Serghei Spivac: Moldova (Dagestani: false)
+🔍 Calling OpenAI API for: Shamil Gaziev
+✓ Cached Shamil Gaziev: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: Jack Hermansson
+✓ Cached Jack Hermansson: Sweden (Dagestani: false)
+🔍 Calling OpenAI API for: Myktybek Orolbai
+✓ Cached Myktybek Orolbai: Kyrgyzstan (Dagestani: false)
+🔍 Calling OpenAI API for: Volkan Oezdemir
+✓ Cached Volkan Oezdemir: Switzerland (Dagestani: false)
+🔍 Calling OpenAI API for: Alonzo Menifield
+✓ Cached Alonzo Menifield: USA (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: Belal Muhammad
+✓ Cached Belal Muhammad: United States (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: Ian Machado Garry
+✓ Cached Ian Machado Garry: Ireland (Dagestani: false)
+🔍 Calling OpenAI API for: Dan Hooker
+✓ Cached Dan Hooker: New Zealand (Dagestani: false)
+🔍 Calling OpenAI API for: Arman Tsarukyan
+✓ Cached Arman Tsarukyan: Armenia (Dagestani: false)
+
+   💾 Saved 2 upcoming Dagestani fights
+
+📊 Step 3: Recalculating statistics...
+
+   Total Fights: 1
+   Wins: 1
+   Losses: 0
+   Win Rate: 100%
+
+
+✅ Daily refresh complete!
+

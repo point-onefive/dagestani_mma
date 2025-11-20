@@ -4,7 +4,7 @@ A beautiful, mobile-first Next.js application that automatically tracks upcoming
 
 ## Features
 
-- 🥊 **Upcoming Matches**: View all upcoming UFC fights with at least one Dagestani fighter
+- 🥊 **Upcoming Fights**: View all upcoming UFC fights with at least one Dagestani fighter
 - 📊 **Historical Data**: Browse past fights with win/loss tracking
 - 📈 **Win Rate Statistics**: Live calculation of Dagestani fighters' overall win rate
 - 🤖 **AI-Powered**: Uses OpenAI to automatically identify fighter origins

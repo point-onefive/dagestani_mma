@@ -56,34 +56,43 @@ export async function getFighterOrigin(name: string): Promise<FighterOrigin> {
 
   console.log(`🔍 Calling OpenAI API for: ${name}`);
 
-  const prompt = `Given the professional MMA fighter name "${name}", determine their country and state/region of origin.
+  const prompt = `You are an MMA fighter database expert. Given the professional MMA/UFC fighter name "${name}", determine their BIRTHPLACE and region of origin with high accuracy.
 
-For Russian fighters, please specify if they are from Dagestan, Chechnya, or another specific region.
-For fighters from other countries, include the state/region if it's notable.
+CRITICAL INSTRUCTIONS:
+1. Research the fighter's actual birthplace and hometown, not just their training location
+2. For Russian fighters, determine if they are specifically from the Republic of Dagestan
+3. Many fighters with "Magomed", "Khabib", "Islam", "Said", or similar names are from Dagestan, but verify each individually
+4. Some Russian-speaking fighters may be from other countries (Turkey, Azerbaijan, Kazakhstan, etc.)
+5. Be especially careful with fighters who have moved between countries
+
+For Russian fighters, you MUST specify their specific region (Dagestan, Chechnya, Moscow, etc.).
 
 Return ONLY this JSON format:
 {
-  "country": "<country name>",
-  "state": "<state/region name or null>",
+  "country": "<country of birth/origin>",
+  "state": "<specific region/republic or null>",
   "isDagestani": true or false
 }
 
-Set "isDagestani" to true ONLY if the fighter is specifically from Dagestan, Russia.
-Use null for state if the region is unknown or not notable.
+Set "isDagestani" to true ONLY if:
+- The fighter was born in the Republic of Dagestan, Russia, OR
+- The fighter is widely documented as being from Dagestan
 
-If you are not sure, use:
+EXAMPLES:
+- Khabib Nurmagomedov → {"country": "Russia", "state": "Dagestan", "isDagestani": true}
+- Islam Makhachev → {"country": "Russia", "state": "Dagestan", "isDagestani": true}
+- Tagir Ulanbekov → {"country": "Russia", "state": "Dagestan", "isDagestani": true}
+- Abdul-Rakhman Yakhyaev → {"country": "Turkey", "state": null, "isDagestani": false}
+- Petr Yan → {"country": "Russia", "state": null, "isDagestani": false}
+- Khamzat Chimaev → {"country": "Russia", "state": "Chechnya", "isDagestani": false}
+- Conor McGregor → {"country": "Ireland", "state": null, "isDagestani": false}
+
+If you cannot verify the information with confidence, use:
 {
   "country": "Unknown",
   "state": null,
   "isDagestani": false
-}
-
-Examples:
-- Khabib Nurmagomedov → {"country": "Russia", "state": "Dagestan", "isDagestani": true}
-- Islam Makhachev → {"country": "Russia", "state": "Dagestan", "isDagestani": true}
-- Petr Yan → {"country": "Russia", "state": null, "isDagestani": false}
-- Conor McGregor → {"country": "Ireland", "state": null, "isDagestani": false}
-- Khamzat Chimaev → {"country": "Russia", "state": "Chechnya", "isDagestani": false}`;
+}`;
 
   try {
     const openai = getClient();

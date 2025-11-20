@@ -76,25 +76,36 @@ async function checkNewCompletedFights() {
     const historical: HistoricalFight[] = readJson('historical.json', []);
     const fighterCache: Record<string, FighterOrigin> = readJson('fighters.json', {});
     
-    // Get existing event IDs to avoid duplicates
-    const existingEventIds = new Set(historical.map(f => f.eventId));
+    // Create a set of existing fight identifiers to avoid duplicates
+    // Format: "eventId:fighter1|fighter2" (sorted)
+    const existingFights = new Set(
+      historical.map(f => {
+        const fighters = [f.fighterA, f.fighterB].sort().join('|');
+        return `${f.eventId}:${fighters}`;
+      })
+    );
     
     let newFightsAdded = 0;
     
     for (const event of recentEvents) {
-      // Skip if we've already processed this event
-      if (existingEventIds.has(event.id)) {
-        console.log(`   ⏭️  Already processed: ${event.name}`);
-        continue;
-      }
-      
-      console.log(`   📋 New event found: ${event.name}`);
+      console.log(`   📋 Checking event: ${event.name}`);
       
       // Fetch fight details
       const fights = await fetchEventFights(event);
       
+      let newFightsInEvent = 0;
+      
       // Check each fight for Dagestani fighters
       for (const fight of fights) {
+        // Create fight identifier to check for duplicates
+        const fighters = [fight.fighter1, fight.fighter2].sort().join('|');
+        const fightId = `${fight.eventId}:${fighters}`;
+        
+        // Skip if we've already processed this specific fight
+        if (existingFights.has(fightId)) {
+          continue;
+        }
+        
         const fighter1Key = fight.fighter1.toLowerCase();
         const fighter2Key = fight.fighter2.toLowerCase();
         
@@ -135,11 +146,17 @@ async function checkNewCompletedFights() {
           };
           
           historical.push(newFight);
+          existingFights.add(fightId); // Add to set to prevent duplicates within this run
           newFightsAdded++;
+          newFightsInEvent++;
           
           const won = fight.winner === dagestaniFighter;
           console.log(`      ✅ ${dagestaniFighter} ${won ? 'WON' : 'LOST'} vs ${won ? fight.fighter2 : fight.fighter1}`);
         }
+      }
+      
+      if (newFightsInEvent === 0) {
+        console.log(`      ℹ️  No new Dagestani fights in this event`);
       }
       
       // Rate limiting

@@ -1,0 +1,2040 @@
+🏗️  Building historical Dagestani fight database...
+
+
+🔍 Fetching historical UFC data (100 events, starting at offset 0)...
+
+📥 Fetching completed events from UFCStats.com (offset: 0, limit: 100)...
+   Found 99 events
+   📋 Fetching fights for: UFC 322: Della Maddalena vs. Makhachev
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Bonfim vs. Brown
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Garcia vs. Onama
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 321: Aspinall vs. Gane
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: De Ridder vs. Allen
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Oliveira vs. Gamrot
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 320: Ankalaev vs. Pereira 2
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Ulberg vs. Reyes
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Lopes vs. Silva
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Imavov vs. Borralho
+      ✓ 13 fights extracted
+   📈 Progress: 10/99 events processed, 130 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Walker vs. Zhang
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 319: Du Plessis vs. Chimaev
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Dolidze vs. Hernandez
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Taira vs. Park
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Whittaker vs. De Ridder
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 318: Holloway vs. Poirier 3
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Lewis vs. Teixeira
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 317: Topuria vs. Oliveira
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Hill vs. Rountree Jr.
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Usman vs. Buckley
+      ✓ 13 fights extracted
+   📈 Progress: 20/99 events processed, 252 fights collected
+
+   📋 Fetching fights for: UFC 316: Dvalishvili vs. O'Malley 2
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Blanchfield vs. Barber
+      ✓ 9 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Burns vs. Morales
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC 315: Muhammad vs. Della Maddalena
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Sandhagen vs. Figueiredo
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Machado Garry vs. Prates
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC 314: Volkanovski vs. Lopes
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Emmett vs. Murphy
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Moreno vs. Erceg
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Edwards vs. Brady
+      ✓ 13 fights extracted
+   📈 Progress: 30/99 events processed, 373 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Vettori vs. Dolidze 2
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 313: Pereira vs. Ankalaev
+      ✓ 10 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Kape vs. Almabayev
+      ✓ 10 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Cejudo vs. Song
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Cannonier vs. Rodrigues
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 312: Du Plessis vs. Strickland 2
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Adesanya vs. Imavov
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC 311: Makhachev vs. Moicano
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Dern vs. Ribas 2
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Covington vs. Buckley
+      ✓ 13 fights extracted
+   📈 Progress: 40/99 events processed, 493 fights collected
+
+   📋 Fetching fights for: UFC 310: Pantoja vs. Asakura
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Yan vs. Figueiredo
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 309: Jones vs. Miocic
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Magny vs. Prates
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Moreno vs. Albazi
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 308: Topuria vs. Holloway
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Hernandez vs. Pereira
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Royval vs. Taira
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 307: Pereira vs. Rountree Jr.
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Moicano vs. Saint Denis
+      ✓ 14 fights extracted
+   📈 Progress: 50/99 events processed, 618 fights collected
+
+   📋 Fetching fights for: UFC 306: Riyadh Season Noche UFC
+      ✓ 10 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Burns vs. Brady
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Cannonier vs. Borralho
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC 305: Du Plessis vs. Adesanya
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Tybura vs. Spivac 2
+      ✓ 10 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Sandhagen vs. Nurmagomedov
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 304: Edwards vs. Muhammad 2
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Lemos vs. Jandiroba
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Namajunas vs. Cortez
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 303: Pereira vs. Prochazka 2
+      ✓ 13 fights extracted
+   📈 Progress: 60/99 events processed, 736 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Whittaker vs. Aliskerov
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Perez vs. Taira
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Cannonier vs. Imavov
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC 302: Makhachev vs. Poirier
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Barboza vs. Murphy
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Lewis vs. Nascimento
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 301: Pantoja vs. Erceg
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Nicolau vs. Perez
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 300: Pereira vs. Hill
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Allen vs. Curtis 2
+      ✓ 12 fights extracted
+   📈 Progress: 70/99 events processed, 859 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Blanchfield vs. Fiorot
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Ribas vs. Namajunas
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Tuivasa vs. Tybura
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 299: O'Malley vs. Vera 2
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Rozenstruik vs. Gaziev
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Moreno vs. Royval 2
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 298: Volkanovski vs. Topuria
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Hermansson vs. Pyfer
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Dolidze vs. Imavov
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 297: Strickland vs. Du Plessis
+      ✓ 12 fights extracted
+   📈 Progress: 80/99 events processed, 986 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Ankalaev vs. Walker 2
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC 296: Edwards vs. Covington
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Song vs. Gutierrez
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Dariush vs. Tsarukyan
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Allen vs. Craig
+      ✓ 14 fights extracted
+   📋 Fetching fights for: UFC 295: Prochazka vs. Pereira
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Almeida vs. Lewis
+      ✓ 10 fights extracted
+   📋 Fetching fights for: UFC 294: Makhachev vs. Volkanovski 2
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Yusuff vs. Barboza
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Dawson vs. Green
+      ✓ 10 fights extracted
+   📈 Progress: 90/99 events processed, 1103 fights collected
+
+   📋 Fetching fights for: UFC Fight Night: Fiziev vs. Gamrot
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Grasso vs. Shevchenko 2
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC 293: Adesanya vs. Strickland
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Gane vs. Spivac
+      ✓ 11 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Holloway vs. The Korean Zombie
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC 292: Sterling vs. O'Malley
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Luque vs. Dos Anjos
+      ✓ 13 fights extracted
+   📋 Fetching fights for: UFC Fight Night: Sandhagen vs. Font
+      ✓ 12 fights extracted
+   📋 Fetching fights for: UFC 291: Poirier vs. Gaethje 2
+      ✓ 11 fights extracted
+
+✅ Total fights collected: 1209
+
+
+👤 Identifying origins for 793 unique fighters...
+   (80 already cached)
+
+🔍 Calling OpenAI API for: steve garcia
+✓ Cached steve garcia: United States (New Mexico) (Dagestani: false)
+🔍 Calling OpenAI API for: david onama
+✓ Cached david onama: Uganda (Dagestani: false)
+🔍 Calling OpenAI API for: waldo cortes acosta
+✓ Cached waldo cortes acosta: Dominican Republic (Dagestani: false)
+🔍 Calling OpenAI API for: ante delija
+✓ Cached ante delija: Croatia (Dagestani: false)
+🔍 Calling OpenAI API for: jeremiah wells
+✓ Cached jeremiah wells: United States (Pennsylvania) (Dagestani: false)
+   ... processed 5 new fighters
+🔍 Calling OpenAI API for: themba gorimbo
+✓ Cached themba gorimbo: Zimbabwe (Dagestani: false)
+🔍 Calling OpenAI API for: yadier del valle
+✓ Cached yadier del valle: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: isaac dulgarian
+✓ Cached isaac dulgarian: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: charles radtke
+✓ Cached charles radtke: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: daniel frunza
+✓ Cached daniel frunza: Unknown (Dagestani: false)
+   ... processed 10 new fighters
+🔍 Calling OpenAI API for: allan nascimento
+✓ Cached allan nascimento: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: cody durden
+✓ Cached cody durden: USA (Georgia) (Dagestani: false)
+🔍 Calling OpenAI API for: billy elekana
+✓ Cached billy elekana: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: kevin christian
+✓ Cached kevin christian: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: timmy cuamba
+✓ Cached timmy cuamba: Unknown (Dagestani: false)
+   ... processed 15 new fighters
+🔍 Calling OpenAI API for: changho lee
+✓ Cached changho lee: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: donte johnson
+✓ Cached donte johnson: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: sedriques dumas
+✓ Cached sedriques dumas: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: norma dumont
+✓ Cached norma dumont: Brazil (Pará) (Dagestani: false)
+🔍 Calling OpenAI API for: ketlen vieira
+✓ Cached ketlen vieira: Brazil (São Paulo) (Dagestani: false)
+   ... processed 20 new fighters
+🔍 Calling OpenAI API for: alice ardelean
+✓ Cached alice ardelean: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: montserrat conejo ruiz
+✓ Cached montserrat conejo ruiz: Mexico (Ciudad de México) (Dagestani: false)
+🔍 Calling OpenAI API for: seokhyeon ko
+✓ Cached seokhyeon ko: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: phil rowe
+✓ Cached phil rowe: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: talita alencar
+✓ Cached talita alencar: Brazil (Dagestani: false)
+   ... processed 25 new fighters
+🔍 Calling OpenAI API for: ariane carnelossi
+✓ Cached ariane carnelossi: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: n/a
+✓ Cached n/a: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: tom aspinall
+✓ Cached tom aspinall: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: mackenzie dern
+✓ Cached mackenzie dern: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: virna jandiroba
+✓ Cached virna jandiroba: Brazil (Bahia) (Dagestani: false)
+   ... processed 30 new fighters
+🔍 Calling OpenAI API for: umar nurmagomedov
+✓ Cached umar nurmagomedov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: mario bautista
+✓ Cached mario bautista: United States (Arizona) (Dagestani: false)
+🔍 Calling OpenAI API for: alexander volkov
+✓ Cached alexander volkov: Russia (St. Petersburg) (Dagestani: false)
+🔍 Calling OpenAI API for: jailton almeida
+✓ Cached jailton almeida: Brazil (Bahia) (Dagestani: false)
+🔍 Calling OpenAI API for: azamat murzakanov
+✓ Cached azamat murzakanov: Russia (Dagestani: false)
+   ... processed 35 new fighters
+🔍 Calling OpenAI API for: aleksandar rakic
+✓ Cached aleksandar rakic: Austria (Dagestani: false)
+🔍 Calling OpenAI API for: quillan salkilld
+✓ Cached quillan salkilld: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: nasrat haqparast
+✓ Cached nasrat haqparast: Afghanistan (Dagestani: false)
+🔍 Calling OpenAI API for: ikram aliskerov
+✓ Cached ikram aliskerov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: junyong park
+✓ Cached junyong park: South Korea (Dagestani: false)
+   ... processed 40 new fighters
+🔍 Calling OpenAI API for: ludovit klein
+✓ Cached ludovit klein: Slovakia (Dagestani: false)
+🔍 Calling OpenAI API for: mateusz rebecki
+✓ Cached mateusz rebecki: Poland (Dagestani: false)
+🔍 Calling OpenAI API for: valter walker
+✓ Cached valter walker: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: louie sutherland
+✓ Cached louie sutherland: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: nathaniel wood
+✓ Cached nathaniel wood: United Kingdom (England) (Dagestani: false)
+   ... processed 45 new fighters
+🔍 Calling OpenAI API for: jose delgado
+✓ Cached jose delgado: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: hamdy abdelwahab
+✓ Cached hamdy abdelwahab: Egypt (Dagestani: false)
+🔍 Calling OpenAI API for: chris barnett
+✓ Cached chris barnett: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: mitch raposo
+✓ Cached mitch raposo: United States (Massachusetts) (Dagestani: false)
+🔍 Calling OpenAI API for: azat maksum
+✓ Cached azat maksum: Russia (Dagestan) (Dagestani: true)
+   ... processed 50 new fighters
+🔍 Calling OpenAI API for: mizuki
+✓ Cached mizuki: Japan (Dagestani: false)
+🔍 Calling OpenAI API for: jaqueline amorim
+✓ Cached jaqueline amorim: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: brendan allen
+✓ Cached brendan allen: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: reinier de ridder
+✓ Cached reinier de ridder: Netherlands (North Brabant) (Dagestani: false)
+🔍 Calling OpenAI API for: mike malott
+✓ Cached mike malott: Canada (Ontario) (Dagestani: false)
+   ... processed 55 new fighters
+🔍 Calling OpenAI API for: kevin holland
+✓ Cached kevin holland: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: aiemann zahabi
+✓ Cached aiemann zahabi: Canada (Quebec) (Dagestani: false)
+🔍 Calling OpenAI API for: marlon vera
+✓ Cached marlon vera: Ecuador (Dagestani: false)
+🔍 Calling OpenAI API for: manon fiorot
+✓ Cached manon fiorot: France (Auvergne-Rhône-Alpes) (Dagestani: false)
+🔍 Calling OpenAI API for: jasmine jasudavicius
+✓ Cached jasmine jasudavicius: Canada (Ontario) (Dagestani: false)
+   ... processed 60 new fighters
+🔍 Calling OpenAI API for: charles jourdain
+✓ Cached charles jourdain: Canada (Quebec) (Dagestani: false)
+🔍 Calling OpenAI API for: davey grant
+✓ Cached davey grant: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: kyle nelson
+✓ Cached kyle nelson: Canada (Ontario) (Dagestani: false)
+🔍 Calling OpenAI API for: matt frevola
+✓ Cached matt frevola: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: drew dober
+✓ Cached drew dober: United States (Colorado) (Dagestani: false)
+   ... processed 65 new fighters
+🔍 Calling OpenAI API for: kyle prepolec
+✓ Cached kyle prepolec: Canada (Ontario) (Dagestani: false)
+🔍 Calling OpenAI API for: aoriqileng
+✓ Cached aoriqileng: China (Inner Mongolia) (Dagestani: false)
+🔍 Calling OpenAI API for: cody gibson
+✓ Cached cody gibson: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: bruno silva
+✓ Cached bruno silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: hyunsung park
+✓ Cached hyunsung park: South Korea (Dagestani: false)
+   ... processed 70 new fighters
+🔍 Calling OpenAI API for: djorden santos
+✓ Cached djorden santos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: danny barlow
+✓ Cached danny barlow: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: stephanie luciano
+✓ Cached stephanie luciano: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: ravena oliveira
+✓ Cached ravena oliveira: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: yousri belgaroui
+✓ Cached yousri belgaroui: Morocco (Dagestani: false)
+   ... processed 75 new fighters
+🔍 Calling OpenAI API for: azamat bekoev
+✓ Cached azamat bekoev: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: melissa croden
+✓ Cached melissa croden: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: tainara lisboa
+✓ Cached tainara lisboa: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: charles oliveira
+✓ Cached charles oliveira: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: mateusz gamrot
+✓ Cached mateusz gamrot: Poland (Dagestani: false)
+   ... processed 80 new fighters
+🔍 Calling OpenAI API for: deiveson figueiredo
+✓ Cached deiveson figueiredo: Brazil (Ceará) (Dagestani: false)
+🔍 Calling OpenAI API for: montel jackson
+✓ Cached montel jackson: United States (Minnesota) (Dagestani: false)
+🔍 Calling OpenAI API for: joel alvarez
+✓ Cached joel alvarez: Spain (Dagestani: false)
+🔍 Calling OpenAI API for: vicente luque
+✓ Cached vicente luque: Brazil (Paraná) (Dagestani: false)
+🔍 Calling OpenAI API for: mario pinto
+✓ Cached mario pinto: Unknown (Dagestani: false)
+   ... processed 85 new fighters
+🔍 Calling OpenAI API for: jhonata diniz
+✓ Cached jhonata diniz: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: kaan ofli
+✓ Cached kaan ofli: Turkey (Dagestani: false)
+🔍 Calling OpenAI API for: ricardo ramos
+✓ Cached ricardo ramos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: michael aswell jr.
+✓ Cached michael aswell jr.: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: lucas almeida
+✓ Cached lucas almeida: Brazil (São Paulo) (Dagestani: false)
+   ... processed 90 new fighters
+🔍 Calling OpenAI API for: jafel filho
+✓ Cached jafel filho: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: clayton carpenter
+✓ Cached clayton carpenter: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: vitor petrino
+✓ Cached vitor petrino: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: thomas petersen
+✓ Cached thomas petersen: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: bia mesquita
+✓ Cached bia mesquita: Brazil (São Paulo) (Dagestani: false)
+   ... processed 95 new fighters
+🔍 Calling OpenAI API for: irina alekseeva
+✓ Cached irina alekseeva: Russia (Tula) (Dagestani: false)
+🔍 Calling OpenAI API for: lucas rocha
+✓ Cached lucas rocha: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: stewart nicoll
+✓ Cached stewart nicoll: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: julia polastri
+✓ Cached julia polastri: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: karolina kowalkiewicz
+✓ Cached karolina kowalkiewicz: Poland (Dagestani: false)
+   ... processed 100 new fighters
+🔍 Calling OpenAI API for: luan lacerda
+✓ Cached luan lacerda: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: saimon oliveira
+✓ Cached saimon oliveira: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: alex pereira
+✓ Cached alex pereira: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: magomed ankalaev
+✓ Cached magomed ankalaev: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: merab dvalishvili
+✓ Cached merab dvalishvili: Georgia (Dagestani: false)
+   ... processed 105 new fighters
+🔍 Calling OpenAI API for: cory sandhagen
+✓ Cached cory sandhagen: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: jiri prochazka
+✓ Cached jiri prochazka: Czech Republic (Zlin Region) (Dagestani: false)
+🔍 Calling OpenAI API for: khalil rountree jr.
+✓ Cached khalil rountree jr.: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: youssef zalal
+✓ Cached youssef zalal: Morocco (Dagestani: false)
+🔍 Calling OpenAI API for: josh emmett
+✓ Cached josh emmett: USA (California) (Dagestani: false)
+   ... processed 110 new fighters
+🔍 Calling OpenAI API for: joe pyfer
+✓ Cached joe pyfer: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: abus magomedov
+✓ Cached abus magomedov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: ateba gautier
+✓ Cached ateba gautier: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: tre'ston vines
+✓ Cached tre'ston vines: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: daniel santos
+✓ Cached daniel santos: Brazil (São Paulo) (Dagestani: false)
+   ... processed 115 new fighters
+🔍 Calling OpenAI API for: joosang yoo
+✓ Cached joosang yoo: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jakub wiklacz
+✓ Cached jakub wiklacz: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: patchy mix
+✓ Cached patchy mix: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: edmen shahbazyan
+✓ Cached edmen shahbazyan: Armenia (Dagestani: false)
+🔍 Calling OpenAI API for: andre muniz
+✓ Cached andre muniz: Brazil (São Paulo) (Dagestani: false)
+   ... processed 120 new fighters
+🔍 Calling OpenAI API for: punahele soriano
+✓ Cached punahele soriano: United States (Hawaii) (Dagestani: false)
+🔍 Calling OpenAI API for: nikolay veretennikov
+✓ Cached nikolay veretennikov: Russia (Moscow) (Dagestani: false)
+🔍 Calling OpenAI API for: yana santos
+✓ Cached yana santos: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: macy chiasson
+✓ Cached macy chiasson: United States (Louisiana) (Dagestani: false)
+🔍 Calling OpenAI API for: farid basharat
+✓ Cached farid basharat: Afghanistan (Dagestani: false)
+   ... processed 125 new fighters
+🔍 Calling OpenAI API for: chris gutierrez
+✓ Cached chris gutierrez: United States (Arizona) (Dagestani: false)
+🔍 Calling OpenAI API for: ramiz brahimaj
+✓ Cached ramiz brahimaj: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: austin vanderford
+✓ Cached austin vanderford: USA (Oregon) (Dagestani: false)
+🔍 Calling OpenAI API for: veronica hardy
+✓ Cached veronica hardy: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: brogan walker
+✓ Cached brogan walker: United States (California) (Dagestani: false)
+   ... processed 130 new fighters
+🔍 Calling OpenAI API for: carlos ulberg
+✓ Cached carlos ulberg: New Zealand (Dagestani: false)
+🔍 Calling OpenAI API for: dominick reyes
+✓ Cached dominick reyes: USA (California) (Dagestani: false)
+🔍 Calling OpenAI API for: jimmy crute
+✓ Cached jimmy crute: Australia (New South Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: ivan erslan
+✓ Cached ivan erslan: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jack jenkins
+✓ Cached jack jenkins: Australia (New South Wales) (Dagestani: false)
+   ... processed 135 new fighters
+🔍 Calling OpenAI API for: ramon taveras
+✓ Cached ramon taveras: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: neil magny
+✓ Cached neil magny: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: jake matthews
+✓ Cached jake matthews: Australia (Victoria) (Dagestani: false)
+🔍 Calling OpenAI API for: tom nolan
+✓ Cached tom nolan: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: charlie campbell
+✓ Cached charlie campbell: United States (Michigan) (Dagestani: false)
+   ... processed 140 new fighters
+🔍 Calling OpenAI API for: navajo stirling
+✓ Cached navajo stirling: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rodolfo bellato
+✓ Cached rodolfo bellato: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: cam rowston
+✓ Cached cam rowston: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: andre petroski
+✓ Cached andre petroski: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: jamie mullarkey
+✓ Cached jamie mullarkey: Australia (New South Wales) (Dagestani: false)
+   ... processed 145 new fighters
+🔍 Calling OpenAI API for: rolando bedoya
+✓ Cached rolando bedoya: Peru (Dagestani: false)
+🔍 Calling OpenAI API for: colby thicknesse
+✓ Cached colby thicknesse: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: josias musasa
+✓ Cached josias musasa: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: michelle montague
+✓ Cached michelle montague: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: luana carolina
+✓ Cached luana carolina: Brazil (Santa Catarina) (Dagestani: false)
+   ... processed 150 new fighters
+🔍 Calling OpenAI API for: brando pericic
+✓ Cached brando pericic: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: elisha ellison
+✓ Cached elisha ellison: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: alexia thainara
+✓ Cached alexia thainara: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: loma lookboonmee
+✓ Cached loma lookboonmee: Thailand (Dagestani: false)
+🔍 Calling OpenAI API for: diego lopes
+✓ Cached diego lopes: Brazil (São Paulo) (Dagestani: false)
+   ... processed 155 new fighters
+🔍 Calling OpenAI API for: jean silva
+✓ Cached jean silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: david martinez
+✓ Cached david martinez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rob font
+✓ Cached rob font: United States (Massachusetts) (Dagestani: false)
+🔍 Calling OpenAI API for: rafa garcia
+✓ Cached rafa garcia: Mexico (Dagestani: false)
+🔍 Calling OpenAI API for: jared gordon
+✓ Cached jared gordon: United States (Florida) (Dagestani: false)
+   ... processed 160 new fighters
+🔍 Calling OpenAI API for: kelvin gastelum
+✓ Cached kelvin gastelum: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: dustin stoltzfus
+✓ Cached dustin stoltzfus: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: alexander hernandez
+✓ Cached alexander hernandez: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: diego ferreira
+✓ Cached diego ferreira: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: santiago luna
+✓ Cached santiago luna: Unknown (Dagestani: false)
+   ... processed 165 new fighters
+🔍 Calling OpenAI API for: quang le
+✓ Cached quang le: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: dusko todorovic
+✓ Cached dusko todorovic: Serbia (Dagestani: false)
+🔍 Calling OpenAI API for: jose daniel medina
+✓ Cached jose daniel medina: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: joaquim silva
+✓ Cached joaquim silva: Brazil (Paraná) (Dagestani: false)
+🔍 Calling OpenAI API for: claudio puelles
+✓ Cached claudio puelles: Peru (Dagestani: false)
+   ... processed 170 new fighters
+🔍 Calling OpenAI API for: tatiana suarez
+✓ Cached tatiana suarez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: amanda lemos
+✓ Cached amanda lemos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: jesus aguilar
+✓ Cached jesus aguilar: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: luis gurule
+✓ Cached luis gurule: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: alden coria
+✓ Cached alden coria: Unknown (Dagestani: false)
+   ... processed 175 new fighters
+🔍 Calling OpenAI API for: alessandro costa
+✓ Cached alessandro costa: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: montse rendon
+✓ Cached montse rendon: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: alice pereira
+✓ Cached alice pereira: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: daniil donchenko
+✓ Cached daniil donchenko: Ukraine (Dagestani: false)
+🔍 Calling OpenAI API for: rodrigo sezinando
+✓ Cached rodrigo sezinando: Unknown (Dagestani: false)
+   ... processed 180 new fighters
+🔍 Calling OpenAI API for: nassourdine imavov
+✓ Cached nassourdine imavov: France (Dagestani: false)
+🔍 Calling OpenAI API for: caio borralho
+✓ Cached caio borralho: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: mauricio ruffy
+✓ Cached mauricio ruffy: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: modestas bukauskas
+✓ Cached modestas bukauskas: Lithuania (Dagestani: false)
+🔍 Calling OpenAI API for: paul craig
+✓ Cached paul craig: Scotland (Stirling) (Dagestani: false)
+   ... processed 185 new fighters
+🔍 Calling OpenAI API for: mason jones
+✓ Cached mason jones: Wales (Cardiff) (Dagestani: false)
+🔍 Calling OpenAI API for: bolaji oki
+✓ Cached bolaji oki: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: axel sola
+✓ Cached axel sola: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rhys mckee
+✓ Cached rhys mckee: United Kingdom (Northern Ireland) (Dagestani: false)
+🔍 Calling OpenAI API for: william gomis
+✓ Cached william gomis: France (Île-de-France) (Dagestani: false)
+   ... processed 190 new fighters
+🔍 Calling OpenAI API for: robert ruchala
+✓ Cached robert ruchala: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: oumar sy
+✓ Cached oumar sy: France (Dagestani: false)
+🔍 Calling OpenAI API for: brendson ribeiro
+✓ Cached brendson ribeiro: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: marcin tybura
+✓ Cached marcin tybura: Poland (Lublin Voivodeship) (Dagestani: false)
+🔍 Calling OpenAI API for: kaue fernandes
+✓ Cached kaue fernandes: Brazil (Sao Paulo) (Dagestani: false)
+   ... processed 195 new fighters
+🔍 Calling OpenAI API for: harry hardwick
+✓ Cached harry hardwick: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: sam patterson
+✓ Cached sam patterson: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: trey waters
+✓ Cached trey waters: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: robert bryczek
+✓ Cached robert bryczek: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: brad tavares
+✓ Cached brad tavares: United States (Hawaii) (Dagestani: false)
+   ... processed 200 new fighters
+🔍 Calling OpenAI API for: rinat fakhretdinov
+✓ Cached rinat fakhretdinov: Russia (Tatarstan) (Dagestani: false)
+🔍 Calling OpenAI API for: andreas gustafsson
+✓ Cached andreas gustafsson: Sweden (Dagestani: false)
+🔍 Calling OpenAI API for: sam hughes
+✓ Cached sam hughes: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: shauna bannon
+✓ Cached shauna bannon: Ireland (Dagestani: false)
+🔍 Calling OpenAI API for: johnny walker
+✓ Cached johnny walker: Brazil (Minas Gerais) (Dagestani: false)
+   ... processed 205 new fighters
+🔍 Calling OpenAI API for: zhang mingyang
+✓ Cached zhang mingyang: China (Dagestani: false)
+🔍 Calling OpenAI API for: aljamain sterling
+✓ Cached aljamain sterling: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: brian ortega
+✓ Cached brian ortega: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: sergei pavlovich
+✓ Cached sergei pavlovich: Russia (Chelyabinsk Oblast) (Dagestani: false)
+🔍 Calling OpenAI API for: sumudaerji
+✓ Cached sumudaerji: China (Dagestani: false)
+   ... processed 210 new fighters
+🔍 Calling OpenAI API for: kevin borjas
+✓ Cached kevin borjas: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: taiyilake nueraji
+✓ Cached taiyilake nueraji: China (Dagestani: false)
+🔍 Calling OpenAI API for: kiefer crosbie
+✓ Cached kiefer crosbie: Ireland (Dagestani: false)
+🔍 Calling OpenAI API for: gauge young
+✓ Cached gauge young: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: maheshate
+✓ Cached maheshate: China (Dagestani: false)
+   ... processed 215 new fighters
+🔍 Calling OpenAI API for: charles johnson
+✓ Cached charles johnson: USA (California) (Dagestani: false)
+🔍 Calling OpenAI API for: lone'er kavanagh
+✓ Cached lone'er kavanagh: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rongzhu
+✓ Cached rongzhu: China (Dagestani: false)
+🔍 Calling OpenAI API for: austin hubbard
+✓ Cached austin hubbard: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: michel pereira
+✓ Cached michel pereira: Brazil (Minas Gerais) (Dagestani: false)
+   ... processed 220 new fighters
+🔍 Calling OpenAI API for: yizha
+✓ Cached yizha: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: westin wilson
+✓ Cached westin wilson: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: suyoung you
+✓ Cached suyoung you: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: xiao long
+✓ Cached xiao long: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: uran satybaldiev
+✓ Cached uran satybaldiev: Unknown (Dagestani: false)
+   ... processed 225 new fighters
+🔍 Calling OpenAI API for: diyar nurgozhay
+✓ Cached diyar nurgozhay: Kazakhstan (Dagestani: false)
+🔍 Calling OpenAI API for: khamzat chimaev
+✓ Cached khamzat chimaev: Russia (Chechnya) (Dagestani: false)
+🔍 Calling OpenAI API for: dricus du plessis
+✓ Cached dricus du plessis: South Africa (Gauteng) (Dagestani: false)
+🔍 Calling OpenAI API for: lerone murphy
+✓ Cached lerone murphy: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: aaron pico
+✓ Cached aaron pico: USA (California) (Dagestani: false)
+   ... processed 230 new fighters
+🔍 Calling OpenAI API for: geoff neal
+✓ Cached geoff neal: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: michael page
+✓ Cached michael page: England (London) (Dagestani: false)
+🔍 Calling OpenAI API for: jared cannonier
+✓ Cached jared cannonier: United States (Alaska) (Dagestani: false)
+🔍 Calling OpenAI API for: tim elliott
+✓ Cached tim elliott: USA (Missouri) (Dagestani: false)
+🔍 Calling OpenAI API for: kai asakura
+✓ Cached kai asakura: Japan (Dagestani: false)
+   ... processed 235 new fighters
+🔍 Calling OpenAI API for: eric nolan
+✓ Cached eric nolan: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: michal oleksiejczuk
+✓ Cached michal oleksiejczuk: Poland (Lublin Voivodeship) (Dagestani: false)
+🔍 Calling OpenAI API for: loopy godinez
+✓ Cached loopy godinez: Mexico (Dagestani: false)
+🔍 Calling OpenAI API for: jessica andrade
+✓ Cached jessica andrade: Brazil (Paraná) (Dagestani: false)
+🔍 Calling OpenAI API for: chase hooper
+✓ Cached chase hooper: United States (Washington) (Dagestani: false)
+   ... processed 240 new fighters
+🔍 Calling OpenAI API for: drakkar klose
+✓ Cached drakkar klose: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: edson barboza
+✓ Cached edson barboza: Brazil (Pará) (Dagestani: false)
+🔍 Calling OpenAI API for: karine silva
+✓ Cached karine silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: dione barbosa
+✓ Cached dione barbosa: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: alibi idiris
+✓ Cached alibi idiris: Unknown (Dagestani: false)
+   ... processed 245 new fighters
+🔍 Calling OpenAI API for: anthony hernandez
+✓ Cached anthony hernandez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: roman dolidze
+✓ Cached roman dolidze: Georgia (Dagestani: false)
+🔍 Calling OpenAI API for: steve erceg
+✓ Cached steve erceg: Australia (Dagestani: false)
+🔍 Calling OpenAI API for: ode osbourne
+✓ Cached ode osbourne: United States (Wisconsin) (Dagestani: false)
+🔍 Calling OpenAI API for: iasmin lucindo
+✓ Cached iasmin lucindo: Brazil (São Paulo) (Dagestani: false)
+   ... processed 250 new fighters
+🔍 Calling OpenAI API for: andre fili
+✓ Cached andre fili: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: christian rodriguez
+✓ Cached christian rodriguez: USA (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: jean matsumoto
+✓ Cached jean matsumoto: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: eryk anders
+✓ Cached eryk anders: United States (Alabama) (Dagestani: false)
+🔍 Calling OpenAI API for: julius walker
+✓ Cached julius walker: Unknown (Dagestani: false)
+   ... processed 255 new fighters
+🔍 Calling OpenAI API for: rafael cerquiera
+✓ Cached rafael cerquiera: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: elijah smith
+✓ Cached elijah smith: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: toshiomi kazama
+✓ Cached toshiomi kazama: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: joselyne edwards
+✓ Cached joselyne edwards: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: priscila cachoeira
+✓ Cached priscila cachoeira: Brazil (Minas Gerais) (Dagestani: false)
+   ... processed 260 new fighters
+🔍 Calling OpenAI API for: gilbert urbina
+✓ Cached gilbert urbina: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: gabriella fernandes
+✓ Cached gabriella fernandes: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: julija stoliarenko
+✓ Cached julija stoliarenko: Lithuania (Dagestani: false)
+🔍 Calling OpenAI API for: cody brundage
+✓ Cached cody brundage: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: tatsuro taira
+✓ Cached tatsuro taira: Japan (Okinawa) (Dagestani: false)
+   ... processed 265 new fighters
+🔍 Calling OpenAI API for: chris duncan
+✓ Cached chris duncan: United Kingdom (Scotland) (Dagestani: false)
+🔍 Calling OpenAI API for: esteban ribovics
+✓ Cached esteban ribovics: Argentina (Dagestani: false)
+🔍 Calling OpenAI API for: elves brener
+✓ Cached elves brener: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: karol rosa
+✓ Cached karol rosa: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: nora cornolle
+✓ Cached nora cornolle: Unknown (Dagestani: false)
+   ... processed 270 new fighters
+🔍 Calling OpenAI API for: elizeu zaleski dos santos
+✓ Cached elizeu zaleski dos santos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: kevin vallejos
+✓ Cached kevin vallejos: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: danny silva
+✓ Cached danny silva: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rinya nakamura
+✓ Cached rinya nakamura: Japan (Dagestani: false)
+🔍 Calling OpenAI API for: nathan fletcher
+✓ Cached nathan fletcher: United Kingdom (England) (Dagestani: false)
+   ... processed 275 new fighters
+🔍 Calling OpenAI API for: tresean gore
+✓ Cached tresean gore: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: andrey pulyaev
+✓ Cached andrey pulyaev: Russia (Dagestani: false)
+🔍 Calling OpenAI API for: nick klein
+✓ Cached nick klein: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: austin bashi
+✓ Cached austin bashi: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: john yannis
+✓ Cached john yannis: Unknown (Dagestani: false)
+   ... processed 280 new fighters
+🔍 Calling OpenAI API for: rafael estevam
+✓ Cached rafael estevam: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: felipe bunes
+✓ Cached felipe bunes: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: piera rodriguez
+✓ Cached piera rodriguez: Mexico (Dagestani: false)
+🔍 Calling OpenAI API for: ketlen souza
+✓ Cached ketlen souza: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: robert whittaker
+✓ Cached robert whittaker: New Zealand (Auckland) (Dagestani: false)
+   ... processed 285 new fighters
+🔍 Calling OpenAI API for: petr yan
+✓ Cached petr yan: Russia (Siberian Federal District) (Dagestani: false)
+🔍 Calling OpenAI API for: marcus mcghee
+✓ Cached marcus mcghee: United States (Georgia) (Dagestani: false)
+🔍 Calling OpenAI API for: shara magomedov
+✓ Cached shara magomedov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: marc-andre barriault
+✓ Cached marc-andre barriault: Canada (Quebec) (Dagestani: false)
+🔍 Calling OpenAI API for: jose ochoa
+✓ Cached jose ochoa: Unknown (Dagestani: false)
+   ... processed 290 new fighters
+🔍 Calling OpenAI API for: bogdan guskov
+✓ Cached bogdan guskov: Belarus (Dagestani: false)
+🔍 Calling OpenAI API for: nikita krylov
+✓ Cached nikita krylov: Ukraine (Donetsk Oblast) (Dagestani: false)
+🔍 Calling OpenAI API for: bryce mitchell
+✓ Cached bryce mitchell: United States (Arkansas) (Dagestani: false)
+🔍 Calling OpenAI API for: said nurmagomedov
+✓ Cached said nurmagomedov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: carlos leal
+✓ Cached carlos leal: Brazil (São Paulo) (Dagestani: false)
+   ... processed 295 new fighters
+🔍 Calling OpenAI API for: da'mon blackshear
+✓ Cached da'mon blackshear: United States (Virginia) (Dagestani: false)
+🔍 Calling OpenAI API for: tabatha ricci
+✓ Cached tabatha ricci: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: amanda ribas
+✓ Cached amanda ribas: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: ibo aslan
+✓ Cached ibo aslan: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: steven nguyen
+✓ Cached steven nguyen: Unknown (Dagestani: false)
+   ... processed 300 new fighters
+🔍 Calling OpenAI API for: mohammad yahya
+✓ Cached mohammad yahya: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: martin buday
+✓ Cached martin buday: Slovakia (Dagestani: false)
+🔍 Calling OpenAI API for: marcus buchecha
+✓ Cached marcus buchecha: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: max holloway
+✓ Cached max holloway: United States (Hawaii) (Dagestani: false)
+🔍 Calling OpenAI API for: dustin poirier
+✓ Cached dustin poirier: United States (Louisiana) (Dagestani: false)
+   ... processed 305 new fighters
+🔍 Calling OpenAI API for: paulo costa
+✓ Cached paulo costa: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: daniel rodriguez
+✓ Cached daniel rodriguez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: patricio freire
+✓ Cached patricio freire: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: dan ige
+✓ Cached dan ige: United States (Hawaii) (Dagestani: false)
+🔍 Calling OpenAI API for: michael johnson
+✓ Cached michael johnson: United States (New Mexico) (Dagestani: false)
+   ... processed 310 new fighters
+🔍 Calling OpenAI API for: daniel zellhuber
+✓ Cached daniel zellhuber: Mexico (Zacatecas) (Dagestani: false)
+🔍 Calling OpenAI API for: vinicius oliveira
+✓ Cached vinicius oliveira: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: kyler phillips
+✓ Cached kyler phillips: USA (Arizona) (Dagestani: false)
+🔍 Calling OpenAI API for: marvin vettori
+✓ Cached marvin vettori: Italy (Trentino-Alto Adige/Südtirol) (Dagestani: false)
+🔍 Calling OpenAI API for: francisco prado
+✓ Cached francisco prado: Brazil (São Paulo) (Dagestani: false)
+   ... processed 315 new fighters
+🔍 Calling OpenAI API for: robert valentin
+✓ Cached robert valentin: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: islam dulatov
+✓ Cached islam dulatov: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: adam fugitt
+✓ Cached adam fugitt: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: marcin prachnio
+✓ Cached marcin prachnio: Poland (Dagestani: false)
+🔍 Calling OpenAI API for: ryan spann
+✓ Cached ryan spann: United States (Virginia) (Dagestani: false)
+   ... processed 320 new fighters
+🔍 Calling OpenAI API for: lukasz brzeski
+✓ Cached lukasz brzeski: Poland (Dagestani: false)
+🔍 Calling OpenAI API for: brunno ferreira
+✓ Cached brunno ferreira: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: carli judice
+✓ Cached carli judice: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: nicolle caliari
+✓ Cached nicolle caliari: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: derrick lewis
+✓ Cached derrick lewis: United States (Louisiana) (Dagestani: false)
+   ... processed 325 new fighters
+🔍 Calling OpenAI API for: tallison teixeira
+✓ Cached tallison teixeira: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: stephen thompson
+✓ Cached stephen thompson: United States (South Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: calvin kattar
+✓ Cached calvin kattar: United States (Massachusetts) (Dagestani: false)
+🔍 Calling OpenAI API for: morgan charriere
+✓ Cached morgan charriere: France (Occitanie) (Dagestani: false)
+🔍 Calling OpenAI API for: nate landwehr
+✓ Cached nate landwehr: United States (Tennessee) (Dagestani: false)
+   ... processed 330 new fighters
+🔍 Calling OpenAI API for: austen lane
+✓ Cached austen lane: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: tuco tokkos
+✓ Cached tuco tokkos: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: junior tafa
+✓ Cached junior tafa: Australia (Dagestani: false)
+🔍 Calling OpenAI API for: chris curtis
+✓ Cached chris curtis: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: max griffin
+✓ Cached max griffin: United States (California) (Dagestani: false)
+   ... processed 335 new fighters
+🔍 Calling OpenAI API for: chidi njokuani
+✓ Cached chidi njokuani: Nigeria (Dagestani: false)
+🔍 Calling OpenAI API for: eduarda moura
+✓ Cached eduarda moura: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: lauren murphy
+✓ Cached lauren murphy: United States (Alaska) (Dagestani: false)
+🔍 Calling OpenAI API for: kennedy nzechukwu
+✓ Cached kennedy nzechukwu: Nigeria (Dagestani: false)
+🔍 Calling OpenAI API for: mike davis
+✓ Cached mike davis: USA (Florida) (Dagestani: false)
+   ... processed 340 new fighters
+🔍 Calling OpenAI API for: mitch ramirez
+✓ Cached mitch ramirez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: melissa martinez
+✓ Cached melissa martinez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: ilia topuria
+✓ Cached ilia topuria: Spain (Catalonia) (Dagestani: false)
+🔍 Calling OpenAI API for: alexandre pantoja
+✓ Cached alexandre pantoja: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: kai kara-france
+✓ Cached kai kara-france: New Zealand (Dagestani: false)
+   ... processed 345 new fighters
+🔍 Calling OpenAI API for: joshua van
+✓ Cached joshua van: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: brandon royval
+✓ Cached brandon royval: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: renato moicano
+✓ Cached renato moicano: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: payton talbott
+✓ Cached payton talbott: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: felipe lima
+✓ Cached felipe lima: Brazil (Pará) (Dagestani: false)
+   ... processed 350 new fighters
+🔍 Calling OpenAI API for: viviane araujo
+✓ Cached viviane araujo: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: terrance mckinney
+✓ Cached terrance mckinney: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: jacobe smith
+✓ Cached jacobe smith: United States (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: niko price
+✓ Cached niko price: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: alvin hines
+✓ Cached alvin hines: Unknown (Dagestani: false)
+   ... processed 355 new fighters
+🔍 Calling OpenAI API for: jamahal hill
+✓ Cached jamahal hill: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: rafael fiziev
+✓ Cached rafael fiziev: Kazakhstan (Dagestani: false)
+🔍 Calling OpenAI API for: ignacio bahamondes
+✓ Cached ignacio bahamondes: Chile (Dagestani: false)
+🔍 Calling OpenAI API for: curtis blaydes
+✓ Cached curtis blaydes: United States (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: rizvan kuniev
+✓ Cached rizvan kuniev: Russia (Dagestan) (Dagestani: true)
+   ... processed 360 new fighters
+🔍 Calling OpenAI API for: tofiq musayev
+✓ Cached tofiq musayev: Azerbaijan (Dagestani: false)
+🔍 Calling OpenAI API for: nazim sadykhov
+✓ Cached nazim sadykhov: USA (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: nikolas motta
+✓ Cached nikolas motta: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: muhammad naimov
+✓ Cached muhammad naimov: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: oban elliott
+✓ Cached oban elliott: Unknown (Dagestani: false)
+   ... processed 365 new fighters
+🔍 Calling OpenAI API for: daria zhelezniakova
+✓ Cached daria zhelezniakova: Russia (Dagestani: false)
+🔍 Calling OpenAI API for: melissa mullins
+✓ Cached melissa mullins: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: klaudia sygula
+✓ Cached klaudia sygula: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: mohammed usman
+✓ Cached mohammed usman: Nigeria (Dagestani: false)
+🔍 Calling OpenAI API for: kamaru usman
+✓ Cached kamaru usman: Nigeria (Dagestani: false)
+   ... processed 370 new fighters
+🔍 Calling OpenAI API for: joaquin buckley
+✓ Cached joaquin buckley: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: rose namajunas
+✓ Cached rose namajunas: United States (Wisconsin) (Dagestani: false)
+🔍 Calling OpenAI API for: miranda maverick
+✓ Cached miranda maverick: USA (Kentucky) (Dagestani: false)
+🔍 Calling OpenAI API for: cody garbrandt
+✓ Cached cody garbrandt: United States (Ohio) (Dagestani: false)
+🔍 Calling OpenAI API for: draw
+✓ Cached draw: Unknown (Dagestani: false)
+   ... processed 375 new fighters
+🔍 Calling OpenAI API for: mansur abdul-malik
+✓ Cached mansur abdul-malik: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: michael chiesa
+✓ Cached michael chiesa: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: court mcgee
+✓ Cached court mcgee: USA (Utah) (Dagestani: false)
+🔍 Calling OpenAI API for: kris moutinho
+✓ Cached kris moutinho: United States (Massachusetts) (Dagestani: false)
+🔍 Calling OpenAI API for: cameron smotherman
+✓ Cached cameron smotherman: United States (Ohio) (Dagestani: false)
+   ... processed 380 new fighters
+🔍 Calling OpenAI API for: ange loosa
+✓ Cached ange loosa: Australia (Dagestani: false)
+🔍 Calling OpenAI API for: jamey-lyn horth
+✓ Cached jamey-lyn horth: Canada (Dagestani: false)
+🔍 Calling OpenAI API for: vanessa demopoulos
+✓ Cached vanessa demopoulos: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: sean o'malley
+✓ Cached sean o'malley: United States (Montana) (Dagestani: false)
+🔍 Calling OpenAI API for: kayla harrison
+✓ Cached kayla harrison: United States (Ohio) (Dagestani: false)
+   ... processed 385 new fighters
+🔍 Calling OpenAI API for: julianna pena
+✓ Cached julianna pena: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: khaos williams
+✓ Cached khaos williams: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: wang cong
+✓ Cached wang cong: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: ariane da silva
+✓ Cached ariane da silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: jeka saragih
+✓ Cached jeka saragih: Indonesia (Dagestani: false)
+   ... processed 390 new fighters
+🔍 Calling OpenAI API for: yanal ashmouz
+✓ Cached yanal ashmouz: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: marquel mederos
+✓ Cached marquel mederos: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: mark choinski
+✓ Cached mark choinski: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: billy ray goff
+✓ Cached billy ray goff: United States (West Virginia) (Dagestani: false)
+🔍 Calling OpenAI API for: dustin jacoby
+✓ Cached dustin jacoby: USA (California) (Dagestani: false)
+   ... processed 395 new fighters
+🔍 Calling OpenAI API for: bruno lopes
+✓ Cached bruno lopes: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: jordan leavitt
+✓ Cached jordan leavitt: United States (Nevada) (Dagestani: false)
+🔍 Calling OpenAI API for: kurt holobaugh
+✓ Cached kurt holobaugh: United States (Louisiana) (Dagestani: false)
+🔍 Calling OpenAI API for: rayanne dos santos
+✓ Cached rayanne dos santos: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: gilbert burns
+✓ Cached gilbert burns: Brazil (Rio de Janeiro) (Dagestani: false)
+   ... processed 400 new fighters
+🔍 Calling OpenAI API for: mairon santos
+✓ Cached mairon santos: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: sodiq yusuff
+✓ Cached sodiq yusuff: Nigeria (Dagestani: false)
+🔍 Calling OpenAI API for: nursulton ruziboev
+✓ Cached nursulton ruziboev: Uzbekistan (Dagestani: false)
+🔍 Calling OpenAI API for: melquizael costa
+✓ Cached melquizael costa: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: julian erosa
+✓ Cached julian erosa: USA (Washington) (Dagestani: false)
+   ... processed 405 new fighters
+🔍 Calling OpenAI API for: gabe green
+✓ Cached gabe green: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: thiago moises
+✓ Cached thiago moises: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: connor matthews
+✓ Cached connor matthews: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: luana santos
+✓ Cached luana santos: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: elise reed
+✓ Cached elise reed: United States (New Jersey) (Dagestani: false)
+   ... processed 410 new fighters
+🔍 Calling OpenAI API for: carlos hernandez
+✓ Cached carlos hernandez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: luana pinheiro
+✓ Cached luana pinheiro: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: jose aldo
+✓ Cached jose aldo: Brazil (Amazonas) (Dagestani: false)
+🔍 Calling OpenAI API for: natalia silva
+✓ Cached natalia silva: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: alexa grasso
+✓ Cached alexa grasso: Mexico (Jalisco) (Dagestani: false)
+   ... processed 415 new fighters
+🔍 Calling OpenAI API for: ion cutelaba
+✓ Cached ion cutelaba: Moldova (Dagestani: false)
+🔍 Calling OpenAI API for: jeongyeong lee
+✓ Cached jeongyeong lee: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: brad katona
+✓ Cached brad katona: Canada (Manitoba) (Dagestani: false)
+🔍 Calling OpenAI API for: santiago ponzinibbio
+✓ Cached santiago ponzinibbio: Argentina (Buenos Aires) (Dagestani: false)
+🔍 Calling OpenAI API for: serhiy sidey
+✓ Cached serhiy sidey: Unknown (Dagestani: false)
+   ... processed 420 new fighters
+🔍 Calling OpenAI API for: jeremy stephens
+✓ Cached jeremy stephens: United States (Iowa) (Dagestani: false)
+🔍 Calling OpenAI API for: miesha tate
+✓ Cached miesha tate: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: gillian robertson
+✓ Cached gillian robertson: Canada (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: marina rodriguez
+✓ Cached marina rodriguez: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: gaston bolanos
+✓ Cached gaston bolanos: Peru (Dagestani: false)
+   ... processed 425 new fighters
+🔍 Calling OpenAI API for: don'tale mayes
+✓ Cached don'tale mayes: United States (Georgia) (Dagestani: false)
+🔍 Calling OpenAI API for: juliana miller
+✓ Cached juliana miller: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: ivana petrovic
+✓ Cached ivana petrovic: Serbia (Dagestani: false)
+🔍 Calling OpenAI API for: anthony smith
+✓ Cached anthony smith: USA (Nebraska) (Dagestani: false)
+🔍 Calling OpenAI API for: giga chikadze
+✓ Cached giga chikadze: Georgia (Dagestani: false)
+   ... processed 430 new fighters
+🔍 Calling OpenAI API for: jimmy flick
+✓ Cached jimmy flick: United States (Oklahoma) (Dagestani: false)
+🔍 Calling OpenAI API for: evan elder
+✓ Cached evan elder: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: john castaneda
+✓ Cached john castaneda: USA (Minnesota) (Dagestani: false)
+🔍 Calling OpenAI API for: alatengheili
+✓ Cached alatengheili: China (Inner Mongolia) (Dagestani: false)
+🔍 Calling OpenAI API for: cameron saaiman
+✓ Cached cameron saaiman: United States (California) (Dagestani: false)
+   ... processed 435 new fighters
+🔍 Calling OpenAI API for: polyana viana
+✓ Cached polyana viana: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: roberto romero
+✓ Cached roberto romero: Cuba (Dagestani: false)
+🔍 Calling OpenAI API for: chelsea chandler
+✓ Cached chelsea chandler: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: alexander volkanovski
+✓ Cached alexander volkanovski: Australia (New South Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: paddy pimblett
+✓ Cached paddy pimblett: United Kingdom (England) (Dagestani: false)
+   ... processed 440 new fighters
+🔍 Calling OpenAI API for: michael chandler
+✓ Cached michael chandler: USA (Indiana) (Dagestani: false)
+🔍 Calling OpenAI API for: yair rodriguez
+✓ Cached yair rodriguez: Mexico (Chihuahua) (Dagestani: false)
+🔍 Calling OpenAI API for: sean woodson
+✓ Cached sean woodson: USA (Missouri) (Dagestani: false)
+🔍 Calling OpenAI API for: yan xiaonan
+✓ Cached yan xiaonan: China (Hebei) (Dagestani: false)
+🔍 Calling OpenAI API for: jim miller
+✓ Cached jim miller: United States (New Jersey) (Dagestani: false)
+   ... processed 445 new fighters
+🔍 Calling OpenAI API for: darren elkins
+✓ Cached darren elkins: United States (Indiana) (Dagestani: false)
+🔍 Calling OpenAI API for: hailey cowan
+✓ Cached hailey cowan: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: joanderson brito
+✓ Cached joanderson brito: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: cortavious romious
+✓ Cached cortavious romious: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: torrez finney
+✓ Cached torrez finney: Unknown (Dagestani: false)
+   ... processed 450 new fighters
+🔍 Calling OpenAI API for: diana belbita
+✓ Cached diana belbita: Romania (Dagestani: false)
+🔍 Calling OpenAI API for: istela nunes
+✓ Cached istela nunes: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: victor henry
+✓ Cached victor henry: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: pedro falcao
+✓ Cached pedro falcao: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: brandon moreno
+✓ Cached brandon moreno: Mexico (Tijuana) (Dagestani: false)
+   ... processed 455 new fighters
+🔍 Calling OpenAI API for: manuel torres
+✓ Cached manuel torres: Mexico (Dagestani: false)
+🔍 Calling OpenAI API for: edgar chairez
+✓ Cached edgar chairez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: cj vergara
+✓ Cached cj vergara: United States (Louisiana) (Dagestani: false)
+🔍 Calling OpenAI API for: raul rosas jr.
+✓ Cached raul rosas jr.: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: vince morales
+✓ Cached vince morales: USA (Washington) (Dagestani: false)
+   ... processed 460 new fighters
+🔍 Calling OpenAI API for: ronaldo rodriguez
+✓ Cached ronaldo rodriguez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: vinc pichel
+✓ Cached vinc pichel: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: gabriel miranda
+✓ Cached gabriel miranda: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: jan blachowicz
+✓ Cached jan blachowicz: Poland (Masuria) (Dagestani: false)
+🔍 Calling OpenAI API for: gunnar nelson
+✓ Cached gunnar nelson: Iceland (Dagestani: false)
+   ... processed 465 new fighters
+🔍 Calling OpenAI API for: molly mccann
+✓ Cached molly mccann: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: jordan vucenic
+✓ Cached jordan vucenic: United Kingdom (Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: jai herbert
+✓ Cached jai herbert: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: felipe dos santos
+✓ Cached felipe dos santos: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: mick parkin
+✓ Cached mick parkin: United Kingdom (England) (Dagestani: false)
+   ... processed 470 new fighters
+🔍 Calling OpenAI API for: puja tomar
+✓ Cached puja tomar: India (Dagestani: false)
+🔍 Calling OpenAI API for: caolan loughran
+✓ Cached caolan loughran: Ireland (Dagestani: false)
+🔍 Calling OpenAI API for: guram kutateladze
+✓ Cached guram kutateladze: Georgia (Dagestani: false)
+🔍 Calling OpenAI API for: seungwoo choi
+✓ Cached seungwoo choi: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: aj cunningham
+✓ Cached aj cunningham: Unknown (Dagestani: false)
+   ... processed 475 new fighters
+🔍 Calling OpenAI API for: carlos vera
+✓ Cached carlos vera: Ecuador (Dagestani: false)
+🔍 Calling OpenAI API for: andre lima
+✓ Cached andre lima: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: daniel barez
+✓ Cached daniel barez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: josiane nunes
+✓ Cached josiane nunes: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: yuneisy duben
+✓ Cached yuneisy duben: Unknown (Dagestani: false)
+   ... processed 480 new fighters
+🔍 Calling OpenAI API for: justin gaethje
+✓ Cached justin gaethje: United States (Arizona) (Dagestani: false)
+🔍 Calling OpenAI API for: jalin turner
+✓ Cached jalin turner: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: king green
+✓ Cached king green: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: rei tsuruya
+✓ Cached rei tsuruya: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: armen petrosyan
+✓ Cached armen petrosyan: Armenia (Dagestani: false)
+   ... processed 485 new fighters
+🔍 Calling OpenAI API for: alex morono
+✓ Cached alex morono: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: francis marshall
+✓ Cached francis marshall: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: ozzy diaz
+✓ Cached ozzy diaz: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: manel kape
+✓ Cached manel kape: Angola (Dagestani: false)
+🔍 Calling OpenAI API for: julian marquez
+✓ Cached julian marquez: United States (Missouri) (Dagestani: false)
+   ... processed 490 new fighters
+🔍 Calling OpenAI API for: jj aldrich
+✓ Cached jj aldrich: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: andrea lee
+✓ Cached andrea lee: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: ramazan temirov
+✓ Cached ramazan temirov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: song yadong
+✓ Cached song yadong: China (Shijiazhuang, Hebei) (Dagestani: false)
+🔍 Calling OpenAI API for: henry cejudo
+✓ Cached henry cejudo: United States (California) (Dagestani: false)
+   ... processed 495 new fighters
+🔍 Calling OpenAI API for: melsik baghdasaryan
+✓ Cached melsik baghdasaryan: Armenia (Dagestani: false)
+🔍 Calling OpenAI API for: javid basharat
+✓ Cached javid basharat: Afghanistan (Dagestani: false)
+🔍 Calling OpenAI API for: dylan budka
+✓ Cached dylan budka: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: julia avila
+✓ Cached julia avila: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: sean strickland
+✓ Cached sean strickland: United States (California) (Dagestani: false)
+   ... processed 500 new fighters
+🔍 Calling OpenAI API for: justin tafa
+✓ Cached justin tafa: Australia (Dagestani: false)
+🔍 Calling OpenAI API for: gabriel santos
+✓ Cached gabriel santos: Brazil (Sao Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: bruna brasil
+✓ Cached bruna brasil: Brazil (Sao Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: kody steele
+✓ Cached kody steele: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: jonathan micallef
+✓ Cached jonathan micallef: Unknown (Dagestani: false)
+   ... processed 505 new fighters
+🔍 Calling OpenAI API for: kevin jousset
+✓ Cached kevin jousset: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: anshul jubli
+✓ Cached anshul jubli: India (Dagestani: false)
+🔍 Calling OpenAI API for: israel adesanya
+✓ Cached israel adesanya: New Zealand (Dagestani: false)
+🔍 Calling OpenAI API for: jairzinho rozenstruik
+✓ Cached jairzinho rozenstruik: Suriname (Dagestani: false)
+🔍 Calling OpenAI API for: fares ziam
+✓ Cached fares ziam: France (Aisne) (Dagestani: false)
+   ... processed 510 new fighters
+🔍 Calling OpenAI API for: damir hadzovic
+✓ Cached damir hadzovic: Bosnia and Herzegovina (Zenica-Doboj Canton) (Dagestani: false)
+🔍 Calling OpenAI API for: lucas alexander
+✓ Cached lucas alexander: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jamal pogues
+✓ Cached jamal pogues: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: grant dawson
+✓ Cached grant dawson: United States (Kansas) (Dagestani: false)
+🔍 Calling OpenAI API for: ailin perez
+✓ Cached ailin perez: Argentina (Dagestani: false)
+   ... processed 515 new fighters
+🔍 Calling OpenAI API for: muin gafurov
+✓ Cached muin gafurov: Tajikistan (Dagestani: false)
+🔍 Calling OpenAI API for: benardo sopaj
+✓ Cached benardo sopaj: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: ricky turcios
+✓ Cached ricky turcios: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: carlston harris
+✓ Cached carlston harris: Guyana (Dagestani: false)
+🔍 Calling OpenAI API for: cesar almeida
+✓ Cached cesar almeida: Brazil (São Paulo) (Dagestani: false)
+   ... processed 520 new fighters
+🔍 Calling OpenAI API for: abdul razak alhassan
+✓ Cached abdul razak alhassan: Ghana (Dagestani: false)
+🔍 Calling OpenAI API for: jose johnson
+✓ Cached jose johnson: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: ihor potieria
+✓ Cached ihor potieria: Ukraine (Kyiv) (Dagestani: false)
+🔍 Calling OpenAI API for: trey ogden
+✓ Cached trey ogden: United States (Missouri) (Dagestani: false)
+🔍 Calling OpenAI API for: preston parsons
+✓ Cached preston parsons: USA (Florida) (Dagestani: false)
+   ... processed 525 new fighters
+🔍 Calling OpenAI API for: ernesta kareckaite
+✓ Cached ernesta kareckaite: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: magomed gadzhiyasulov
+✓ Cached magomed gadzhiyasulov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: viktoriia dudakova
+✓ Cached viktoriia dudakova: Ukraine (Dagestani: false)
+🔍 Calling OpenAI API for: joe solecki
+✓ Cached joe solecki: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: colby covington
+✓ Cached colby covington: United States (Oregon) (Dagestani: false)
+   ... processed 530 new fighters
+🔍 Calling OpenAI API for: cub swanson
+✓ Cached cub swanson: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: billy quarantillo
+✓ Cached billy quarantillo: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: adrian yanez
+✓ Cached adrian yanez: United States (Texas) (Dagestani: false)
+🔍 Calling OpenAI API for: ottman azaitar
+✓ Cached ottman azaitar: Morocco (Dagestani: false)
+🔍 Calling OpenAI API for: fernando padilla
+✓ Cached fernando padilla: Mexico (Dagestani: false)
+   ... processed 535 new fighters
+🔍 Calling OpenAI API for: josefine knutsson
+✓ Cached josefine knutsson: Sweden (Dagestani: false)
+🔍 Calling OpenAI API for: shavkat rakhmonov
+✓ Cached shavkat rakhmonov: Kazakhstan (Dagestani: false)
+🔍 Calling OpenAI API for: ciryl gane
+✓ Cached ciryl gane: France (Île-de-France) (Dagestani: false)
+🔍 Calling OpenAI API for: kron gracie
+✓ Cached kron gracie: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: dooho choi
+✓ Cached dooho choi: South Korea (Seoul) (Dagestani: false)
+   ... processed 540 new fighters
+🔍 Calling OpenAI API for: movsar evloev
+✓ Cached movsar evloev: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: bryan battle
+✓ Cached bryan battle: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: chris weidman
+✓ Cached chris weidman: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: clay guida
+✓ Cached clay guida: USA (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: song kenan
+✓ Cached song kenan: China (Dagestani: false)
+   ... processed 545 new fighters
+🔍 Calling OpenAI API for: baergeng jieleyisi
+✓ Cached baergeng jieleyisi: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: donghun choi
+✓ Cached donghun choi: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: kiru sahota
+✓ Cached kiru sahota: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: shi ming
+✓ Cached shi ming: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: feng xiaocan
+✓ Cached feng xiaocan: China (Dagestani: false)
+   ... processed 550 new fighters
+🔍 Calling OpenAI API for: nyamjargal tumendemberel
+✓ Cached nyamjargal tumendemberel: Mongolia (Dagestani: false)
+🔍 Calling OpenAI API for: jon jones
+✓ Cached jon jones: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: stipe miocic
+✓ Cached stipe miocic: United States (Ohio) (Dagestani: false)
+🔍 Calling OpenAI API for: james llontop
+✓ Cached james llontop: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jonathan martinez
+✓ Cached jonathan martinez: USA (New Mexico) (Dagestani: false)
+   ... processed 555 new fighters
+🔍 Calling OpenAI API for: damon jackson
+✓ Cached damon jackson: United States (Missouri) (Dagestani: false)
+🔍 Calling OpenAI API for: mickey gall
+✓ Cached mickey gall: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: bassil hafez
+✓ Cached bassil hafez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: zachary scroggin
+✓ Cached zachary scroggin: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: matthew semelsberger
+✓ Cached matthew semelsberger: United States (New Jersey) (Dagestani: false)
+   ... processed 560 new fighters
+🔍 Calling OpenAI API for: cody stamann
+✓ Cached cody stamann: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: antonio trocoli
+✓ Cached antonio trocoli: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: amir albazi
+✓ Cached amir albazi: Iraq (Dagestani: false)
+🔍 Calling OpenAI API for: caio machado
+✓ Cached caio machado: Brazil (Dagestani: false)
+🔍 Calling OpenAI API for: trevin giles
+✓ Cached trevin giles: United States (Texas) (Dagestani: false)
+   ... processed 565 new fighters
+🔍 Calling OpenAI API for: pedro munhoz
+✓ Cached pedro munhoz: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: jack shore
+✓ Cached jack shore: United Kingdom (Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: alexandr romanov
+✓ Cached alexandr romanov: Moldova (Dagestani: false)
+🔍 Calling OpenAI API for: rodrigo nascimento
+✓ Cached rodrigo nascimento: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: garrett armfield
+✓ Cached garrett armfield: United States (Florida) (Dagestani: false)
+   ... processed 570 new fighters
+🔍 Calling OpenAI API for: chad anheliger
+✓ Cached chad anheliger: Canada (Alberta) (Dagestani: false)
+🔍 Calling OpenAI API for: rafael dos anjos
+✓ Cached rafael dos anjos: Brazil (Rio de Janeiro) (Dagestani: false)
+🔍 Calling OpenAI API for: victor hugo
+✓ Cached victor hugo: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jake hadley
+✓ Cached jake hadley: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: daniel pineda
+✓ Cached daniel pineda: USA (Texas) (Dagestani: false)
+   ... processed 575 new fighters
+🔍 Calling OpenAI API for: matheus nicolau
+✓ Cached matheus nicolau: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: tamires vidal
+✓ Cached tamires vidal: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: jessica penne
+✓ Cached jessica penne: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: robelis despaigne
+✓ Cached robelis despaigne: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: jared gooden
+✓ Cached jared gooden: USA (Georgia) (Dagestani: false)
+   ... processed 580 new fighters
+🔍 Calling OpenAI API for: jonathan pearce
+✓ Cached jonathan pearce: USA (California) (Dagestani: false)
+🔍 Calling OpenAI API for: sean sharaf
+✓ Cached sean sharaf: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: cory mckenna
+✓ Cached cory mckenna: United Kingdom (Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: cody haddon
+✓ Cached cody haddon: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: dan argueta
+✓ Cached dan argueta: USA (Illinois) (Dagestani: false)
+   ... processed 585 new fighters
+🔍 Calling OpenAI API for: raquel pennington
+✓ Cached raquel pennington: USA (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: ovince saint preux
+✓ Cached ovince saint preux: United States (Tennessee) (Dagestani: false)
+🔍 Calling OpenAI API for: carla esparza
+✓ Cached carla esparza: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: tim means
+✓ Cached tim means: United States (New Mexico) (Dagestani: false)
+🔍 Calling OpenAI API for: da woon jung
+✓ Cached da woon jung: South Korea (Dagestani: false)
+   ... processed 590 new fighters
+🔍 Calling OpenAI API for: roosevelt roberts
+✓ Cached roosevelt roberts: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: taylor lapilus
+✓ Cached taylor lapilus: France (Île-de-France) (Dagestani: false)
+🔍 Calling OpenAI API for: victor altamirano
+✓ Cached victor altamirano: United States (Nevada) (Dagestani: false)
+🔍 Calling OpenAI API for: irene aldana
+✓ Cached irene aldana: Mexico (Sinaloa) (Dagestani: false)
+🔍 Calling OpenAI API for: yazmin jauregui
+✓ Cached yazmin jauregui: Mexico (Dagestani: false)
+   ... processed 595 new fighters
+🔍 Calling OpenAI API for: trevor peek
+✓ Cached trevor peek: United States (Ohio) (Dagestani: false)
+🔍 Calling OpenAI API for: brendon marotte
+✓ Cached brendon marotte: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: zygimantas ramaska
+✓ Cached zygimantas ramaska: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: dennis buzukja
+✓ Cached dennis buzukja: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: victoria leonardo
+✓ Cached victoria leonardo: United States (California) (Dagestani: false)
+   ... processed 600 new fighters
+🔍 Calling OpenAI API for: tai tuivasa
+✓ Cached tai tuivasa: Australia (New South Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: li jingliang
+✓ Cached li jingliang: China (Xinjiang) (Dagestani: false)
+🔍 Calling OpenAI API for: josh culibao
+✓ Cached josh culibao: Australia (Dagestani: false)
+🔍 Calling OpenAI API for: casey o'neill
+✓ Cached casey o'neill: Australia (Queensland) (Dagestani: false)
+🔍 Calling OpenAI API for: herbert burns
+✓ Cached herbert burns: Brazil (São Paulo) (Dagestani: false)
+   ... processed 605 new fighters
+🔍 Calling OpenAI API for: alex reyes
+✓ Cached alex reyes: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: ricky glenn
+✓ Cached ricky glenn: United States (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: charalampos grigoriou
+✓ Cached charalampos grigoriou: Greece (Dagestani: false)
+🔍 Calling OpenAI API for: pannie kianzad
+✓ Cached pannie kianzad: Sweden (Dagestani: false)
+🔍 Calling OpenAI API for: karl williams
+✓ Cached karl williams: Australia (Dagestani: false)
+   ... processed 610 new fighters
+🔍 Calling OpenAI API for: jarno errens
+✓ Cached jarno errens: Netherlands (Dagestani: false)
+🔍 Calling OpenAI API for: tony ferguson
+✓ Cached tony ferguson: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: denis tiuliulin
+✓ Cached denis tiuliulin: Russia (Sverdlovsk Oblast) (Dagestani: false)
+🔍 Calling OpenAI API for: arnold allen
+✓ Cached arnold allen: United Kingdom (Norfolk) (Dagestani: false)
+🔍 Calling OpenAI API for: muhammad mokaev
+✓ Cached muhammad mokaev: Russia (Dagestan) (Dagestani: true)
+   ... processed 615 new fighters
+🔍 Calling OpenAI API for: kaynan kruschewsky
+✓ Cached kaynan kruschewsky: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: bill algeo
+✓ Cached bill algeo: United States (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: brian kelleher
+✓ Cached brian kelleher: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: loik radzhabov
+✓ Cached loik radzhabov: Russia (Dagestan) (Dagestani: true)
+🔍 Calling OpenAI API for: lucie pudilova
+✓ Cached lucie pudilova: Czech Republic (Dagestani: false)
+   ... processed 620 new fighters
+🔍 Calling OpenAI API for: mariya agapova
+✓ Cached mariya agapova: Russia (Moscow) (Dagestani: false)
+🔍 Calling OpenAI API for: josh fremd
+✓ Cached josh fremd: United States (Ohio) (Dagestani: false)
+🔍 Calling OpenAI API for: darrius flowers
+✓ Cached darrius flowers: USA (California) (Dagestani: false)
+🔍 Calling OpenAI API for: yanis ghemmouri
+✓ Cached yanis ghemmouri: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: michelle waterson-gomez
+✓ Cached michelle waterson-gomez: United States (Colorado) (Dagestani: false)
+   ... processed 625 new fighters
+🔍 Calling OpenAI API for: andrei arlovski
+✓ Cached andrei arlovski: Belarus (Minsk) (Dagestani: false)
+🔍 Calling OpenAI API for: kyung ho kang
+✓ Cached kyung ho kang: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: douglas silva de andrade
+✓ Cached douglas silva de andrade: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: brady hiestand
+✓ Cached brady hiestand: United States (Washington) (Dagestani: false)
+🔍 Calling OpenAI API for: josh quinlan
+✓ Cached josh quinlan: USA (Hawaii) (Dagestani: false)
+   ... processed 630 new fighters
+🔍 Calling OpenAI API for: nate maness
+✓ Cached nate maness: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: shayilan nuerdanbieke
+✓ Cached shayilan nuerdanbieke: China (Xinjiang) (Dagestani: false)
+🔍 Calling OpenAI API for: miguel baeza
+✓ Cached miguel baeza: USA (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: jesse butler
+✓ Cached jesse butler: United States (Iowa) (Dagestani: false)
+🔍 Calling OpenAI API for: montana de la rosa
+✓ Cached montana de la rosa: United States (New Mexico) (Dagestani: false)
+   ... processed 635 new fighters
+🔍 Calling OpenAI API for: vinicius salvador
+✓ Cached vinicius salvador: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: victor martinez
+✓ Cached victor martinez: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: melissa gatto
+✓ Cached melissa gatto: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: warlley alves
+✓ Cached warlley alves: Brazil (Rio de Janeiro) (Dagestani: false)
+🔍 Calling OpenAI API for: kleydson rodrigues
+✓ Cached kleydson rodrigues: Brazil (São Paulo) (Dagestani: false)
+   ... processed 640 new fighters
+🔍 Calling OpenAI API for: emily ducote
+✓ Cached emily ducote: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: alex caceres
+✓ Cached alex caceres: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: rani yahya
+✓ Cached rani yahya: Brazil (Brasília) (Dagestani: false)
+🔍 Calling OpenAI API for: michal figlak
+✓ Cached michal figlak: Poland (Dagestani: false)
+🔍 Calling OpenAI API for: marnic mann
+✓ Cached marnic mann: Unknown (Dagestani: false)
+   ... processed 645 new fighters
+🔍 Calling OpenAI API for: liang na
+✓ Cached liang na: China (Dagestani: false)
+🔍 Calling OpenAI API for: gabriel benitez
+✓ Cached gabriel benitez: Mexico (Sonora) (Dagestani: false)
+🔍 Calling OpenAI API for: holly holm
+✓ Cached holly holm: United States (New Mexico) (Dagestani: false)
+🔍 Calling OpenAI API for: christos giagos
+✓ Cached christos giagos: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: germaine de randamie
+✓ Cached germaine de randamie: Netherlands (Dagestani: false)
+   ... processed 650 new fighters
+🔍 Calling OpenAI API for: julio arce
+✓ Cached julio arce: United States (New York) (Dagestani: false)
+🔍 Calling OpenAI API for: anton turkalj
+✓ Cached anton turkalj: Sweden (Dagestani: false)
+🔍 Calling OpenAI API for: jacob malkoun
+✓ Cached jacob malkoun: Australia (Victoria) (Dagestani: false)
+🔍 Calling OpenAI API for: angel pacheco
+✓ Cached angel pacheco: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: aj dobson
+✓ Cached aj dobson: United States (Ohio) (Dagestani: false)
+   ... processed 655 new fighters
+🔍 Calling OpenAI API for: luis pajuelo
+✓ Cached luis pajuelo: Peru (Dagestani: false)
+🔍 Calling OpenAI API for: igor severino
+✓ Cached igor severino: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: bryan barberena
+✓ Cached bryan barberena: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: natan levy
+✓ Cached natan levy: Israel (Dagestani: false)
+🔍 Calling OpenAI API for: maycee barber
+✓ Cached maycee barber: United States (Colorado) (Dagestani: false)
+   ... processed 660 new fighters
+🔍 Calling OpenAI API for: katlyn cerminara
+✓ Cached katlyn cerminara: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: philipe lins
+✓ Cached philipe lins: Brazil (Paraná) (Dagestani: false)
+🔍 Calling OpenAI API for: josh parisian
+✓ Cached josh parisian: United States (Michigan) (Dagestani: false)
+🔍 Calling OpenAI API for: joanne wood
+✓ Cached joanne wood: United Kingdom (Scotland) (Dagestani: false)
+🔍 Calling OpenAI API for: maryna moroz
+✓ Cached maryna moroz: Ukraine (Lviv Oblast) (Dagestani: false)
+   ... processed 665 new fighters
+🔍 Calling OpenAI API for: tyson pedro
+✓ Cached tyson pedro: Australia (New South Wales) (Dagestani: false)
+🔍 Calling OpenAI API for: jamie pickett
+✓ Cached jamie pickett: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: claudio ribeiro
+✓ Cached claudio ribeiro: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: abdul-kareem al-selwady
+✓ Cached abdul-kareem al-selwady: Jordan (Dagestani: false)
+🔍 Calling OpenAI API for: cristian quinonez
+✓ Cached cristian quinonez: Mexico (Dagestani: false)
+   ... processed 670 new fighters
+🔍 Calling OpenAI API for: mateus mendonca
+✓ Cached mateus mendonca: Brazil (São Paulo) (Dagestani: false)
+🔍 Calling OpenAI API for: daniel lacerda
+✓ Cached daniel lacerda: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: denys bondar
+✓ Cached denys bondar: Ukraine (Kharkiv) (Dagestani: false)
+🔍 Calling OpenAI API for: erik silva
+✓ Cached erik silva: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: marcos rogerio de lima
+✓ Cached marcos rogerio de lima: Brazil (Minas Gerais) (Dagestani: false)
+   ... processed 675 new fighters
+🔍 Calling OpenAI API for: val woodburn
+✓ Cached val woodburn: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: devin clark
+✓ Cached devin clark: United States (South Dakota) (Dagestani: false)
+🔍 Calling OpenAI API for: zac pauga
+✓ Cached zac pauga: United States (Colorado) (Dagestani: false)
+🔍 Calling OpenAI API for: fernie garcia
+✓ Cached fernie garcia: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: aliaskhab khizriev
+✓ Cached aliaskhab khizriev: Russia (Dagestan) (Dagestani: true)
+   ... processed 680 new fighters
+🔍 Calling OpenAI API for: pete rodriguez
+✓ Cached pete rodriguez: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: blake bilder
+✓ Cached blake bilder: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: landon quinones
+✓ Cached landon quinones: USA (California) (Dagestani: false)
+🔍 Calling OpenAI API for: yohan lainesse
+✓ Cached yohan lainesse: Canada (Dagestani: false)
+🔍 Calling OpenAI API for: malcolm gordon
+✓ Cached malcolm gordon: Canada (Alberta) (Dagestani: false)
+   ... processed 685 new fighters
+🔍 Calling OpenAI API for: phil hawes
+✓ Cached phil hawes: United States (New Jersey) (Dagestani: false)
+🔍 Calling OpenAI API for: shannon ross
+✓ Cached shannon ross: Australia (Queensland) (Dagestani: false)
+🔍 Calling OpenAI API for: stephanie egger
+✓ Cached stephanie egger: Switzerland (Dagestani: false)
+🔍 Calling OpenAI API for: wellington turman
+✓ Cached wellington turman: Brazil (Santa Catarina) (Dagestani: false)
+🔍 Calling OpenAI API for: nick aguirre
+✓ Cached nick aguirre: Unknown (Dagestani: false)
+   ... processed 690 new fighters
+🔍 Calling OpenAI API for: mark madsen
+✓ Cached mark madsen: Denmark (Dagestani: false)
+🔍 Calling OpenAI API for: marc diakiese
+✓ Cached marc diakiese: United Kingdom (England) (Dagestani: false)
+🔍 Calling OpenAI API for: abu azaitar
+✓ Cached abu azaitar: Germany (Baden-Württemberg) (Dagestani: false)
+🔍 Calling OpenAI API for: mike breeden
+✓ Cached mike breeden: United States (Missouri) (Dagestani: false)
+🔍 Calling OpenAI API for: jinh yu frey
+✓ Cached jinh yu frey: United States (Texas) (Dagestani: false)
+   ... processed 695 new fighters
+🔍 Calling OpenAI API for: jennifer maia
+✓ Cached jennifer maia: Brazil (Paraná) (Dagestani: false)
+🔍 Calling OpenAI API for: tj brown
+✓ Cached tj brown: USA (Arkansas) (Dagestani: false)
+🔍 Calling OpenAI API for: ashley yoder
+✓ Cached ashley yoder: United States (California) (Dagestani: false)
+🔍 Calling OpenAI API for: kanako murata
+✓ Cached kanako murata: Japan (Osaka) (Dagestani: false)
+🔍 Calling OpenAI API for: johnny munoz
+✓ Cached johnny munoz: United States (California) (Dagestani: false)
+   ... processed 700 new fighters
+🔍 Calling OpenAI API for: aj fletcher
+✓ Cached aj fletcher: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: andre fialho
+✓ Cached andre fialho: Portugal (Dagestani: false)
+🔍 Calling OpenAI API for: jake collier
+✓ Cached jake collier: USA (Illinois) (Dagestani: false)
+🔍 Calling OpenAI API for: hannah goldy
+✓ Cached hannah goldy: United States (Florida) (Dagestani: false)
+🔍 Calling OpenAI API for: terrence mitchell
+✓ Cached terrence mitchell: United States (Michigan) (Dagestani: false)
+   ... processed 705 new fighters
+🔍 Calling OpenAI API for: john makdessi
+✓ Cached john makdessi: Canada (Dagestani: false)
+🔍 Calling OpenAI API for: blood diamond
+✓ Cached blood diamond: New Zealand (Dagestani: false)
+🔍 Calling OpenAI API for: shane young
+✓ Cached shane young: New Zealand (Dagestani: false)
+🔍 Calling OpenAI API for: manolo zecchini
+✓ Cached manolo zecchini: Unknown (Dagestani: false)
+🔍 Calling OpenAI API for: zarah fairn
+✓ Cached zarah fairn: Unknown (Dagestani: false)
+   ... processed 710 new fighters
+🔍 Calling OpenAI API for: chan sung jung
+✓ Cached chan sung jung: South Korea (Dagestani: false)
+🔍 Calling OpenAI API for: taila santos
+✓ Cached taila santos: Brazil (Minas Gerais) (Dagestani: false)
+🔍 Calling OpenAI API for: parker porter
+✓ Cached parker porter: United States (Connecticut) (Dagestani: false)
+🔍 Calling OpenAI API for: yusaku kinoshita
+✓ Cached yusaku kinoshita: Japan (Dagestani: false)
+🔍 Calling OpenAI API for: hakeem dawodu
+✓ Cached hakeem dawodu: Canada (Alberta) (Dagestani: false)
+   ... processed 715 new fighters
+🔍 Calling OpenAI API for: chris daukaus
+✓ Cached chris daukaus: USA (Pennsylvania) (Dagestani: false)
+🔍 Calling OpenAI API for: tafon nchukwi
+✓ Cached tafon nchukwi: Cameroon (Dagestani: false)
+🔍 Calling OpenAI API for: jp buys
+✓ Cached jp buys: United States (North Carolina) (Dagestani: false)
+🔍 Calling OpenAI API for: gavin tucker
+✓ Cached gavin tucker: Canada (Nova Scotia) (Dagestani: false)
+🔍 Calling OpenAI API for: tanner boser
+✓ Cached tanner boser: Canada (Alberta) (Dagestani: false)
+   ... processed 720 new fighters
+🔍 Calling OpenAI API for: aleksa camur
+✓ Cached aleksa camur: Serbia (Dagestani: false)
+
+✅ Fighter cache updated (721 new OpenAI calls)
+
+
+📊 Results:
+   Total fights analyzed: 1209
+   Dagestani fights found: 52
+
+Dagestani fights:
+1. Islam Makhachev vs Jack Della Maddalena
+   ✅ WIN - Islam Makhachev (Unknown)
+   UFC 322: Della Maddalena vs. Makhachev - November 15, 2025
+
+2. Umar Nurmagomedov vs Mario Bautista
+   ✅ WIN - Umar Nurmagomedov (Unknown)
+   UFC 321: Aspinall vs. Gane - October 25, 2025
+
+3. Ikram Aliskerov vs JunYong Park
+   ✅ WIN - Ikram Aliskerov (Unknown)
+   UFC 321: Aspinall vs. Gane - October 25, 2025
+
+4. Mitch Raposo vs Azat Maksum
+   ❌ LOSS - Azat Maksum (Unknown)
+   UFC 321: Aspinall vs. Gane - October 25, 2025
+
+5. Yousri Belgaroui vs Azamat Bekoev
+   ❌ LOSS - Azamat Bekoev (KO/TKO)
+   UFC Fight Night: De Ridder vs. Allen - October 18, 2025
+
+6. Alex Pereira vs Magomed Ankalaev
+   ❌ LOSS - Magomed Ankalaev (KO/TKO)
+   UFC 320: Ankalaev vs. Pereira 2 - October 04, 2025
+
+7. Joe Pyfer vs Abus Magomedov
+   ❌ LOSS - Abus Magomedov (SUB)
+   UFC 320: Ankalaev vs. Pereira 2 - October 04, 2025
+
+8. Shara Magomedov vs Marc-Andre Barriault
+   ✅ WIN - Shara Magomedov (Unknown)
+   UFC Fight Night: Whittaker vs. De Ridder - July 26, 2025
+
+9. Bryce Mitchell vs Said Nurmagomedov
+   ❌ LOSS - Said Nurmagomedov (Unknown)
+   UFC Fight Night: Whittaker vs. De Ridder - July 26, 2025
+
+10. Curtis Blaydes vs Rizvan Kuniev
+   ❌ LOSS - Rizvan Kuniev (Unknown)
+   UFC Fight Night: Hill vs. Rountree Jr. - June 21, 2025
+
+11. Tagir Ulanbekov vs Azat Maksum
+   ✅ WIN - Tagir Ulanbekov (Unknown)
+   UFC Fight Night: Hill vs. Rountree Jr. - June 21, 2025
+
+12. Azamat Bekoev vs Ryan Loder
+   ✅ WIN - Azamat Bekoev (KO/TKO)
+   UFC Fight Night: Sandhagen vs. Figueiredo - May 03, 2025
+
+13. Abus Magomedov vs Michel Pereira
+   ✅ WIN - Abus Magomedov (Unknown)
+   UFC Fight Night: Machado Garry vs. Prates - April 26, 2025
+
+14. Ikram Aliskerov vs Andre Muniz
+   ✅ WIN - Ikram Aliskerov (KO/TKO)
+   UFC Fight Night: Machado Garry vs. Prates - April 26, 2025
+
+15. Magomed Ankalaev vs Alex Pereira
+   ✅ WIN - Magomed Ankalaev (Unknown)
+   UFC 313: Pereira vs. Ankalaev - March 08, 2025
+
+16. Ramazan Temirov vs Charles Johnson
+   ✅ WIN - Ramazan Temirov (Unknown)
+   UFC Fight Night: Kape vs. Almabayev - March 01, 2025
+
+17. Michael Page vs Shara Magomedov
+   ❌ LOSS - Shara Magomedov (Unknown)
+   UFC Fight Night: Adesanya vs. Imavov - February 01, 2025
+
+18. Vinicius Oliveira vs Said Nurmagomedov
+   ❌ LOSS - Said Nurmagomedov (Unknown)
+   UFC Fight Night: Adesanya vs. Imavov - February 01, 2025
+
+19. Islam Makhachev vs Renato Moicano
+   ✅ WIN - Islam Makhachev (SUB)
+   UFC 311: Makhachev vs. Moicano - January 18, 2025
+
+20. Merab Dvalishvili vs Umar Nurmagomedov
+   ❌ LOSS - Umar Nurmagomedov (Unknown)
+   UFC 311: Makhachev vs. Moicano - January 18, 2025
+
+21. Azamat Bekoev vs Zach Reese
+   ✅ WIN - Azamat Bekoev (KO/TKO)
+   UFC 311: Makhachev vs. Moicano - January 18, 2025
+
+22. Tagir Ulanbekov vs Clayton Carpenter
+   ✅ WIN - Tagir Ulanbekov (Unknown)
+   UFC 311: Makhachev vs. Moicano - January 18, 2025
+
+23. Bruno Lopes vs Magomed Gadzhiyasulov
+   ❌ LOSS - Magomed Gadzhiyasulov (Unknown)
+   UFC Fight Night: Dern vs. Ribas 2 - January 11, 2025
+
+24. Movsar Evloev vs Aljamain Sterling
+   ✅ WIN - Movsar Evloev (Unknown)
+   UFC 310: Pantoja vs. Asakura - December 07, 2024
+
+25. Magomed Ankalaev vs Aleksandar Rakic
+   ✅ WIN - Magomed Ankalaev (Unknown)
+   UFC 308: Topuria vs. Holloway - October 26, 2024
+
+26. Shara Magomedov vs Armen Petrosyan
+   ✅ WIN - Shara Magomedov (KO/TKO)
+   UFC 308: Topuria vs. Holloway - October 26, 2024
+
+27. Abus Magomedov vs Brunno Ferreira
+   ✅ WIN - Abus Magomedov (SUB)
+   UFC 308: Topuria vs. Holloway - October 26, 2024
+
+28. Ramazan Temirov vs CJ Vergara
+   ✅ WIN - Ramazan Temirov (KO/TKO)
+   UFC Fight Night: Royval vs. Taira - October 12, 2024
+
+29. Umar Nurmagomedov vs Cory Sandhagen
+   ✅ WIN - Umar Nurmagomedov (Unknown)
+   UFC Fight Night: Sandhagen vs. Nurmagomedov - August 03, 2024
+
+30. Shara Magomedov vs Michal Oleksiejczuk
+   ✅ WIN - Shara Magomedov (Unknown)
+   UFC Fight Night: Sandhagen vs. Nurmagomedov - August 03, 2024
+
+31. Muhammad Mokaev vs Manel Kape
+   ✅ WIN - Muhammad Mokaev (Unknown)
+   UFC 304: Edwards vs. Muhammad 2 - July 27, 2024
+
+32. Trey Ogden vs Loik Radzhabov
+   ❌ LOSS - Loik Radzhabov (Unknown)
+   UFC Fight Night: Lemos vs. Jandiroba - July 20, 2024
+
+33. Robert Whittaker vs Ikram Aliskerov
+   ❌ LOSS - Ikram Aliskerov (KO/TKO)
+   UFC Fight Night: Whittaker vs. Aliskerov - June 22, 2024
+
+34. Shara Magomedov vs Antonio Trocoli
+   ✅ WIN - Shara Magomedov (KO/TKO)
+   UFC Fight Night: Whittaker vs. Aliskerov - June 22, 2024
+
+35. Magomed Gadzhiyasulov vs Brendson Ribeiro
+   ✅ WIN - Magomed Gadzhiyasulov (Unknown)
+   UFC Fight Night: Whittaker vs. Aliskerov - June 22, 2024
+
+36. Islam Makhachev vs Dustin Poirier
+   ✅ WIN - Islam Makhachev (SUB)
+   UFC 302: Makhachev vs. Poirier - June 01, 2024
+
+37. Abus Magomedov vs Warlley Alves
+   ✅ WIN - Abus Magomedov (Unknown)
+   UFC Fight Night: Barboza vs. Murphy - May 18, 2024
+
+38. Muhammad Mokaev vs Alex Perez
+   ✅ WIN - Muhammad Mokaev (Unknown)
+   UFC Fight Night: Rozenstruik vs. Gaziev - March 02, 2024
+
+39. Umar Nurmagomedov vs Bekzat Almakhan
+   ✅ WIN - Umar Nurmagomedov (Unknown)
+   UFC Fight Night: Rozenstruik vs. Gaziev - March 02, 2024
+
+40. Loik Radzhabov vs Abdul-Kareem Al-Selwady
+   ✅ WIN - Loik Radzhabov (KO/TKO)
+   UFC Fight Night: Rozenstruik vs. Gaziev - March 02, 2024
+
+41. N/A vs Aliaskhab Khizriev
+   ✅ WIN - Aliaskhab Khizriev (N/A)
+   UFC Fight Night: Dolidze vs. Imavov - February 03, 2024
+
+42. Charles Johnson vs Azat Maksum
+   ❌ LOSS - Azat Maksum (Unknown)
+   UFC Fight Night: Dolidze vs. Imavov - February 03, 2024
+
+43. Movsar Evloev vs Arnold Allen
+   ✅ WIN - Movsar Evloev (Unknown)
+   UFC 297: Strickland vs. Du Plessis - January 20, 2024
+
+44. Magomed Ankalaev vs Johnny Walker
+   ✅ WIN - Magomed Ankalaev (KO/TKO)
+   UFC Fight Night: Ankalaev vs. Walker 2 - January 13, 2024
+
+45. Tagir Ulanbekov vs Cody Durden
+   ✅ WIN - Tagir Ulanbekov (SUB)
+   UFC 296: Edwards vs. Covington - December 16, 2023
+
+46. Caio Borralho vs Abus Magomedov
+   ❌ LOSS - Abus Magomedov (Unknown)
+   UFC Fight Night: Almeida vs. Lewis - November 04, 2023
+
+47. Islam Makhachev vs Alexander Volkanovski
+   ✅ WIN - Islam Makhachev (KO/TKO)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+48. N/A vs Magomed Ankalaev
+   ✅ WIN - Magomed Ankalaev (N/A)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+49. Ikram Aliskerov vs Warlley Alves
+   ✅ WIN - Ikram Aliskerov (KO/TKO)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+50. Said Nurmagomedov vs Muin Gafurov
+   ✅ WIN - Said Nurmagomedov (SUB)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+51. Muhammad Mokaev vs Tim Elliott
+   ✅ WIN - Muhammad Mokaev (SUB)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+52. Shara Magomedov vs Bruno Silva
+   ✅ WIN - Shara Magomedov (Unknown)
+   UFC 294: Makhachev vs. Volkanovski 2 - October 21, 2023
+
+
+💾 Saved 52 historical fights to data/historical.json
+
+📈 Win Rate Statistics:
+   Wins: 38
+   Losses: 14
+   Win Rate: 73.1%
