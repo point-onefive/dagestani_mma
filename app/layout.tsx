@@ -1,6 +1,7 @@
 // app/layout.tsx
 import './globals.css';
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Dagestan UFC Tracker',
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-black text-slate-100 min-h-screen">
         <div className="min-h-screen flex flex-col">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
