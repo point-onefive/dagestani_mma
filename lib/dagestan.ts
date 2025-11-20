@@ -1,7 +1,7 @@
 // lib/dagestan.ts
 import { getFighterOrigin } from './openai';
 import { RawEventWithCard, RawEvent } from './espn';
-import { readJson, writeJson, getLastModified } from './storage';
+import { readJson, writeJson, getLastModified, getLastRefreshTimestamp } from './storage';
 
 export type UpcomingMatch = {
   eventId: string;
@@ -69,11 +69,11 @@ export function loadStats(): DagestanStats {
 }
 
 export function getUpcomingLastRefresh(): string | null {
-  return getLastModified(UPCOMING_FILE);
+  return getLastRefreshTimestamp();
 }
 
 export function getHistoricalLastRefresh(): string | null {
-  return getLastModified(HISTORICAL_FILE);
+  return getLastRefreshTimestamp();
 }
 
 export function saveStats(stats: DagestanStats) {

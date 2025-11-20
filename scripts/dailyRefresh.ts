@@ -14,7 +14,7 @@
 import { config } from 'dotenv';
 import { fetchEvents, fetchEventDetails } from '../lib/espn';
 import { getFighterOrigin, type FighterOrigin } from '../lib/openai';
-import { readJson, writeJson } from '../lib/storage';
+import { readJson, writeJson, saveLastRefreshTimestamp } from '../lib/storage';
 import { fetchCompletedEvents, fetchEventFights } from '../lib/ufcstats';
 
 // Load environment variables
@@ -60,7 +60,12 @@ async function dailyRefresh() {
   // Step 3: Recalculate statistics
   await recalculateStats();
 
-  console.log('\n✅ Daily refresh complete!\n');
+  // Save timestamp of successful refresh
+  const timestamp = new Date().toISOString();
+  saveLastRefreshTimestamp(timestamp);
+
+  console.log('\n✅ Daily refresh complete!');
+  console.log(`⏰ Last refresh: ${new Date(timestamp).toLocaleString()}\n`);
 }
 
 /**

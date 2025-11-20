@@ -41,3 +41,17 @@ export function getLastModified(fileName: string): string | null {
     return null;
   }
 }
+
+// Store and retrieve a single "last successful refresh" timestamp
+export function saveLastRefreshTimestamp(timestamp: string = new Date().toISOString()) {
+  writeJson('last-refresh.json', { timestamp });
+}
+
+export function getLastRefreshTimestamp(): string | null {
+  try {
+    const data = readJson<{ timestamp: string }>('last-refresh.json', { timestamp: '' });
+    return data.timestamp || null;
+  } catch {
+    return null;
+  }
+}

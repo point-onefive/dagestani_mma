@@ -64,12 +64,19 @@ async function main() {
     
     await appendHistoricalFromEvents(completedDetails, currentHistorical);
 
+    // Save timestamp of successful refresh
+    const { saveLastRefreshTimestamp } = await import('../lib/storage');
+    const timestamp = new Date().toISOString();
+    saveLastRefreshTimestamp(timestamp);
+
     console.log('\n✅ Dagestan UFC refresh completed successfully!');
+    console.log(`⏰ Last refresh: ${new Date(timestamp).toLocaleString()}`);
     console.log('\n📁 Data files updated:');
     console.log('   - data/upcoming.json');
     console.log('   - data/historical.json');
     console.log('   - data/fighters.json (cache)');
     console.log('   - data/stats.json');
+    console.log('   - data/last-refresh.json');
     
   } catch (error) {
     console.error('\n❌ Refresh failed:', error);
