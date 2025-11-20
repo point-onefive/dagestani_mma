@@ -83,14 +83,14 @@ export default function HomePage() {
             typingSpeed={60}
             pauseDuration={2000}
             showCursor={true}
-            className="text-3xl sm:text-4xl md:text-5xl font-semibold"
+            className="hero-title text-3xl sm:text-4xl md:text-5xl font-semibold"
           />
         </div>
         <motion.p 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="mt-3 text-sm sm:text-base text-slate-300 max-w-md leading-relaxed"
+          className="hero-subtext text-sm sm:text-base max-w-md leading-relaxed"
         >
           Data-driven insights for sportsbooks.
         </motion.p>
@@ -99,7 +99,7 @@ export default function HomePage() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="mt-6 flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center"
+          className="hero-buttons flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center"
         >
           <NavButton href="/upcoming" label="Upcoming Fights" />
           <NavButton href="/historical" label="Historical Data" secondary />

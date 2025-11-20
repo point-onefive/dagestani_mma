@@ -122,6 +122,37 @@ body::before {
   animation: fadeIn 0.8s ease-out;
 }
 
+/* Cinematic hero text styling */
+.hero-title {
+  color: rgba(255, 255, 255, 0.96);
+  position: relative;
+}
+
+.hero-subtext {
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.75rem;
+}
+
+.hero-buttons {
+  margin-top: 1.75rem;
+}
+
+/* Mobile-first adjustments */
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: clamp(1.75rem, 6vw, 2.4rem);
+    line-height: 1.15;
+  }
+
+  .hero-subtext {
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
+  }
+
+  .hero-buttons {
+    margin-top: 1.4rem;
+  }
+}
+
 /* Mobile haze opacity */
 @media (max-width: 768px) {
   .opacity-8 {
