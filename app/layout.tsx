@@ -6,6 +6,26 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata: Metadata = {
   title: 'Dagestan UFC Tracker',
   description: 'Tracks upcoming & historical Dagestani UFC fights and win rate.',
+  openGraph: {
+    title: 'Dagestan UFC Tracker',
+    description: 'Tracks upcoming & historical Dagestani UFC fights and win rate.',
+    type: 'website',
+    url: 'https://dagestani-mma.vercel.app',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Dagestan UFC Tracker',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dagestan UFC Tracker',
+    description: 'Tracks upcoming & historical Dagestani UFC fights and win rate.',
+    images: ['/opengraph-image.png'],
+  },
 };
 
 export default function RootLayout({
