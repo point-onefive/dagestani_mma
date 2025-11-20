@@ -60,9 +60,6 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
 
   return (
     <>
-      {/* Smooth gradient transition overlay before footer */}
-      <div className="fixed inset-x-0 bottom-0 h-96 bg-gradient-to-t from-black via-black/60 to-transparent pointer-events-none z-10" />
-      
       <MinimalNav currentPage="historical" />
       <main className="relative z-20 flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
         <header className="w-full max-w-4xl mx-auto pt-20 sm:pt-24 px-4 text-center">
