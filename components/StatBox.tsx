@@ -39,13 +39,18 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mt-6 w-full max-w-lg mx-auto rounded-2xl p-6 sm:p-8"
+        className="mt-6 w-full max-w-lg mx-auto rounded-2xl p-6 sm:p-8 relative"
       >
       <div className="text-xs uppercase tracking-wide text-slate-400 text-center mb-3">
         Historical Win Rate
       </div>
-      <div className="flex flex-col items-center gap-2">
-        <motion.span className="text-5xl sm:text-6xl font-bold text-purple-300">
+      <div className="flex flex-col items-center gap-2 relative">
+        <motion.span 
+          className="text-5xl sm:text-6xl font-bold text-purple-300"
+          style={{
+            textShadow: '0 0 20px rgba(190,120,255,0.5)'
+          }}
+        >
           {percentText}
         </motion.span>
         <span className="text-sm sm:text-base text-slate-300">

@@ -25,7 +25,8 @@ export default function HomePage() {
 
   return (
     <main className="flex-1 flex flex-col items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none opacity-80">
+      {/* PixelBlast with parallax zoom animation */}
+      <div className="absolute inset-0 pointer-events-none opacity-80" style={{ animation: 'heroZoom 18s ease-in-out infinite alternate' }}>
         <PixelBlast
           variant="circle"
           pixelSize={6}
@@ -47,8 +48,26 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-3xl px-4 py-10 flex flex-col items-center text-center">
-        <div className="flex items-center justify-center">
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="relative z-10 w-full max-w-3xl px-4 py-10 flex flex-col items-center text-center"
+      >
+        <div className="flex items-center justify-center relative">
+          {/* Scanline overlay */}
+          <div 
+            className="absolute inset-0 pointer-events-none opacity-10"
+            style={{
+              backgroundImage: `repeating-linear-gradient(
+                to bottom,
+                rgba(255,255,255,0.06) 0px,
+                rgba(255,255,255,0.03) 2px,
+                transparent 3px,
+                transparent 6px
+              )`
+            }}
+          />
           <TextType
             text={[
               'Welcome to DagStats',
@@ -65,15 +84,25 @@ export default function HomePage() {
             className="text-3xl sm:text-4xl md:text-5xl font-semibold"
           />
         </div>
-        <p className="mt-3 text-sm sm:text-base text-slate-300 max-w-md leading-relaxed">
+        <motion.p 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
+          className="mt-3 text-sm sm:text-base text-slate-300 max-w-md leading-relaxed"
+        >
           Data-driven insights for sportsbooks.
-        </p>
+        </motion.p>
 
-        <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center">
+        <motion.div 
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.6 }}
+          className="mt-6 flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center"
+        >
           <NavButton href="/upcoming" label="Upcoming Fights" />
           <NavButton href="/historical" label="Historical Data" secondary />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </main>
   );
 }
@@ -90,13 +119,24 @@ function NavButton({
   return (
     <Link href={href} className="w-full">
       <motion.button
-        whileHover={{ scale: 1.02, y: -1 }}
+        whileHover={{ 
+          scale: 1.02, 
+          y: -1,
+          boxShadow: secondary 
+            ? '0 0 12px rgba(150, 80, 255, 0.3), 0 0 24px rgba(150, 80, 255, 0.15)'
+            : '0 0 12px rgba(150, 80, 255, 0.6), 0 0 24px rgba(150, 80, 255, 0.4)'
+        }}
         whileTap={{ scale: 0.98, y: 1 }}
         className={`w-full py-2.5 rounded-lg border text-xs sm:text-sm font-medium shadow-md backdrop-blur transition-all ${
           secondary
-            ? 'bg-black/30 border-slate-700/50 text-slate-200 hover:border-slate-600'
+            ? 'bg-black/30 border-slate-700/50 text-slate-200 hover:border-purple-500/50'
             : 'bg-purple-500/70 border-purple-400/60 text-white hover:bg-purple-500/80'
         }`}
+        style={{
+          boxShadow: secondary 
+            ? '0 0 6px rgba(150, 80, 255, 0.15)'
+            : '0 0 12px rgba(150, 80, 255, 0.4), 0 0 24px rgba(150, 80, 255, 0.25)'
+        }}
       >
         {label}
       </motion.button>
