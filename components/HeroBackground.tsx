@@ -61,6 +61,33 @@ export default function HeroBackground({ children, gridContent }: HeroBackground
       {/* Layer 4: Bottom fog layer for atmospheric depth */}
       <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-black/40 via-black/10 to-transparent pointer-events-none md:h-64" style={{ zIndex: 15 }} />
 
+      {/* Layer 4.5: Octagon glow ring (z-16) - subtle atmospheric halo */}
+      <div 
+        className="absolute pointer-events-none ring-pulse"
+        style={{ 
+          zIndex: 16,
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -42%) scale(1.2)',
+          width: '80%',
+          maxWidth: '1200px',
+          aspectRatio: '1/1'
+        }}
+      >
+        <Image
+          src="/enhancements/octagon-outline.png"
+          alt=""
+          fill
+          className="object-contain"
+          style={{ 
+            opacity: 0.21,
+            filter: 'blur(40px)',
+            mixBlendMode: 'overlay'
+          }}
+          priority
+        />
+      </div>
+
       {/* Layer 5: PixelBlast grid with parallax (z-20) */}
       <div ref={gridRef} className="absolute inset-0 pointer-events-none will-change-transform opacity-70" style={{ zIndex: 20 }}>
         {gridContent}
