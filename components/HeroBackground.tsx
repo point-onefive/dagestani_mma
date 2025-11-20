@@ -1,45 +1,66 @@
 'use client';
 
-import { ReactNode } from 'react';
+import { ReactNode, useRef } from 'react';
+import Image from 'next/image';
+import { useHeroParallax } from '@/hooks/useHeroParallax';
 
 interface HeroBackgroundProps {
   children: ReactNode;
+  gridContent?: ReactNode;
 }
 
-export default function HeroBackground({ children }: HeroBackgroundProps) {
+export default function HeroBackground({ children, gridContent }: HeroBackgroundProps) {
+  const bgRef = useRef<HTMLDivElement>(null);
+  const hazeRef = useRef<HTMLDivElement>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
+
+  useHeroParallax({
+    backgroundRef: bgRef,
+    hazeRef: hazeRef,
+    gridRef: gridRef,
+  });
+
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* Layer 1: Cinematic landscape background with zoom animation (z-0) */}
+      {/* Layer 1: Cinematic landscape background with parallax (z-0) */}
       <div 
-        className="absolute inset-0 bg-[url('/enhancements/landscape-1.png')] bg-cover bg-center hero-zoom"
+        ref={bgRef}
+        className="absolute inset-0 pointer-events-none will-change-transform"
         style={{
-          willChange: 'transform',
           zIndex: 0,
+          backgroundImage: "url('/enhancements/landscape-1.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       />
 
       {/* Layer 2: Deeper cinematic gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80 pointer-events-none" style={{ zIndex: 5 }} />
 
-      {/* Layer 3: Atmospheric haze layer (z-10) */}
+      {/* Layer 3: Atmospheric haze layer with parallax (z-10) */}
       <div 
-        className="absolute inset-0 pointer-events-none animate-fade-in"
+        ref={hazeRef}
+        className="absolute inset-0 pointer-events-none will-change-transform"
         style={{ zIndex: 10 }}
       >
-        <img
+        <Image
           src="/enhancements/landscape-haze.png"
           alt=""
-          className="w-full h-full object-cover opacity-12 md:opacity-12 sm:opacity-8"
-          style={{
-            animation: 'fadeIn 0.8s ease-out',
-          }}
+          fill
+          className="object-cover opacity-12 md:opacity-12 sm:opacity-8"
+          priority
         />
       </div>
 
       {/* Layer 4: Bottom fog layer for atmospheric depth */}
-      <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-black/40 via-black/10 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 inset-x-0 h-48 bg-gradient-to-t from-black/40 via-black/10 to-transparent pointer-events-none md:h-64" style={{ zIndex: 15 }} />
 
-      {/* Layer 5 & 6: Content layer (PixelBlast z-20 + hero text z-30) */}
+      {/* Layer 5: PixelBlast grid with parallax (z-20) */}
+      <div ref={gridRef} className="absolute inset-0 pointer-events-none will-change-transform opacity-70" style={{ zIndex: 20 }}>
+        {gridContent}
+      </div>
+
+      {/* Layer 6: Content layer (hero text z-30) */}
       <div className="relative" style={{ zIndex: 30 }}>
         {children}
       </div>
