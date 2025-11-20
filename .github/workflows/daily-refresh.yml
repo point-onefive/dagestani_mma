@@ -2,10 +2,10 @@ name: Daily Data Refresh
 
 on:
   schedule:
-    # Run at 2:45 PM UTC (9:45 AM EST) - TEST SCHEDULE
+    # Run at 4:00 PM UTC (11:00 AM EST)
     # Note: GitHub Actions cron can be delayed by up to 15+ minutes during high load
     # and may not run if repo has been inactive for 60+ days
-    - cron: '45 14 * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
