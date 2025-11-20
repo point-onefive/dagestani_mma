@@ -22,34 +22,40 @@ export default function HeroBackground({ children, gridContent }: HeroBackground
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* Layer 1: Cinematic landscape background with parallax (z-0) */}
+      {/* Layer 1: Cinematic landscape background with parallax wrapper + zoom animation (z-0) */}
       <div 
         ref={bgRef}
         className="absolute inset-0 pointer-events-none will-change-transform"
-        style={{
-          zIndex: 0,
-          backgroundImage: "url('/enhancements/landscape-1.png')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+        style={{ zIndex: 0 }}
+      >
+        <div
+          className="absolute inset-0 hero-zoom"
+          style={{
+            backgroundImage: "url('/enhancements/landscape-1.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+      </div>
 
       {/* Layer 2: Deeper cinematic gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80 pointer-events-none" style={{ zIndex: 5 }} />
 
-      {/* Layer 3: Atmospheric haze layer with parallax (z-10) */}
+      {/* Layer 3: Atmospheric haze layer with parallax wrapper (z-10) */}
       <div 
         ref={hazeRef}
         className="absolute inset-0 pointer-events-none will-change-transform"
         style={{ zIndex: 10 }}
       >
-        <Image
-          src="/enhancements/landscape-haze.png"
-          alt=""
-          fill
-          className="object-cover opacity-12 md:opacity-12 sm:opacity-8"
-          priority
-        />
+        <div className="absolute inset-0">
+          <Image
+            src="/enhancements/landscape-haze.png"
+            alt=""
+            fill
+            className="object-cover opacity-12 md:opacity-12 sm:opacity-8"
+            priority
+          />
+        </div>
       </div>
 
       {/* Layer 4: Bottom fog layer for atmospheric depth */}
