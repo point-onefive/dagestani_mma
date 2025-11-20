@@ -38,24 +38,24 @@ export function useHeroParallax({
       const scrollNorm = scrollFactor / window.innerHeight;
 
       // Parallax stack: Background moves MOST, Haze medium, PixelBlast STATIC
-      // Background (largest movement for depth) - more subtle
-      const bgScroll = scrollNorm * -20;
+      // Background (largest movement for depth) - reduced
+      const bgScroll = scrollNorm * -10;
       
-      // Haze (medium movement) - more subtle
-      const hazeScroll = scrollNorm * -12;
+      // Haze (medium movement) - reduced
+      const hazeScroll = scrollNorm * -6;
 
-      // Pointer multipliers (background and haze only) - more subtle
+      // Pointer multipliers (background and haze only) - reduced
       const pointerFactor = isDesktop() ? 1 : 0;
       const offsetX = (mouseX - 0.5) * pointerFactor;
       const offsetY = (mouseY - 0.5) * pointerFactor;
 
       // Background moves most (reduced)
-      const bgX = offsetX * 8;
-      const bgY = bgScroll + offsetY * 10;
+      const bgX = offsetX * 4;
+      const bgY = bgScroll + offsetY * 5;
       
       // Haze moves moderately (reduced)
-      const hazeX = offsetX * 6;
-      const hazeY = hazeScroll + offsetY * 8;
+      const hazeX = offsetX * 3;
+      const hazeY = hazeScroll + offsetY * 4;
 
       // Apply parallax to background and haze only (PixelBlast stays STATIC)
       if (backgroundRef.current) {
