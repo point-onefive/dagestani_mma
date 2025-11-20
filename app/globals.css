@@ -96,3 +96,29 @@ body::before {
   from { transform: translateY(0px); }
   to   { transform: translateY(-30px); }
 }
+
+/* Hero background zoom animation */
+.hero-zoom {
+  animation: heroZoom 12s ease-in-out infinite alternate;
+}
+
+/* Fade in animation for haze layer */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Mobile haze opacity */
+@media (max-width: 768px) {
+  .opacity-8 {
+    opacity: 0.08;
+  }
+}
+
+.opacity-12 {
+  opacity: 0.12;
+}
