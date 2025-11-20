@@ -13,7 +13,7 @@ export default function FloatingParticles() {
 
   useEffect(() => {
     // Generate particles only on client to avoid hydration mismatch
-    const newParticles = Array.from({ length: 30 }, (_, i) => ({
+    const newParticles = Array.from({ length: 15 }, (_, i) => ({
       id: i,
       left: `${Math.random() * 100}%`,
       top: `${Math.random() * 100}%`,
@@ -26,7 +26,7 @@ export default function FloatingParticles() {
   if (particles.length === 0) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-[100]">
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-[1]">
       {particles.map((particle) => (
         <div
           key={particle.id}

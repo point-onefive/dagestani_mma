@@ -132,6 +132,7 @@ export default function PixelBlast({
       cancelAnimationFrame(animationFrameId);
     };
   }, [
+    disabled,
     variant,
     pixelSize,
     color,
