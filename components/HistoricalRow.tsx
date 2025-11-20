@@ -3,10 +3,9 @@ import type { HistoricalMatch } from '@/lib/dagestan';
 
 interface HistoricalRowProps {
   match: HistoricalMatch;
-  index: number;
 }
 
-export default function HistoricalRow({ match, index }: HistoricalRowProps) {
+export default function HistoricalRow({ match }: HistoricalRowProps) {
   const isWin = match.result === 'win';
 
   return (
