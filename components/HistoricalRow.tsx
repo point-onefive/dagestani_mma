@@ -11,9 +11,12 @@ export default function HistoricalRow({ match, index }: HistoricalRowProps) {
   const isEven = index % 2 === 0;
 
   return (
-    <tr className={`border-b border-purple-500/10 text-xs sm:text-sm hover:bg-purple-500/10 transition-colors ${
-      isEven ? 'bg-black/20' : 'bg-black/40'
-    }`}>
+    <tr 
+      className="border-b border-purple-500/10 text-xs sm:text-sm hover:bg-purple-500/10 transition-colors"
+      style={{
+        backgroundColor: isEven ? 'rgba(80, 0, 140, 0.14)' : 'transparent'
+      }}
+    >
       <td className="py-2 px-2 sm:px-3">
         <span
           className={`inline-flex px-2 py-0.5 rounded-full text-[11px] font-medium ${

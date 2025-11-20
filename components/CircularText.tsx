@@ -122,6 +122,7 @@ const CircularText = ({
         return (
           <span
             key={i}
+            suppressHydrationWarning
             className={`absolute left-1/2 top-1/2 inline-block font-bold transition-all duration-500 ${
               letter === '•' ? 'text-purple-400' : 'text-white'
             }`}

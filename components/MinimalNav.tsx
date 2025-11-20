@@ -46,7 +46,7 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
         <Link href="/" className="hidden sm:block">
           <motion.div
             whileHover={{ x: -2 }}
-            className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group"
+            className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group relative"
           >
             <svg 
               className="w-5 h-5" 
@@ -61,7 +61,23 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
                 d="M10 19l-7-7m0 0l7-7m-7 7h18" 
               />
             </svg>
-            <span className="text-sm font-medium">Home</span>
+            <span 
+              className="text-sm font-medium relative"
+              style={{
+                transition: 'text-shadow 0.3s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.textShadow = '0 0 6px rgba(180,120,255,0.8)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.textShadow = 'none';
+              }}
+            >
+              Home
+              <span 
+                className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+              />
+            </span>
           </motion.div>
         </Link>
 
@@ -101,9 +117,25 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           <Link href="/historical" className="hidden sm:block">
             <motion.div
               whileHover={{ x: 2 }}
-              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group"
+              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group relative"
             >
-              <span className="text-sm font-medium">Historical</span>
+              <span 
+                className="text-sm font-medium relative"
+                style={{
+                  transition: 'text-shadow 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.textShadow = '0 0 6px rgba(180,120,255,0.8)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.textShadow = 'none';
+                }}
+              >
+                Historical
+                <span 
+                  className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                />
+              </span>
               <svg 
                 className="w-5 h-5" 
                 fill="none" 
@@ -125,9 +157,25 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
           <Link href="/upcoming" className="hidden sm:block">
             <motion.div
               whileHover={{ x: 2 }}
-              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group"
+              className="flex items-center gap-2 text-slate-300 hover:text-purple-400 transition-colors group relative"
             >
-              <span className="text-sm font-medium">Upcoming</span>
+              <span 
+                className="text-sm font-medium relative"
+                style={{
+                  transition: 'text-shadow 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.textShadow = '0 0 6px rgba(180,120,255,0.8)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.textShadow = 'none';
+                }}
+              >
+                Upcoming
+                <span 
+                  className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                />
+              </span>
               <svg 
                 className="w-5 h-5" 
                 fill="none" 

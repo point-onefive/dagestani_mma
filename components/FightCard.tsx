@@ -28,8 +28,21 @@ export default function FightCard({ match }: { match: UpcomingMatch }) {
       <motion.article
         whileHover={{ scale: 1.01, y: -2 }}
         transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-        className="bg-purple-500/10 rounded-xl p-4 sm:p-5 flex flex-col gap-3 hover:bg-purple-500/15 transition-all shadow-md shadow-purple-500/5"
+        className="bg-purple-500/10 rounded-xl p-4 sm:p-5 flex flex-col gap-3 hover:bg-purple-500/15 transition-all shadow-md shadow-purple-500/5 relative overflow-hidden"
+        style={{
+          boxShadow: '0 0 12px rgba(150, 80, 255, 0.4), 0 0 24px rgba(150, 80, 255, 0.25), inset 0 0 30px rgba(140, 50, 255, 0.15)'
+        }}
       >
+        {/* Animated smoke gradient behind card */}
+        <div 
+          className="absolute inset-0 -z-10 pointer-events-none"
+          style={{
+            background: 'radial-gradient(circle at 50% 80%, rgba(140, 80, 255, 0.25), transparent 70%)',
+            filter: 'blur(45px)',
+            animation: 'pulseSmoke 8s ease-in-out infinite alternate'
+          }}
+        />
+        
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-3 border-b border-purple-400/20">
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-1.5 bg-white px-2.5 py-1 rounded-md">
