@@ -5,6 +5,10 @@ import MinimalNav from '@/components/MinimalNav';
 import Footer from '@/components/Footer';
 import { loadHistorical, loadStats, getHistoricalLastRefresh } from '@/lib/dagestan';
 
+// Force static generation at build time and revalidate every hour
+export const dynamic = 'force-static';
+export const revalidate = 3600; // 1 hour in seconds
+
 export default function HistoricalPage() {
   const historical = loadHistorical();
   const stats = loadStats();
