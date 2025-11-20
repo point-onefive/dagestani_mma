@@ -52,7 +52,7 @@ export default function HomePage() {
           <TextType
             text={[
               'Welcome to DagStats',
-              'Dagestan Born Fighters',
+              'Dagestan-Born Fighters',
               'Dominance Quantified',
               'Track Mountain Warriors',
               'Never Miss A Fight',
