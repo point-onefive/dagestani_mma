@@ -1,16 +1,22 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import PixelBlast from '@/components/PixelBlast';
 import TextType from '@/components/TextType';
 import HeroBackground from '@/components/HeroBackground';
+import { transitionToSpace, setBackgroundState } from '@/lib/transitions';
 
 export default function HomePage() {
+  const router = useRouter();
   const [winRate, setWinRate] = useState('74.3');
 
   useEffect(() => {
+    // Set Dagestan background visible on home page
+    setBackgroundState('dagestan');
+
     // Fetch the actual win rate from stats API
     fetch('/api/stats')
       .then(res => res.json())
@@ -101,8 +107,8 @@ export default function HomePage() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="hero-buttons flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center"
         >
-          <NavButton href="/upcoming" label="Upcoming Fights" />
-          <NavButton href="/historical" label="Historical Data" secondary />
+          <NavButton href="/upcoming" label="Upcoming Fights" router={router} />
+          <NavButton href="/historical" label="Historical Data" secondary router={router} />
         </motion.div>
       </motion.div>
     </main>
@@ -114,14 +120,26 @@ function NavButton({
   href,
   label,
   secondary = false,
+  router,
 }: {
   href: string;
   label: string;
   secondary?: boolean;
+  router: ReturnType<typeof useRouter>;
 }) {
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    
+    // Trigger transition animation
+    transitionToSpace(() => {
+      // Navigate after animation completes
+      router.push(href);
+    });
+  };
+
   return (
-    <Link href={href} className="w-full">
-      <motion.button
+    <button onClick={handleClick} className="w-full">
+      <motion.div
         whileHover={{ 
           scale: 1.02, 
           y: -1,
@@ -142,7 +160,7 @@ function NavButton({
         }}
       >
         {label}
-      </motion.button>
-    </Link>
+      </motion.div>
+    </button>
   );
 }

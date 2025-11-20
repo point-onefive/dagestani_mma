@@ -64,8 +64,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black text-slate-100 min-h-screen">
-        <FloatingParticles />
-        <div className="min-h-screen flex flex-col">{children}</div>
+        <div id="camera">
+          <div id="scene">
+            <div id="dagestan-bg" />
+            <div id="space-bg" />
+          </div>
+          
+          <FloatingParticles />
+          
+          <div id="content" className="min-h-screen flex flex-col">
+            {children}
+          </div>
+        </div>
         <Analytics />
       </body>
     </html>

@@ -8,14 +8,10 @@ interface HistoricalRowProps {
 
 export default function HistoricalRow({ match, index }: HistoricalRowProps) {
   const isWin = match.result === 'win';
-  const isEven = index % 2 === 0;
 
   return (
     <tr 
       className="border-b border-purple-500/10 text-xs sm:text-sm hover:bg-purple-500/10 transition-colors"
-      style={{
-        backgroundColor: isEven ? 'rgba(80, 0, 140, 0.14)' : 'transparent'
-      }}
     >
       <td className="py-2 px-2 sm:px-3">
         <span

@@ -1,12 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import { useEffect } from 'react';
 import PageHeader from '@/components/PageHeader';
 import FightCard from '@/components/FightCard';
 import MinimalNav from '@/components/MinimalNav';
 import Footer from '@/components/Footer';
 import type { UpcomingMatch } from '@/lib/dagestan';
+import { setBackgroundState } from '@/lib/transitions';
 
 interface UpcomingClientProps {
   upcoming: UpcomingMatch[];
@@ -14,6 +15,11 @@ interface UpcomingClientProps {
 }
 
 export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClientProps) {
+  // Set space background on mount
+  useEffect(() => {
+    setBackgroundState('space');
+  }, []);
+
   // Container animation for stagger effect
   const container = {
     hidden: { opacity: 0 },
@@ -54,25 +60,7 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
   };
 
   return (
-    <div className="relative min-h-screen w-full bg-black overflow-hidden">
-      {/* Warm cinematic gradient background */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/enhancements/bg.png"
-          alt=""
-          fill
-          priority
-          unoptimized
-          className="object-cover pointer-events-none select-none"
-          style={{ 
-            opacity: 0.2,
-            mixBlendMode: 'soft-light',
-            filter: 'blur(8px)',
-            transform: 'scale(1.15)'
-          }}
-        />
-      </div>
-      
+    <>
       <MinimalNav currentPage="upcoming" />
       <main className="relative z-20 flex-1 w-full max-w-3xl mx-auto px-4 pb-12">
         <PageHeader
@@ -113,6 +101,6 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
         )}
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

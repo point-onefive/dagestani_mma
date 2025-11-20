@@ -61,15 +61,15 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
         <div className="grid gap-2 text-xs sm:text-sm">
           <div className="flex justify-between items-center px-2">
             <span className="text-slate-400">Dagestani fights analyzed:</span>
-            <span className="text-purple-400 font-medium">{displayMatchCount}</span>
+            <span className="text-white font-bold">{displayMatchCount}</span>
           </div>
           <div className="flex justify-between items-center px-2">
             <span className="text-slate-400">Max lookback date:</span>
-            <span className="text-purple-400 font-medium">{displayLookbackDate}</span>
+            <span className="text-white font-bold">{displayLookbackDate}</span>
           </div>
           <div className="flex justify-between items-center px-2">
             <span className="text-slate-400">Auto-refresh:</span>
-            <span className="text-purple-400 font-medium">Daily</span>
+            <span className="text-white font-bold">Daily</span>
           </div>
         </div>
       </div>

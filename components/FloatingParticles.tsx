@@ -26,7 +26,7 @@ export default function FloatingParticles() {
   if (particles.length === 0) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none overflow-hidden z-10">
+    <div className="fixed inset-0 pointer-events-none overflow-hidden z-[100]">
       {particles.map((particle) => (
         <div
           key={particle.id}
