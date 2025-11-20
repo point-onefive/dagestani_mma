@@ -18,50 +18,102 @@ export default function Footer() {
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 text-center md:text-left">
-          <div>
-            <h3 className="text-sm font-semibold text-purple-300 mb-3">Navigation</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/upcoming" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Upcoming Fights
-                </Link>
-              </li>
-              <li>
-                <Link href="/historical" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Historical Data
-                </Link>
-              </li>
-            </ul>
+        <div className="mb-6">
+          {/* Mobile: Navigation and Legal side-by-side with center alignment for balance */}
+          <div className="grid grid-cols-2 gap-8 mb-6 md:hidden">
+            <div className="text-center">
+              <h3 className="text-sm font-semibold text-purple-300 mb-3">Navigation</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/upcoming" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Upcoming Fights
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/historical" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Historical Data
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-sm font-semibold text-purple-300 mb-3">Legal</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/privacy" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Terms of Service
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div>
-            <h3 className="text-sm font-semibold text-purple-300 mb-3">Legal</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/privacy" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
-                  Terms of Service
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
+          {/* Mobile: About underneath */}
+          <div className="md:hidden text-center">
             <h3 className="text-sm font-semibold text-purple-300 mb-3">About</h3>
             <p className="text-xs text-slate-400 leading-relaxed">
               Tracking Dagestani fighters in the UFC. Data sourced from official UFC statistics and ESPN.
               Updated daily via automated data refresh.
             </p>
+          </div>
+
+          {/* Desktop: 3 columns */}
+          <div className="hidden md:grid md:grid-cols-3 gap-6 text-left">
+            <div>
+              <h3 className="text-sm font-semibold text-purple-300 mb-3">Navigation</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/upcoming" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Upcoming Fights
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/historical" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Historical Data
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-purple-300 mb-3">Legal</h3>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/privacy" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/terms" className="text-xs text-slate-400 hover:text-purple-400 transition-colors">
+                    Terms of Service
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-purple-300 mb-3">About</h3>
+              <p className="text-xs text-slate-400 leading-relaxed">
+                Tracking Dagestani fighters in the UFC. Data sourced from official UFC statistics and ESPN.
+                Updated daily via automated data refresh.
+              </p>
+            </div>
           </div>
         </div>
 

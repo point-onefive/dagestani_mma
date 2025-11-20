@@ -227,7 +227,7 @@ export default function MinimalNav({ currentPage }: MinimalNavProps = {}) {
         {/* Hamburger menu button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="sm:hidden p-2 rounded-lg hover:bg-purple-500/10 transition-colors"
+          className="sm:hidden p-2 rounded-lg bg-black/50 border border-slate-700/50 hover:bg-slate-800/50 hover:border-slate-600/50 transition-all shadow-sm"
           aria-label="Toggle menu"
         >
           <svg
