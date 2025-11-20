@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import PageHeader from '@/components/PageHeader';
 import FightCard from '@/components/FightCard';
 import MinimalNav from '@/components/MinimalNav';
@@ -53,9 +54,27 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
   };
 
   return (
-    <>
+    <div className="relative min-h-screen w-full bg-black overflow-hidden">
+      {/* Warm cinematic gradient background */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/enhancements/bg.png"
+          alt=""
+          fill
+          priority
+          unoptimized
+          className="object-cover pointer-events-none select-none"
+          style={{ 
+            opacity: 0.2,
+            mixBlendMode: 'soft-light',
+            filter: 'blur(8px)',
+            transform: 'scale(1.15)'
+          }}
+        />
+      </div>
+      
       <MinimalNav currentPage="upcoming" />
-      <main className="flex-1 w-full max-w-3xl mx-auto px-4 pb-12">
+      <main className="relative z-20 flex-1 w-full max-w-3xl mx-auto px-4 pb-12">
         <PageHeader
           lines={['Upcoming Dagestani Fights']}
           subtext="Fighters born in the Republic of Dagestan, Russia."
@@ -94,6 +113,6 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
         )}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

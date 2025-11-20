@@ -4,6 +4,7 @@ import StatBox from '@/components/StatBox';
 import MinimalNav from '@/components/MinimalNav';
 import Footer from '@/components/Footer';
 import { loadHistorical, loadStats, getHistoricalLastRefresh } from '@/lib/dagestan';
+import Image from 'next/image';
 
 // Force static generation at build time and revalidate every hour
 export const dynamic = 'force-static';
@@ -44,9 +45,27 @@ export default function HistoricalPage() {
   };
 
   return (
-    <>
+    <div className="relative min-h-screen w-full bg-black overflow-hidden">
+      {/* Warm cinematic gradient background */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/enhancements/bg.png"
+          alt=""
+          fill
+          priority
+          unoptimized
+          className="object-cover pointer-events-none select-none"
+          style={{ 
+            opacity: 0.2,
+            mixBlendMode: 'soft-light',
+            filter: 'blur(8px)',
+            transform: 'scale(1.15)'
+          }}
+        />
+      </div>
+      
       <MinimalNav currentPage="historical" />
-      <main className="flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
+      <main className="relative z-20 flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
         <header className="w-full max-w-4xl mx-auto pt-20 sm:pt-24 px-4 text-center">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-semibold text-slate-100">
             Historical Dagestani Fights
@@ -100,6 +119,6 @@ export default function HistoricalPage() {
       )}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
