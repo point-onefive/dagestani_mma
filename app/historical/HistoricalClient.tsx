@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import HistoricalRow from '@/components/HistoricalRow';
 import StatBox from '@/components/StatBox';
 import MinimalNav from '@/components/MinimalNav';
@@ -15,6 +15,9 @@ interface HistoricalClientProps {
 }
 
 export default function HistoricalClient({ historical, stats, lastRefresh }: HistoricalClientProps) {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 15;
+
   // Set space background on mount
   useEffect(() => {
     setBackgroundState('space');
@@ -24,6 +27,12 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
   const sortedHistorical = [...historical].sort((a, b) => 
     b.eventDate.localeCompare(a.eventDate)
   );
+
+  // Pagination calculations
+  const totalPages = Math.ceil(sortedHistorical.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentMatches = sortedHistorical.slice(startIndex, endIndex);
 
   // Count distinct matches
   const distinctMatchCount = historical.length;
@@ -51,6 +60,9 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
 
   return (
     <>
+      {/* Smooth gradient transition overlay before footer */}
+      <div className="fixed inset-x-0 bottom-0 h-96 bg-gradient-to-t from-black via-black/60 to-transparent pointer-events-none z-10" />
+      
       <MinimalNav currentPage="historical" />
       <main className="relative z-20 flex-1 w-full max-w-6xl mx-auto px-2 sm:px-4 pb-12">
         <header className="w-full max-w-4xl mx-auto pt-20 sm:pt-24 px-4 text-center">
@@ -92,16 +104,38 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
               </tr>
             </thead>
             <tbody className="divide-y divide-purple-500/10">
-              {sortedHistorical.map((m, index) => (
+              {currentMatches.map((m) => (
                 <HistoricalRow
                   key={`${m.eventId}-${m.fighterA}-${m.fighterB}`}
                   match={m}
-                  index={index}
                 />
               ))}
             </tbody>
           </table>
         </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-6">
+            <button
+              onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+              disabled={currentPage === 1}
+              className="px-4 py-2 rounded-lg bg-purple-900/40 text-purple-200 border border-purple-500/30 hover:bg-purple-800/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all text-sm"
+            >
+              Previous
+            </button>
+            <span className="text-sm text-slate-400 px-4">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 rounded-lg bg-purple-900/40 text-purple-200 border border-purple-500/30 hover:bg-purple-800/50 disabled:opacity-30 disabled:cursor-not-allowed transition-all text-sm"
+            >
+              Next
+            </button>
+          </div>
+        )}
         </div>
       )}
       </main>

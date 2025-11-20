@@ -12,6 +12,7 @@ import { transitionToSpace, setBackgroundState } from '@/lib/transitions';
 export default function HomePage() {
   const router = useRouter();
   const [winRate, setWinRate] = useState('74.3');
+  const [pixelBlastActive, setPixelBlastActive] = useState(true);
 
   useEffect(() => {
     // Set Dagestan background visible on home page
@@ -51,6 +52,7 @@ export default function HomePage() {
           speed={0.6}
           edgeFade={0.25}
           transparent
+          disabled={!pixelBlastActive}
         />
       }
     >
@@ -107,8 +109,8 @@ export default function HomePage() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="hero-buttons flex flex-col sm:flex-row gap-3 w-full max-w-xs sm:max-w-sm justify-center"
         >
-          <NavButton href="/upcoming" label="Upcoming Fights" router={router} />
-          <NavButton href="/historical" label="Historical Data" secondary router={router} />
+          <NavButton href="/upcoming" label="Upcoming Fights" router={router} onTransitionStart={() => setPixelBlastActive(false)} />
+          <NavButton href="/historical" label="Historical Data" secondary router={router} onTransitionStart={() => setPixelBlastActive(false)} />
         </motion.div>
       </motion.div>
     </main>
@@ -121,14 +123,21 @@ function NavButton({
   label,
   secondary = false,
   router,
+  onTransitionStart,
 }: {
   href: string;
   label: string;
   secondary?: boolean;
   router: ReturnType<typeof useRouter>;
+  onTransitionStart?: () => void;
 }) {
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
+    
+    // Disable pixel blast before transition
+    if (onTransitionStart) {
+      onTransitionStart();
+    }
     
     // Trigger transition animation
     transitionToSpace(() => {

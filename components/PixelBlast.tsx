@@ -21,6 +21,7 @@ interface PixelBlastProps {
   speed?: number;
   edgeFade?: number;
   transparent?: boolean;
+  disabled?: boolean;
 }
 
 export default function PixelBlast({
@@ -41,10 +42,13 @@ export default function PixelBlast({
   speed = 0.6,
   edgeFade = 0.25,
   transparent = false,
+  disabled = false,
 }: PixelBlastProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
+    if (disabled) return;
+    
     const canvas = canvasRef.current;
     if (!canvas) return;
 
