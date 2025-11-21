@@ -134,16 +134,8 @@ function NavButton({
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
     
-    // Disable pixel blast before transition
-    if (onTransitionStart) {
-      onTransitionStart();
-    }
-    
-    // Trigger transition animation
-    transitionToSpace(() => {
-      // Navigate after animation completes
-      router.push(href);
-    });
+    // Navigate directly without transition
+    router.push(href);
   };
 
   return (

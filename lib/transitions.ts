@@ -9,13 +9,17 @@ export function transitionToSpace(onComplete?: () => void) {
   gsap.set('#dagestan-bg', { opacity: 0 });
   gsap.set('#space-bg', { opacity: 1 });
   
-  // Fast zoom animation only
+  // Gentler zoom animation
   gsap.to('#camera', {
-    scale: 50,
-    y: 10000,
-    duration: 0.2,
-    ease: 'power2.in',
-    onComplete
+    scale: 1.5,
+    y: 100,
+    duration: 0.3,
+    ease: 'power1.inOut',
+    onComplete: () => {
+      // Reset camera after transition
+      gsap.set('#camera', { scale: 1, y: 0 });
+      if (onComplete) onComplete();
+    }
   });
 }
 
