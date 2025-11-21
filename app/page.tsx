@@ -12,18 +12,26 @@ import { transitionToSpace, setBackgroundState } from '@/lib/transitions';
 export default function HomePage() {
   const router = useRouter();
   const [winRate, setWinRate] = useState('74.3');
+  const [totalFights, setTotalFights] = useState('1,164');
+  const [totalFighters, setTotalFighters] = useState('1,299');
   const [pixelBlastActive, setPixelBlastActive] = useState(true);
 
   useEffect(() => {
     // Set Dagestan background visible on home page
     setBackgroundState('dagestan');
 
-    // Fetch the actual win rate from stats API
+    // Fetch the actual stats from API
     fetch('/api/stats')
       .then(res => res.json())
       .then(data => {
         if (data.winRate) {
           setWinRate(data.winRate.toFixed(1));
+        }
+        if (data.totalFightsAnalyzed) {
+          setTotalFights(data.totalFightsAnalyzed.toLocaleString());
+        }
+        if (data.totalFighters) {
+          setTotalFighters(data.totalFighters.toLocaleString());
         }
       })
       .catch(err => {
@@ -83,9 +91,10 @@ export default function HomePage() {
               'Welcome to DagStats',
               'Dagestan-Born Fighters',
               'Dominance Quantified',
-              'Track Mountain Warriors',
               'Never Miss A Fight',
               `${winRate}% Win Rate`,
+              `${totalFights} Fights Analyzed`,
+              `${totalFighters} Fighters Analyzed`,
               'Data-Driven Intelligence',
             ]}
             typingSpeed={60}

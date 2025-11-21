@@ -37,6 +37,9 @@ export type DagestanStats = {
   losses: number;
   total: number;
   winRate: number;
+  totalFightsAnalyzed?: number;
+  totalFighters?: number;
+  dagestaniFighters?: number;
 };
 
 const UPCOMING_FILE = 'upcoming.json';

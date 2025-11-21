@@ -1,6 +1,9 @@
 {
-  "totalFights": 162,
   "wins": 109,
   "losses": 53,
-  "winRate": 67.3
+  "total": 162,
+  "winRate": 67.3,
+  "totalFightsAnalyzed": 1164,
+  "totalFighters": 1299,
+  "dagestaniFighters": 39
 }

@@ -59,10 +59,28 @@ export default function StatBox({ stats, earliestDate, matchCount }: StatBoxProp
       </div>
       <div className="mt-5 pt-4 border-t border-purple-500/20">
         <div className="grid gap-2 text-xs sm:text-sm">
+          {stats.totalFightsAnalyzed && (
+            <div className="flex justify-between items-center px-2">
+              <span className="text-slate-400">Fights analyzed:</span>
+              <span className="text-white font-bold">{stats.totalFightsAnalyzed.toLocaleString()}</span>
+            </div>
+          )}
+          {stats.totalFighters && (
+            <div className="flex justify-between items-center px-2">
+              <span className="text-slate-400">Fighters analyzed:</span>
+              <span className="text-white font-bold">{stats.totalFighters.toLocaleString()}</span>
+            </div>
+          )}
           <div className="flex justify-between items-center px-2">
             <span className="text-slate-400">Dagestani fights analyzed:</span>
             <span className="text-white font-bold">{displayMatchCount}</span>
           </div>
+          {stats.dagestaniFighters && (
+            <div className="flex justify-between items-center px-2">
+              <span className="text-slate-400">Dagestani fighters identified:</span>
+              <span className="text-white font-bold">{stats.dagestaniFighters}</span>
+            </div>
+          )}
           <div className="flex justify-between items-center px-2">
             <span className="text-slate-400">Max lookback date:</span>
             <span className="text-white font-bold">{displayLookbackDate}</span>

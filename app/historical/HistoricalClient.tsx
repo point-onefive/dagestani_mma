@@ -24,9 +24,11 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
   }, []);
 
   // Sort by date descending (most recent first)
-  const sortedHistorical = [...historical].sort((a, b) => 
-    b.eventDate.localeCompare(a.eventDate)
-  );
+  const sortedHistorical = [...historical].sort((a, b) => {
+    const dateA = new Date(a.eventDate).getTime();
+    const dateB = new Date(b.eventDate).getTime();
+    return dateB - dateA; // Newest first
+  });
 
   // Pagination calculations
   const totalPages = Math.ceil(sortedHistorical.length / itemsPerPage);
@@ -37,12 +39,13 @@ export default function HistoricalClient({ historical, stats, lastRefresh }: His
   // Count distinct matches
   const distinctMatchCount = historical.length;
 
-  // Find the earliest date from historical matches
+  // Find the earliest date from historical matches (proper date comparison)
   const earliestDate = historical.length > 0 
-    ? historical.reduce((earliest, match) => 
-        match.eventDate < earliest ? match.eventDate : earliest, 
-        historical[0].eventDate
-      )
+    ? historical.reduce((earliest, match) => {
+        const earliestTime = new Date(earliest).getTime();
+        const matchTime = new Date(match.eventDate).getTime();
+        return matchTime < earliestTime ? match.eventDate : earliest;
+      }, historical[0].eventDate)
     : undefined;
 
   const formatRefreshTime = (isoString: string | null) => {
