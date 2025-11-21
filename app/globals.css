@@ -7,6 +7,16 @@
   --foreground: #f1f5f9;
 }
 
+html {
+  /* Enable momentum scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
+  /* Optimize font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Improve text rendering on mobile */
+  text-rendering: optimizeLegibility;
+}
+
 body {
   color: var(--foreground);
   background: 
@@ -17,6 +27,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  /* Improve scroll performance */
+  overscroll-behavior-y: none;
 }
 
 /* Cinematic grain/noise overlay */
@@ -66,46 +78,51 @@ body::before {
   }
 }
 
-/* Keyframe animations */
+/* Keyframe animations - GPU accelerated */
 @keyframes heroZoom {
-  from { transform: scale(1); }
-  to   { transform: scale(1.06); }
+  from { transform: scale3d(1, 1, 1); }
+  to   { transform: scale3d(1.06, 1.06, 1); }
 }
 
 @keyframes pulseSmoke {
-  0%   { opacity: 0.35; transform: scale(1); }
-  100% { opacity: 0.75; transform: scale(1.15); }
+  0%   { opacity: 0.35; transform: scale3d(1, 1, 1); }
+  100% { opacity: 0.75; transform: scale3d(1.15, 1.15, 1); }
 }
 
 @keyframes vsPulse {
-  0% { opacity: 0.6; transform: scale(0.96); }
-  50% { opacity: 1;   transform: scale(1.05); }
-  100% { opacity: 0.6; transform: scale(0.96); }
+  0% { opacity: 0.6; transform: scale3d(0.96, 0.96, 1); }
+  50% { opacity: 1;   transform: scale3d(1.05, 1.05, 1); }
+  100% { opacity: 0.6; transform: scale3d(0.96, 0.96, 1); }
 }
 
 @keyframes dataSweep {
-  from { transform: translateX(-100%); }
-  to   { transform: translateX(100%); }
+  from { transform: translate3d(-100%, 0, 0); }
+  to   { transform: translate3d(100%, 0, 0); }
 }
 
 @keyframes float {
-  from { transform: translateY(0px); }
-  to   { transform: translateY(-30px); }
+  from { transform: translate3d(0, 0px, 0); }
+  to   { transform: translate3d(0, -30px, 0); }
 }
 
 /* Hero background zoom animation */
 .hero-zoom {
   animation: heroZoom 12s ease-in-out infinite alternate;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 /* Octagon glow ring breathing animation */
 @keyframes ringPulse {
-  0% { transform: translate(-50%, -50%) scale(1); }
-  100% { transform: translate(-50%, -50%) scale(1.03); }
+  0% { transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1); }
+  100% { transform: translate3d(-50%, -50%, 0) scale3d(1.03, 1.03, 1); }
 }
 
 .ring-pulse {
   animation: ringPulse 8s ease-in-out infinite alternate;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 /* Fade in animation for haze layer */
@@ -166,7 +183,8 @@ body::before {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
-  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 #scene {
@@ -178,6 +196,7 @@ body::before {
   transform-style: preserve-3d;
   pointer-events: none;
   z-index: -1;
+  transform: translateZ(0);
 }
 
 #dagestan-bg,
@@ -191,6 +210,9 @@ body::before {
   background-position: center;
   pointer-events: none;
   transition: opacity 0.8s ease;
+  will-change: opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 #dagestan-bg {
@@ -202,10 +224,11 @@ body::before {
   background-image: url('/enhancements/outerspace-bg.png');
   opacity: 0;
   filter: blur(8px);
-  transform: scale(1.15);
+  transform: scale(1.15) translateZ(0);
 }
 
 #content {
   position: relative;
   z-index: 5;
+  transform: translateZ(0);
 }

@@ -28,23 +28,42 @@ export function useHeroParallax({
     let mouseX = 0.5;
     let mouseY = 0.5;
     let frameRequested = false;
+    let lastScrollY = 0;
+    let lastMouseX = 0.5;
+    let lastMouseY = 0.5;
 
     const isDesktop = () => window.innerWidth >= 768;
+    const isMobile = () => window.innerWidth < 768;
 
     const updateTransforms = () => {
       frameRequested = false;
 
-      const scrollFactor = Math.min(scrollY, window.innerHeight * 2); // clamp
+      // Skip tiny changes to reduce repaints
+      const scrollDiff = Math.abs(scrollY - lastScrollY);
+      const mouseDiffX = Math.abs(mouseX - lastMouseX);
+      const mouseDiffY = Math.abs(mouseY - lastMouseY);
+      
+      if (scrollDiff < 1 && mouseDiffX < 0.001 && mouseDiffY < 0.001) {
+        return;
+      }
+
+      lastScrollY = scrollY;
+      lastMouseX = mouseX;
+      lastMouseY = mouseY;
+
+      const scrollFactor = Math.min(scrollY, window.innerHeight * 2);
       const scrollNorm = scrollFactor / window.innerHeight;
 
-      // Parallax stack: Background moves MOST, Haze medium, PixelBlast STATIC
-      // Background (largest movement for depth) - reduced
-      const bgScroll = scrollNorm * -10;
-      
-      // Haze (medium movement) - reduced
-      const hazeScroll = scrollNorm * -6;
+      // Reduce parallax intensity on mobile for better performance
+      const parallaxIntensity = isMobile() ? 0.3 : 1;
 
-      // Pointer multipliers (background and haze only) - reduced
+      // Background (largest movement for depth) - optimized for mobile
+      const bgScroll = scrollNorm * -10 * parallaxIntensity;
+      
+      // Haze (medium movement) - optimized for mobile
+      const hazeScroll = scrollNorm * -6 * parallaxIntensity;
+
+      // Pointer multipliers (desktop only)
       const pointerFactor = isDesktop() ? 1 : 0;
       const offsetX = (mouseX - 0.5) * pointerFactor;
       const offsetY = (mouseY - 0.5) * pointerFactor;
@@ -57,14 +76,13 @@ export function useHeroParallax({
       const hazeX = offsetX * 3;
       const hazeY = hazeScroll + offsetY * 4;
 
-      // Apply parallax to background and haze only (PixelBlast stays STATIC)
+      // Apply parallax with GPU-accelerated transforms
       if (backgroundRef.current) {
         backgroundRef.current.style.transform = `translate3d(${bgX}px, ${bgY}px, 0)`;
       }
       if (hazeRef.current) {
         hazeRef.current.style.transform = `translate3d(${hazeX}px, ${hazeY}px, 0)`;
       }
-      // PixelBlast grid stays completely static - no transform applied
     };
 
     const requestFrame = () => {

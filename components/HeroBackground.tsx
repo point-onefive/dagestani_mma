@@ -25,8 +25,12 @@ export default function HeroBackground({ children, gridContent }: HeroBackground
       {/* Layer 1: Cinematic landscape background with parallax wrapper + zoom animation (z-0) */}
       <div 
         ref={bgRef}
-        className="absolute inset-0 pointer-events-none will-change-transform"
-        style={{ zIndex: 0 }}
+        className="absolute inset-0 pointer-events-none"
+        style={{ 
+          zIndex: 0,
+          transform: 'translateZ(0)',
+          backfaceVisibility: 'hidden' as const,
+        }}
       >
         <div
           className="absolute inset-0 hero-zoom"
@@ -44,8 +48,12 @@ export default function HeroBackground({ children, gridContent }: HeroBackground
       {/* Layer 3: Atmospheric haze layer with parallax wrapper (z-10) */}
       <div 
         ref={hazeRef}
-        className="absolute inset-0 pointer-events-none will-change-transform"
-        style={{ zIndex: 10 }}
+        className="absolute inset-0 pointer-events-none"
+        style={{ 
+          zIndex: 10,
+          transform: 'translateZ(0)',
+          backfaceVisibility: 'hidden' as const,
+        }}
       >
         <div className="absolute inset-0">
           <Image
@@ -89,7 +97,15 @@ export default function HeroBackground({ children, gridContent }: HeroBackground
       </div>
 
       {/* Layer 5: PixelBlast grid with parallax (z-20) */}
-      <div ref={gridRef} className="absolute inset-0 pointer-events-none will-change-transform opacity-70" style={{ zIndex: 20 }}>
+      <div 
+        ref={gridRef} 
+        className="absolute inset-0 pointer-events-none opacity-70" 
+        style={{ 
+          zIndex: 20,
+          transform: 'translateZ(0)',
+          backfaceVisibility: 'hidden' as const,
+        }}
+      >
         {gridContent}
       </div>
 
