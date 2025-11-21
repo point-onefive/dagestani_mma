@@ -61,7 +61,7 @@ export default function HomePage() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative w-full max-w-3xl px-4 py-10 flex flex-col items-center text-center"
+        className="relative w-full max-w-3xl px-4 py-10 flex flex-col items-center text-center -mt-12 sm:mt-0"
         style={{ zIndex: 40 }}
       >
         <div className="flex items-center justify-center relative">

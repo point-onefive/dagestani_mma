@@ -11,6 +11,7 @@ export default function HistoricalRow({ match }: HistoricalRowProps) {
   return (
     <tr 
       className="border-b border-purple-500/10 text-xs sm:text-sm hover:bg-purple-500/10 transition-colors"
+      style={{ height: '52px' }}
     >
       <td className="py-2 px-2 sm:px-3">
         <span
