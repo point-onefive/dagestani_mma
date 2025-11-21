@@ -89,13 +89,13 @@ export default function HomePage() {
           <TextType
             text={[
               'Welcome to DagStats',
+              `${totalFights} Fights Analyzed`,
+              `${totalFighters} Fighters Analyzed`,
+              `${winRate}% Win Rate`,
+              'Data-Driven Intelligence',
               'Dagestan-Born Fighters',
               'Dominance Quantified',
               'Never Miss A Fight',
-              `${winRate}% Win Rate`,
-              `${totalFights} Fights Analyzed`,
-              `${totalFighters} Fighters Analyzed`,
-              'Data-Driven Intelligence',
             ]}
             typingSpeed={60}
             pauseDuration={2000}
