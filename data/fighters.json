@@ -7793,11 +7793,11 @@
     "state": "Maine",
     "isDagestani": false
   },
-  "abdul rakhman yakhyaev": {
-    "name": "Abdul Rakhman Yakhyaev",
-    "country": "Russia",
-    "state": "Dagestan",
-    "isDagestani": true
+  "view matchup": {
+    "name": "View Matchup",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   },
   "waldo cortes-acosta": {
     "name": "Waldo Cortes-Acosta",
