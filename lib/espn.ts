@@ -28,14 +28,42 @@ export type RawEventWithCard = {
 
 const BASE = 'https://site.web.api.espn.com/apis/site/v2/sports/mma/ufc';
 
+async function fetchWithRetry(url: string, retries = 3, delay = 2000): Promise<Response> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await fetch(url, { 
+        cache: 'no-store',
+        headers: {
+          'User-Agent': 'Mozilla/5.0'
+        }
+      });
+      
+      // If rate limited (429) or server error (5xx), retry
+      if (res.status === 429 || res.status >= 500) {
+        console.log(`   ⚠️  ESPN API returned ${res.status}, retrying in ${delay}ms... (${i + 1}/${retries})`);
+        if (i < retries - 1) {
+          await new Promise(resolve => setTimeout(resolve, delay));
+          continue;
+        }
+      }
+      
+      return res;
+    } catch (error) {
+      console.log(`   ⚠️  Network error, retrying in ${delay}ms... (${i + 1}/${retries})`);
+      if (i < retries - 1) {
+        await new Promise(resolve => setTimeout(resolve, delay));
+        continue;
+      }
+      throw error;
+    }
+  }
+  
+  throw new Error('Max retries exceeded');
+}
+
 export async function fetchEvents(): Promise<RawEvent[]> {
   console.log('📡 Fetching UFC events from ESPN...');
-  const res = await fetch(`${BASE}/scoreboard`, { 
-    cache: 'no-store',
-    headers: {
-      'User-Agent': 'Mozilla/5.0'
-    }
-  });
+  const res = await fetchWithRetry(`${BASE}/scoreboard`);
   
   if (!res.ok) {
     throw new Error(`Failed to fetch events from ESPN: ${res.status}`);
@@ -64,12 +92,7 @@ export async function fetchEventDetails(eventId: string): Promise<RawEventWithCa
   console.log(`📡 Fetching event details for ${eventId}...`);
   
   // Fetch from scoreboard and extract the specific event
-  const res = await fetch(`${BASE}/scoreboard`, { 
-    cache: 'no-store',
-    headers: {
-      'User-Agent': 'Mozilla/5.0'
-    }
-  });
+  const res = await fetchWithRetry(`${BASE}/scoreboard`);
   
   if (!res.ok) {
     throw new Error(`Failed to fetch scoreboard from ESPN: ${res.status}`);

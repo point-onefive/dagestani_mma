@@ -235,86 +235,93 @@ async function moveCompletedFights() {
 async function updateUpcomingFights() {
   console.log('📡 Step 2: Fetching upcoming UFC events from ESPN...\n');
 
-  const events = await fetchEvents();
-  console.log(`   Found ${events.length} upcoming UFC events\n`);
+  try {
+    const events = await fetchEvents();
+    console.log(`   Found ${events.length} upcoming UFC events\n`);
 
-  const fighterCache: Record<string, FighterOrigin> = readJson('fighters.json', {});
-  const historical: HistoricalFight[] = readJson('historical.json', []);
-  const allUpcomingFights: UpcomingFight[] = [];
+    const fighterCache: Record<string, FighterOrigin> = readJson('fighters.json', {});
+    const historical: HistoricalFight[] = readJson('historical.json', []);
+    const allUpcomingFights: UpcomingFight[] = [];
 
-  // Create a set of fights that are already in historical
-  const historicalFightKeys = new Set(
-    historical.map(f => {
-      const fighters = [f.fighterA, f.fighterB].sort().join('|');
-      return `${f.eventId}:${fighters}`;
-    })
-  );
+    // Create a set of fights that are already in historical
+    const historicalFightKeys = new Set(
+      historical.map(f => {
+        const fighters = [f.fighterA, f.fighterB].sort().join('|');
+        return `${f.eventId}:${fighters}`;
+      })
+    );
 
-  for (const event of events) {
-    console.log(`   📋 Processing: ${event.name}`);
-    
-    const eventCard = await fetchEventDetails(event.id);
-    if (!eventCard || !eventCard.fights || eventCard.fights.length === 0) {
-      console.log(`      No fights found`);
-      continue;
-    }
-
-    console.log(`      ${eventCard.fights.length} fights on card`);
-
-    // Process each fight
-    for (const fight of eventCard.fights) {
-      if (fight.competitors.length !== 2) continue;
-
-      const fighter1 = fight.competitors[0].name;
-      const fighter2 = fight.competitors[1].name;
-      const fighter1Key = fighter1.toLowerCase();
-      const fighter2Key = fighter2.toLowerCase();
-
-      // Check if this fight is already in historical
-      const fighters = [fighter1, fighter2].sort().join('|');
-      const fightKey = `${event.id}:${fighters}`;
+    for (const event of events) {
+      console.log(`   📋 Processing: ${event.name}`);
       
-      if (historicalFightKeys.has(fightKey)) {
-        console.log(`      ⏭️  Skipping (already in historical): ${fighter1} vs ${fighter2}`);
+      const eventCard = await fetchEventDetails(event.id);
+      if (!eventCard || !eventCard.fights || eventCard.fights.length === 0) {
+        console.log(`      No fights found`);
         continue;
       }
 
-      // Get or fetch fighter origins
-      if (!fighterCache[fighter1Key]) {
-        fighterCache[fighter1Key] = await getFighterOrigin(fighter1);
-      }
-      if (!fighterCache[fighter2Key]) {
-        fighterCache[fighter2Key] = await getFighterOrigin(fighter2);
-      }
+      console.log(`      ${eventCard.fights.length} fights on card`);
 
-      const origin1 = fighterCache[fighter1Key];
-      const origin2 = fighterCache[fighter2Key];
+      // Process each fight
+      for (const fight of eventCard.fights) {
+        if (fight.competitors.length !== 2) continue;
 
-      // Only include fights with at least one Dagestani fighter
-      if (origin1.isDagestani || origin2.isDagestani) {
-        allUpcomingFights.push({
-          eventId: event.id,
-          eventName: event.name,
-          eventDate: event.date,
-          fighterA: fighter1,
-          fighterB: fighter2,
-          isDagestaniA: origin1.isDagestani,
-          isDagestaniB: origin2.isDagestani,
-          countryA: origin1.country,
-          countryB: origin2.country
-        });
+        const fighter1 = fight.competitors[0].name;
+        const fighter2 = fight.competitors[1].name;
+        const fighter1Key = fighter1.toLowerCase();
+        const fighter2Key = fighter2.toLowerCase();
 
-        const dagName = origin1.isDagestani ? fighter1 : fighter2;
-        console.log(`      ✅ Dagestani fight: ${dagName}`);
+        // Check if this fight is already in historical
+        const fighters = [fighter1, fighter2].sort().join('|');
+        const fightKey = `${event.id}:${fighters}`;
+        
+        if (historicalFightKeys.has(fightKey)) {
+          console.log(`      ⏭️  Skipping (already in historical): ${fighter1} vs ${fighter2}`);
+          continue;
+        }
+
+        // Get or fetch fighter origins
+        if (!fighterCache[fighter1Key]) {
+          fighterCache[fighter1Key] = await getFighterOrigin(fighter1);
+        }
+        if (!fighterCache[fighter2Key]) {
+          fighterCache[fighter2Key] = await getFighterOrigin(fighter2);
+        }
+
+        const origin1 = fighterCache[fighter1Key];
+        const origin2 = fighterCache[fighter2Key];
+
+        // Only include fights with at least one Dagestani fighter
+        if (origin1.isDagestani || origin2.isDagestani) {
+          allUpcomingFights.push({
+            eventId: event.id,
+            eventName: event.name,
+            eventDate: event.date,
+            fighterA: fighter1,
+            fighterB: fighter2,
+            isDagestaniA: origin1.isDagestani,
+            isDagestaniB: origin2.isDagestani,
+            countryA: origin1.country,
+            countryB: origin2.country
+          });
+
+          const dagName = origin1.isDagestani ? fighter1 : fighter2;
+          console.log(`      ✅ Dagestani fight: ${dagName}`);
+        }
       }
     }
+
+    // Save updated cache and upcoming fights
+    writeJson('fighters.json', fighterCache);
+    writeJson('upcoming.json', allUpcomingFights);
+
+    console.log(`\n   💾 Saved ${allUpcomingFights.length} upcoming Dagestani fights\n`);
+    
+  } catch (error) {
+    console.error('   ❌ Error fetching upcoming fights from ESPN:', error);
+    console.log('   ⚠️  Keeping existing upcoming fights data\n');
+    // Don't throw - let the script continue with stats calculation
   }
-
-  // Save updated cache and upcoming fights
-  writeJson('fighters.json', fighterCache);
-  writeJson('upcoming.json', allUpcomingFights);
-
-  console.log(`\n   💾 Saved ${allUpcomingFights.length} upcoming Dagestani fights\n`);
 }
 
 /**
