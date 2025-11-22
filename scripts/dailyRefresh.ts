@@ -230,6 +230,7 @@ async function moveCompletedFights() {
 
 /**
  * Fetch upcoming events from ESPN and update upcoming table
+ * Also removes fights that are now in historical
  */
 async function updateUpcomingFights() {
   console.log('📡 Step 2: Fetching upcoming UFC events from ESPN...\n');
@@ -238,7 +239,16 @@ async function updateUpcomingFights() {
   console.log(`   Found ${events.length} upcoming UFC events\n`);
 
   const fighterCache: Record<string, FighterOrigin> = readJson('fighters.json', {});
+  const historical: HistoricalFight[] = readJson('historical.json', []);
   const allUpcomingFights: UpcomingFight[] = [];
+
+  // Create a set of fights that are already in historical
+  const historicalFightKeys = new Set(
+    historical.map(f => {
+      const fighters = [f.fighterA, f.fighterB].sort().join('|');
+      return `${f.eventId}:${fighters}`;
+    })
+  );
 
   for (const event of events) {
     console.log(`   📋 Processing: ${event.name}`);
@@ -259,6 +269,15 @@ async function updateUpcomingFights() {
       const fighter2 = fight.competitors[1].name;
       const fighter1Key = fighter1.toLowerCase();
       const fighter2Key = fighter2.toLowerCase();
+
+      // Check if this fight is already in historical
+      const fighters = [fighter1, fighter2].sort().join('|');
+      const fightKey = `${event.id}:${fighters}`;
+      
+      if (historicalFightKeys.has(fightKey)) {
+        console.log(`      ⏭️  Skipping (already in historical): ${fighter1} vs ${fighter2}`);
+        continue;
+      }
 
       // Get or fetch fighter origins
       if (!fighterCache[fighter1Key]) {

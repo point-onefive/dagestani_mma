@@ -15,6 +15,9 @@ export default function Footer() {
             This is for informational purposes only, not financial or betting advice. 
             Always conduct your own research and gamble responsibly.
           </p>
+          <p className="text-xs text-slate-500 text-center leading-relaxed mt-3 pt-3 border-t border-purple-500/10">
+            Fight data is automatically updated daily. Recent fight results may take up to 24 hours to appear as we sync with official sources.
+          </p>
         </div>
 
         {/* Footer Links */}

@@ -7792,5 +7792,17 @@
     "country": "United States",
     "state": "Maine",
     "isDagestani": false
+  },
+  "abdul rakhman yakhyaev": {
+    "name": "Abdul Rakhman Yakhyaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "waldo cortes-acosta": {
+    "name": "Waldo Cortes-Acosta",
+    "country": "United States",
+    "state": "New York",
+    "isDagestani": false
   }
 }

@@ -84,6 +84,19 @@ export async function fetchEventFights(event: UFCStatsEvent): Promise<UFCStatsFi
     let fighter1 = $links.eq(1).text().trim();
     let fighter2 = $links.eq(2).text().trim();
 
+    // Skip fights that show "view matchup" - these are upcoming/incomplete fights
+    // UFCStats sometimes lists future events in the "completed" section
+    if (fighter1.toLowerCase().includes('view matchup') || 
+        fighter2.toLowerCase().includes('view matchup') ||
+        winIndicator.includes('view matchup')) {
+      console.log(`      ⏭️  Skipping incomplete fight (no result yet)`);
+      return;
+    }
+
+    // Clean up fighter names
+    fighter1 = fighter1.trim();
+    fighter2 = fighter2.trim();
+
     // Replace empty, "nc", or invalid fighter names with "N/A"
     if (!fighter1 || fighter1.toLowerCase() === 'nc' || fighter1.length < 2) fighter1 = 'N/A';
     if (!fighter2 || fighter2.toLowerCase() === 'nc' || fighter2.length < 2) fighter2 = 'N/A';

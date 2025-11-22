@@ -2266,5 +2266,37 @@
     "round": "N/A",
     "dagestaniFighter": "Bibulatov Magomed",
     "result": "loss"
+  },
+  {
+    "eventId": "92c96df8bdab5fea",
+    "eventName": "UFC Fight Night: Tsarukyan vs. Hooker",
+    "eventDate": "November 22, 2025",
+    "fighterA": "Nicolas Dalby",
+    "fighterB": "Saygid Izagakhmaev",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Denmark",
+    "countryB": "Russia",
+    "winner": "Nicolas Dalby",
+    "method": "Unknown",
+    "round": "N/A",
+    "dagestaniFighter": "Saygid Izagakhmaev",
+    "result": "loss"
+  },
+  {
+    "eventId": "92c96df8bdab5fea",
+    "eventName": "UFC Fight Night: Tsarukyan vs. Hooker",
+    "eventDate": "November 22, 2025",
+    "fighterA": "Abdul Rakhman Yakhyaev",
+    "fighterB": "Rafael Cerqueira",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Unknown",
+    "winner": "Abdul Rakhman Yakhyaev",
+    "method": "SUB",
+    "round": "N/A",
+    "dagestaniFighter": "Abdul Rakhman Yakhyaev",
+    "result": "win"
   }
 ]
