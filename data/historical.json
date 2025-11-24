@@ -2282,5 +2282,21 @@
     "round": "N/A",
     "dagestaniFighter": "Saygid Izagakhmaev",
     "result": "loss"
+  },
+  {
+    "eventId": "92c96df8bdab5fea",
+    "eventName": "UFC Fight Night: Tsarukyan vs. Hooker",
+    "eventDate": "November 22, 2025",
+    "fighterA": "Kyoji Horiguchi",
+    "fighterB": "Tagir Ulanbekov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Japan",
+    "countryB": "Russia",
+    "winner": "Kyoji Horiguchi",
+    "method": "SUB",
+    "round": "N/A",
+    "dagestaniFighter": "Tagir Ulanbekov",
+    "result": "loss"
   }
 ]

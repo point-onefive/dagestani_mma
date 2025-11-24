@@ -6,6 +6,7 @@ import PageHeader from '@/components/PageHeader';
 import FightCard from '@/components/FightCard';
 import MinimalNav from '@/components/MinimalNav';
 import Footer from '@/components/Footer';
+import SearchingState from '@/components/SearchingState';
 import type { UpcomingMatch } from '@/lib/dagestan';
 import { setBackgroundState } from '@/lib/transitions';
 
@@ -74,14 +75,7 @@ export default function UpcomingClient({ upcoming, lastRefresh }: UpcomingClient
           </div>
         )}
         {upcoming.length === 0 ? (
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mt-10 text-center text-slate-400 text-sm"
-          >
-            No upcoming Dagestani fights detected yet. Check back after the next refresh.
-          </motion.p>
+          <SearchingState />
         ) : (
           <motion.section 
             variants={container}
