@@ -7810,5 +7810,17 @@
     "country": "Russia",
     "state": "Dagestan",
     "isDagestani": true
+  },
+  "iwo baraniewski": {
+    "name": "Iwo Baraniewski",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "farés ziam": {
+    "name": "Farés Ziam",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
   }
 }
