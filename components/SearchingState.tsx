@@ -6,13 +6,13 @@ import Image from 'next/image';
 
 export default function SearchingState() {
   return (
-    <div className="mt-16 flex flex-col items-center justify-center gap-8 py-12 px-4">
-      {/* Speech bubble - positioned above character on mobile */}
+    <div className="mt-16 flex flex-col items-center justify-center gap-8 py-12 px-4 overflow-hidden w-full">
+      {/* Speech bubble - positioned above character */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="relative"
+        className="relative max-w-[90vw]"
       >
         {/* Main bubble */}
         <motion.div
@@ -35,7 +35,7 @@ export default function SearchingState() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="text-xs text-slate-800 whitespace-nowrap font-medium"
+            className="text-xs text-slate-800 font-medium text-center"
           >
             Looking for fights...
           </motion.p>
