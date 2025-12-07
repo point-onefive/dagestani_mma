@@ -7,43 +7,33 @@ import Image from 'next/image';
 export default function SearchingState() {
   return (
     <div className="mt-16 flex flex-col items-center justify-center py-12 px-4">
-      {/* Speech bubble - centered above character */}
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-      >
-        <motion.div
-          animate={{ scale: [1, 1.05, 1] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="bg-white/90 backdrop-blur-sm rounded-2xl px-4 py-2 shadow-lg"
-        >
-          <p className="text-xs text-slate-800 font-medium">
-            Looking for fights...
-          </p>
-        </motion.div>
-      </motion.div>
-
-      {/* Thought bubble dots */}
-      <div className="flex flex-col items-center -my-1">
-        <motion.div
-          className="w-3 h-3 rounded-full bg-white/80"
-          animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        />
-        <motion.div
-          className="w-2 h-2 rounded-full bg-white/70 mt-1"
-          animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }}
-          transition={{ duration: 2, repeat: Infinity, delay: 0.1 }}
-        />
-      </div>
-
       {/* Animated character looking left and right */}
       <motion.div
+        className="relative"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
+        {/* Speech bubble - positioned above character's head */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="absolute -top-12 left-1/2 -translate-x-1/2 whitespace-nowrap"
+        >
+          <motion.div
+            animate={{ scale: [1, 1.05, 1] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            className="bg-white/90 backdrop-blur-sm rounded-xl px-3 py-1.5 shadow-lg"
+          >
+            <p className="text-xs text-slate-800 font-medium">
+              Looking for fights...
+            </p>
+          </motion.div>
+          {/* Triangle pointer */}
+          <div className="absolute left-1/2 -translate-x-1/2 -bottom-1.5 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-white/90" />
+        </motion.div>
+
         <motion.div
           animate={{ scaleX: [1, 1, -1, -1, 1] }}
           transition={{
@@ -65,7 +55,7 @@ export default function SearchingState() {
 
       {/* Scanning dots */}
       <motion.div
-        className="flex gap-2 mt-4"
+        className="flex gap-2 mt-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
