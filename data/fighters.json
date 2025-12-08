@@ -7822,5 +7822,41 @@
     "country": "France",
     "state": null,
     "isDagestani": false
+  },
+  "guilherme pat": {
+    "name": "Guilherme Pat",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "allen frye jr.": {
+    "name": "Allen Frye Jr.",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "steven asplund": {
+    "name": "Steven Asplund",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "yaroslav amosov": {
+    "name": "Yaroslav Amosov",
+    "country": "Ukraine",
+    "state": null,
+    "isDagestani": false
+  },
+  "morgan charrière": {
+    "name": "Morgan Charrière",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
+  },
+  "cezary oleksiejczuk": {
+    "name": "Cezary Oleksiejczuk",
+    "country": "Poland",
+    "state": "Lower Silesian Voivodeship",
+    "isDagestani": false
   }
 }
