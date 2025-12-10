@@ -7858,5 +7858,11 @@
     "country": "Poland",
     "state": "Lower Silesian Voivodeship",
     "isDagestani": false
+  },
+  "lance gibson jr.": {
+    "name": "Lance Gibson Jr.",
+    "country": "Canada",
+    "state": null,
+    "isDagestani": false
   }
 }
