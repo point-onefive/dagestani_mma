@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600057024",
+    "eventName": "UFC 324: Gaethje vs. Pimblett",
+    "eventDate": "2026-01-24T22:00Z",
+    "fighterA": "Deiveson Figueiredo",
+    "fighterB": "Umar Nurmagomedov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Brazil",
+    "countryB": "Russia"
+  }
+]
