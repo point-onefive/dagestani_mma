@@ -2298,5 +2298,21 @@
     "round": "N/A",
     "dagestaniFighter": "Tagir Ulanbekov",
     "result": "loss"
+  },
+  {
+    "eventId": "00e11b5c8b7bfeeb",
+    "eventName": "UFC 324: Gaethje vs. Pimblett",
+    "eventDate": "January 24, 2026",
+    "fighterA": "Umar Nurmagomedov",
+    "fighterB": "Deiveson Figueiredo",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Brazil",
+    "winner": "Umar Nurmagomedov",
+    "method": "Unknown",
+    "round": "N/A",
+    "dagestaniFighter": "Umar Nurmagomedov",
+    "result": "win"
   }
 ]
