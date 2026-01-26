@@ -7876,5 +7876,59 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "namsrai batbayar": {
+    "name": "Namsrai Batbayar",
+    "country": "Mongolia",
+    "state": null,
+    "isDagestani": false
+  },
+  "aaron tau": {
+    "name": "Aaron Tau",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "lawrence lui": {
+    "name": "Lawrence Lui",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sulangrangbo": {
+    "name": "Sulangrangbo",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sebastian szalay": {
+    "name": "Sebastian Szalay",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "keiichiro nakamura": {
+    "name": "Keiichiro Nakamura",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sangwook kim": {
+    "name": "Sangwook Kim",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "dom mar fan": {
+    "name": "Dom Mar Fan",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "benoît saint denis": {
+    "name": "Benoît Saint Denis",
+    "country": "France",
+    "state": "Île-de-France",
+    "isDagestani": false
   }
 }
