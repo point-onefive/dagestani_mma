@@ -7930,5 +7930,17 @@
     "country": "France",
     "state": "Île-de-France",
     "isDagestani": false
+  },
+  "klaudia syguła": {
+    "name": "Klaudia Syguła",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
+  },
+  "jakub wikłacz": {
+    "name": "Jakub Wikłacz",
+    "country": "Poland",
+    "state": null,
+    "isDagestani": false
   }
 }
