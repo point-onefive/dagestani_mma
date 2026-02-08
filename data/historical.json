@@ -2314,5 +2314,21 @@
     "round": "N/A",
     "dagestaniFighter": "Umar Nurmagomedov",
     "result": "win"
+  },
+  {
+    "eventId": "c337c3c85b1871e0",
+    "eventName": "UFC Fight Night: Bautista vs. Oliveira",
+    "eventDate": "February 07, 2026",
+    "fighterA": "Rizvan Kuniev",
+    "fighterB": "Jailton Almeida",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Brazil",
+    "winner": "Rizvan Kuniev",
+    "method": "Unknown",
+    "round": "N/A",
+    "dagestaniFighter": "Rizvan Kuniev",
+    "result": "win"
   }
 ]
