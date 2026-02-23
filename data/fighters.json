@@ -7972,5 +7972,53 @@
     "country": "United States",
     "state": "Ohio",
     "isDagestani": false
+  },
+  "wes schultz": {
+    "name": "Wes Schultz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "damian pinas": {
+    "name": "Damian Pinas",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "sofia montenegro": {
+    "name": "Sofia Montenegro",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "javier reyes": {
+    "name": "Javier Reyes",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "cristian quiñonez": {
+    "name": "Cristian Quiñonez",
+    "country": "Mexico",
+    "state": "Sonora",
+    "isDagestani": false
+  },
+  "ryan gandra": {
+    "name": "Ryan Gandra",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "imanol rodriguez": {
+    "name": "Imanol Rodriguez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "édgar cháirez": {
+    "name": "Édgar Cháirez",
+    "country": "Mexico",
+    "state": null,
+    "isDagestani": false
   }
 }
