@@ -8026,5 +8026,29 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "luke fernandez": {
+    "name": "Luke Fernandez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "gaston bolaños": {
+    "name": "Gaston Bolaños",
+    "country": "Peru",
+    "state": null,
+    "isDagestani": false
+  },
+  "alberto montes": {
+    "name": "Alberto Montes",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "duško todorović": {
+    "name": "Duško Todorović",
+    "country": "Serbia",
+    "state": null,
+    "isDagestani": false
   }
 }
