@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600057365",
+    "eventName": "UFC Fight Night: Evloev vs. Murphy",
+    "eventDate": "2026-03-21T17:00Z",
+    "fighterA": "Movsar Evloev",
+    "fighterB": "Lerone Murphy",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "United Kingdom"
+  }
+]
