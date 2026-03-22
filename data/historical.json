@@ -2330,5 +2330,21 @@
     "round": "N/A",
     "dagestaniFighter": "Rizvan Kuniev",
     "result": "win"
+  },
+  {
+    "eventId": "69108cb8b32efe04",
+    "eventName": "UFC Fight Night: Evloev vs. Murphy",
+    "eventDate": "March 21, 2026",
+    "fighterA": "Movsar Evloev",
+    "fighterB": "Lerone Murphy",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "United Kingdom",
+    "winner": "Movsar Evloev",
+    "method": "Unknown",
+    "round": "N/A",
+    "dagestaniFighter": "Movsar Evloev",
+    "result": "win"
   }
 ]
