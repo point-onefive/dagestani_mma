@@ -8176,5 +8176,17 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "kai kamaka iii": {
+    "name": "Kai Kamaka III",
+    "country": "United States",
+    "state": "Hawaii",
+    "isDagestani": false
+  },
+  "dakota hope": {
+    "name": "Dakota Hope",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
