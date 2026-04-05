@@ -2346,5 +2346,21 @@
     "round": "N/A",
     "dagestaniFighter": "Movsar Evloev",
     "result": "win"
+  },
+  {
+    "eventId": "9a70f67ad2187fa3",
+    "eventName": "UFC Fight Night: Moicano vs. Duncan",
+    "eventDate": "April 04, 2026",
+    "fighterA": "Tresean Gore",
+    "fighterB": "Azamat Bekoev",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "United States",
+    "countryB": "Russia",
+    "winner": "Tresean Gore",
+    "method": "SUB",
+    "round": "N/A",
+    "dagestaniFighter": "Azamat Bekoev",
+    "result": "loss"
   }
 ]
