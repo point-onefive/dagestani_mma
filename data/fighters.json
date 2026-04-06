@@ -8188,5 +8188,23 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "loopy godínez": {
+    "name": "Loopy Godínez",
+    "country": "Mexico",
+    "state": "Jalisco",
+    "isDagestani": false
+  },
+  "patricio pitbull": {
+    "name": "Patricio Pitbull",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "jiří procházka": {
+    "name": "Jiří Procházka",
+    "country": "Czech Republic",
+    "state": "Zlin Region",
+    "isDagestani": false
   }
 }
