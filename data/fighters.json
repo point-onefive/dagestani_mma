@@ -8302,5 +8302,17 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "artur minev": {
+    "name": "Artur Minev",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "christian edwards": {
+    "name": "Christian Edwards",
+    "country": "United States",
+    "state": "California",
+    "isDagestani": false
   }
 }
