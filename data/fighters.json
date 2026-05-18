@@ -8314,5 +8314,35 @@
     "country": "United States",
     "state": "California",
     "isDagestani": false
+  },
+  "jingnan xiong": {
+    "name": "Jingnan Xiong",
+    "country": "China",
+    "state": "Shenzhen, Guangdong",
+    "isDagestani": false
+  },
+  "ding meng": {
+    "name": "Ding Meng",
+    "country": "China",
+    "state": null,
+    "isDagestani": false
+  },
+  "jose henrique": {
+    "name": "Jose Henrique",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "luis felipe dias": {
+    "name": "Luis Felipe Dias",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "yi sak lee": {
+    "name": "Yi Sak Lee",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
