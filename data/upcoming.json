@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600059467",
+    "eventName": "UFC Fight Night: Kape vs. Horiguchi",
+    "eventDate": "2026-06-20T21:00Z",
+    "fighterA": "Melsik Baghdasaryan",
+    "fighterB": "Murtazali Magomedov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Armenia",
+    "countryB": "Russia"
+  }
+]

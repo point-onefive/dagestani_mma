@@ -8356,5 +8356,35 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "otari tanzilovi": {
+    "name": "Otari Tanzilovi",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "shane collins": {
+    "name": "Shane Collins",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "leon shahbazyan": {
+    "name": "Leon Shahbazyan",
+    "country": "Armenia",
+    "state": null,
+    "isDagestani": false
+  },
+  "levan chokheli": {
+    "name": "Levan Chokheli",
+    "country": "Georgia",
+    "state": null,
+    "isDagestani": false
+  },
+  "murtazali magomedov": {
+    "name": "Murtazali Magomedov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
   }
 }
