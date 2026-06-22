@@ -8386,5 +8386,17 @@
     "country": "Russia",
     "state": "Dagestan",
     "isDagestani": true
+  },
+  "theodor berggren": {
+    "name": "Theodor Berggren",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "farman hasanov": {
+    "name": "Farman Hasanov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
