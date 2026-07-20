@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "eventId": "600059667",
+    "eventName": "UFC Fight Night: Ankalaev vs. Guskov",
+    "eventDate": "2026-07-25T13:00Z",
+    "fighterA": "Brendson Ribeiro",
+    "fighterB": "Magomed Tuchalov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Brazil",
+    "countryB": "Russia"
+  },
+  {
+    "eventId": "600059667",
+    "eventName": "UFC Fight Night: Ankalaev vs. Guskov",
+    "eventDate": "2026-07-25T13:00Z",
+    "fighterA": "Abubakar Vagaev",
+    "fighterB": "Saygid Izagakhmaev",
+    "isDagestaniA": true,
+    "isDagestaniB": true,
+    "countryA": "Russia",
+    "countryB": "Russia"
+  },
+  {
+    "eventId": "600059667",
+    "eventName": "UFC Fight Night: Ankalaev vs. Guskov",
+    "eventDate": "2026-07-25T13:00Z",
+    "fighterA": "Rizvan Kuniev",
+    "fighterB": "Tyrell Fortune",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "United States"
+  },
+  {
+    "eventId": "600059667",
+    "eventName": "UFC Fight Night: Ankalaev vs. Guskov",
+    "eventDate": "2026-07-25T13:00Z",
+    "fighterA": "Ramazan Temirov",
+    "fighterB": "Steve Erceg",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Australia"
+  },
+  {
+    "eventId": "600059667",
+    "eventName": "UFC Fight Night: Ankalaev vs. Guskov",
+    "eventDate": "2026-07-25T13:00Z",
+    "fighterA": "Magomed Ankalaev",
+    "fighterB": "Bogdan Guskov",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Belarus"
+  }
+]

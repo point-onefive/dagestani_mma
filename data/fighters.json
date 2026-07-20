@@ -8458,5 +8458,29 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "magomed tuchalov": {
+    "name": "Magomed Tuchalov",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "abubakar vagaev": {
+    "name": "Abubakar Vagaev",
+    "country": "Russia",
+    "state": "Dagestan",
+    "isDagestani": true
+  },
+  "magomed zaynukov": {
+    "name": "Magomed Zaynukov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "damian rzepecki": {
+    "name": "Damian Rzepecki",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
