@@ -8494,5 +8494,35 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "jovan leka": {
+    "name": "Jovan Leka",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "nina milošević": {
+    "name": "Nina Milošević",
+    "country": "Serbia",
+    "state": null,
+    "isDagestani": false
+  },
+  "michael oliveira": {
+    "name": "Michael Oliveira",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
+  },
+  "vlasto čepo": {
+    "name": "Vlasto Čepo",
+    "country": "Croatia",
+    "state": "Split-Dalmatia County",
+    "isDagestani": false
+  },
+  "uroš medić": {
+    "name": "Uroš Medić",
+    "country": "Serbia",
+    "state": null,
+    "isDagestani": false
   }
 }
