@@ -8554,5 +8554,23 @@
     "country": "Canada",
     "state": null,
     "isDagestani": false
+  },
+  "jessie rosas": {
+    "name": "Jessie Rosas",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "richie miranda": {
+    "name": "Richie Miranda",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "josé montanha": {
+    "name": "José Montanha",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
