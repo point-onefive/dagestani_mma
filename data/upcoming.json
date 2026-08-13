@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600059185",
+    "eventName": "UFC 330: Makhachev vs. Machado Garry",
+    "eventDate": "2026-08-15T21:00Z",
+    "fighterA": "Islam Makhachev",
+    "fighterB": "Ian Machado Garry",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Ireland"
+  }
+]

@@ -8650,5 +8650,23 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "lucas fernando": {
+    "name": "Lucas Fernando",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "eduardo chapolin": {
+    "name": "Eduardo Chapolin",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kauê fernandes": {
+    "name": "Kauê Fernandes",
+    "country": "Brazil",
+    "state": "São Paulo",
+    "isDagestani": false
   }
 }
