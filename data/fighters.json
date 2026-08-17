@@ -8668,5 +8668,65 @@
     "country": "Brazil",
     "state": "São Paulo",
     "isDagestani": false
+  },
+  "roman puga": {
+    "name": "Roman Puga",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "taner trembley": {
+    "name": "Taner Trembley",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "alik lorenz": {
+    "name": "Alik Lorenz",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "mahamed aly": {
+    "name": "Mahamed Aly",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "logan paxton": {
+    "name": "Logan Paxton",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "cristian pérez": {
+    "name": "Cristian Pérez",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "trent miller": {
+    "name": "Trent Miller",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "douglas rodrigues": {
+    "name": "Douglas Rodrigues",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "kaik brito": {
+    "name": "Kaik Brito",
+    "country": "Brazil",
+    "state": null,
+    "isDagestani": false
+  },
+  "namo fazil": {
+    "name": "Namo Fazil",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
