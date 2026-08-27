@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600060620",
+    "eventName": "UFC Fight Night: Nurmagomedov vs. Song",
+    "eventDate": "2026-08-29T07:00Z",
+    "fighterA": "Song Yadong",
+    "fighterB": "Umar Nurmagomedov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "China",
+    "countryB": "Russia"
+  }
+]
