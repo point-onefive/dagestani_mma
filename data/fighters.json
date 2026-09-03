@@ -8908,5 +8908,41 @@
     "country": "Brazil",
     "state": null,
     "isDagestani": false
+  },
+  "delphine benouaich": {
+    "name": "Delphine Benouaich",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "matthieu letho duclos": {
+    "name": "Matthieu Letho Duclos",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "michael aljarouj": {
+    "name": "Michael Aljarouj",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "fabia sintes": {
+    "name": "Fabia Sintes",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "pavel andrusca": {
+    "name": "Pavel Andrusca",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "salahdine parnasse": {
+    "name": "Salahdine Parnasse",
+    "country": "France",
+    "state": null,
+    "isDagestani": false
   }
 }
