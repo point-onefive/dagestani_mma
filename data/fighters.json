@@ -8944,5 +8944,65 @@
     "country": "France",
     "state": null,
     "isDagestani": false
+  },
+  "colton loud": {
+    "name": "Colton Loud",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "christian natividad": {
+    "name": "Christian Natividad",
+    "country": "USA",
+    "state": "California",
+    "isDagestani": false
+  },
+  "kwon won il": {
+    "name": "Kwon Won Il",
+    "country": "South Korea",
+    "state": null,
+    "isDagestani": false
+  },
+  "apollo gomes": {
+    "name": "Apollo Gomes",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "christian echols": {
+    "name": "Christian Echols",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "martin kozák": {
+    "name": "Martin Kozák",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "isaac moreno": {
+    "name": "Isaac Moreno",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "reginaldo junior": {
+    "name": "Reginaldo Junior",
+    "country": "Brazil",
+    "state": "Minas Gerais",
+    "isDagestani": false
+  },
+  "quentin pasley": {
+    "name": "Quentin Pasley",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "arlind berisha": {
+    "name": "Arlind Berisha",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
