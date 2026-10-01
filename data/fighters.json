@@ -9220,5 +9220,23 @@
     "country": "Unknown",
     "state": null,
     "isDagestani": false
+  },
+  "bruce whitehead": {
+    "name": "Bruce Whitehead",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "lucas armand": {
+    "name": "Lucas Armand",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
+  },
+  "roberto soldić": {
+    "name": "Roberto Soldić",
+    "country": "Croatia",
+    "state": "Kraljevica",
+    "isDagestani": false
   }
 }
