@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "eventId": "600061267",
+    "eventName": "UFC 333: Volkanovski vs. Evloev",
+    "eventDate": "2026-10-24T14:00Z",
+    "fighterA": "Abubakar Vagaev",
+    "fighterB": "Jacob Malkoun",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Australia"
+  },
+  {
+    "eventId": "600061267",
+    "eventName": "UFC 333: Volkanovski vs. Evloev",
+    "eventDate": "2026-10-24T14:00Z",
+    "fighterA": "Abus Magomedov",
+    "fighterB": "Cam Rowston",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Unknown"
+  },
+  {
+    "eventId": "600061267",
+    "eventName": "UFC 333: Volkanovski vs. Evloev",
+    "eventDate": "2026-10-24T14:00Z",
+    "fighterA": "Alexander Volkov",
+    "fighterB": "Rizvan Kuniev",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Russia",
+    "countryB": "Russia"
+  },
+  {
+    "eventId": "600061267",
+    "eventName": "UFC 333: Volkanovski vs. Evloev",
+    "eventDate": "2026-10-24T14:00Z",
+    "fighterA": "Ramazan Temirov",
+    "fighterB": "Lone'er Kavanagh",
+    "isDagestaniA": true,
+    "isDagestaniB": false,
+    "countryA": "Russia",
+    "countryB": "Unknown"
+  },
+  {
+    "eventId": "600061267",
+    "eventName": "UFC 333: Volkanovski vs. Evloev",
+    "eventDate": "2026-10-24T14:00Z",
+    "fighterA": "Alexander Volkanovski",
+    "fighterB": "Movsar Evloev",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Australia",
+    "countryB": "Russia"
+  }
+]

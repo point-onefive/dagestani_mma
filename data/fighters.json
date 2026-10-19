@@ -9394,5 +9394,11 @@
     "country": "Canada",
     "state": "Quebec",
     "isDagestani": false
+  },
+  "asaf chopurov": {
+    "name": "Asaf Chopurov",
+    "country": "Unknown",
+    "state": null,
+    "isDagestani": false
   }
 }
