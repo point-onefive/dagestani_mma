@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600061268",
+    "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
+    "eventDate": "2026-11-07T22:00Z",
+    "fighterA": "Jose Delano",
+    "fighterB": "Murtazali Magomedov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "Unknown",
+    "countryB": "Russia"
+  }
+]
