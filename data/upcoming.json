@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "eventId": "600061665",
+    "eventName": "UFC Fight Night: Procházka vs. Stirling",
+    "eventDate": "2026-11-21T15:00Z",
+    "fighterA": "Jared Cannonier",
+    "fighterB": "Ikram Aliskerov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "United States",
+    "countryB": "Russia"
+  }
+]
