@@ -1,13 +1,24 @@
 [
   {
-    "eventId": "600061665",
-    "eventName": "UFC Fight Night: Procházka vs. Stirling",
-    "eventDate": "2026-11-21T15:00Z",
-    "fighterA": "Jared Cannonier",
-    "fighterB": "Ikram Aliskerov",
+    "eventId": "600062700",
+    "eventName": "UFC Fight Night: Adesanya vs Magomedov",
+    "eventDate": "2026-12-05T15:00Z",
+    "fighterA": "Ion Cutelaba",
+    "fighterB": "Magomed Tuchalov",
     "isDagestaniA": false,
     "isDagestaniB": true,
-    "countryA": "United States",
+    "countryA": "Moldova",
+    "countryB": "Russia"
+  },
+  {
+    "eventId": "600062700",
+    "eventName": "UFC Fight Night: Adesanya vs Magomedov",
+    "eventDate": "2026-12-05T15:00Z",
+    "fighterA": "Israel Adesanya",
+    "fighterB": "Shara Magomedov",
+    "isDagestaniA": false,
+    "isDagestaniB": true,
+    "countryA": "New Zealand",
     "countryB": "Russia"
   }
 ]
